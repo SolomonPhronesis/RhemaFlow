@@ -20,7 +20,12 @@ Automation is balanced with control:
 
 > **Automatic presentation when confidence is high, human control when judgment is needed.**
 
-See the full specification in [`docs/RhemaFlow - Product Requirements Document.md`](docs/RhemaFlow%20-%20Product%20Requirements%20Document.md) (PRD v1.0).
+See the full specification in [`PRD.md`](PRD.md) (**PRD v2.1**). That document is the single
+source of truth: §33 fixes the local-first architecture and technology decisions, and §34
+slices delivery into gated units ordered design system → architecture → features.
+
+PRD v1.0 is retained at [`docs/RhemaFlow - Product Requirements Document.md`](docs/RhemaFlow%20-%20Product%20Requirements%20Document.md)
+for history only. It is superseded.
 
 ## Target Users
 
@@ -102,17 +107,68 @@ Out of scope for MVP: full church management, worship/music management, general-
 
 ## Project Status
 
-Initial version — PRD v1.0 complete, implementation not yet started.
+**Specification complete. Source not yet imported into this repository.**
+
+There **is** a working application: **RhemaFlow-D v0.801.2**, delivered as
+`Desktop M1 app/RhemaFlow-D-v0.801.2.zip` (73 MB). It is a real Rust workspace with a
+structural Scripture parser, offline whisper ASR, offline recording, an embedded KJV **and**
+BBE, a Cathedral Dark operator UI and **64/64 green tests**.
+
+It is not in this repository yet. The first implementation slice, **A0 — Import and verify the
+baseline**, brings it in and re-verifies the suite. Until A0 completes, treat the code as
+readable but un-integrated.
+
+> **Version note.** Earlier revisions of the PRD referred to "v0.813.0" and "47 tests". The
+> shipped artefact is **v0.801.2** with **64** tests. Corrected in PRD §25, Appendix A and
+> Appendix C.
+
+## Documents
+
+| Document | What it is |
+|---|---|
+| [`PRD.md`](PRD.md) | **Authoritative spec (v2.1).** Product intent, features, budgets, roadmap, architecture decisions (§33), sliced plan (§34) |
+| [`IMPLEMENTATION-PLAN.md`](IMPLEMENTATION-PLAN.md) | **Code-grounded delivery plan.** Baseline reconciliation, every slice with a gate, sequencing, open decisions |
+| [`docs/RhemaFlow - Product Requirements Document.md`](docs/RhemaFlow%20-%20Product%20Requirements%20Document.md) | PRD v1.0 — history only, superseded |
+| `docs/RhemaFlow-PRD-v2.0.md` | Pointer to `PRD.md` — do not edit |
+
+## Architecture at a Glance
+
+Everything runs locally. There is no server, no hosted backend and no cloud dependency.
+
+| Layer | Decision | Status | Detail |
+|---|---|---|---|
+| Framework | Rust 2021 + `egui`/`eframe` `=0.28.1`, `cpal` `=0.15.3`, `whisper-rs` `=0.13.2` | **Built** | Single native macOS binary, no webview. PRD §33 D-1 |
+| Database | SQLite (`rusqlite`, bundled) + FTS5 | **To build** | Additive index over the flat-file archive. PRD §33 D-2, D-8 |
+| Authentication | None at runtime — local, single-operator | **By design** | No login screen; roles modelled but not enforced until M3. PRD §33 D-3 |
+| File storage | Local filesystem — `~/RhemaFlow-Services/<timestamp>/` | **Built** | `audio.wav`, `transcript.txt`, `events.jsonl`, `index.md`. PRD §33 D-4 |
+| Network | Zero calls on the live path | **Built** | One sanctioned exception: the model download in `run.sh`, at install time only. PRD §33 D-6 |
+| Design system | *Cathedral Dark* role tokens, three palettes | **Partial** | Tokens exist but are named by appearance and dark-only. PRD §33 D-9 |
+
+Full rationale and the data model are in [`PRD.md`](PRD.md) §33.
 
 ## Repository Layout
 
 ```text
 .
 ├── README.md
+├── PRD.md                                    # authoritative spec (v2.1)
+├── IMPLEMENTATION-PLAN.md                    # sliced delivery plan
+├── Desktop M1 app/
+│   └── RhemaFlow-D-v0.801.2.zip              # the shipped v0.801.2 baseline (73 MB)
 └── docs/
-    └── RhemaFlow - Product Requirements Document.md
+    ├── RhemaFlow-PRD-v2.0.md                 # pointer → ../PRD.md (superseded)
+    └── RhemaFlow - Product Requirements Document.md   # v1.0, history only
 ```
+
+The workspace layout (`crates/rf-bible`, `rf-core`, `rf-asr`, `rf-app`) arrives with slice A0
+and is documented in [`IMPLEMENTATION-PLAN.md`](IMPLEMENTATION-PLAN.md) §0.
 
 ## Getting Started
 
-No runnable code yet. Start by reading the PRD linked above. Contribution, architecture, and setup instructions will be added once implementation begins.
+1. **[`PRD.md`](PRD.md) §33** — the architecture and technology decisions.
+2. **[`IMPLEMENTATION-PLAN.md`](IMPLEMENTATION-PLAN.md) §0** — the baseline reconciliation: what
+   actually ships today, and where the PRD was stale.
+3. **[`IMPLEMENTATION-PLAN.md`](IMPLEMENTATION-PLAN.md) §1, §9** — the slicing rules and the
+   recommended order of work.
+4. **PRD Appendix B** — the locked regression utterances that must never regress.
+5. **Slice A0** — import the baseline and re-run `cargo test --workspace`.

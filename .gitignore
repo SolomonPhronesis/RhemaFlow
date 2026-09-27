@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+
+# Rust
+target/
+**/*.rs.bk
+Cargo.lock.bak
+
+# Local runtime data (never commit a church's recordings, archive or logs)
+*.db
+*.db-wal
+*.db-shm
+recordings/
+exports/
+logs/
+
+# Bundled ASR model — large binary, fetched/placed at build time, not tracked
+models/*.bin
+
+# Baseline release archives — 73 MB binaries; keep out of git history.
+# Track the source via slice A0 (extracted tree), not the zip.
+Desktop M1 app/*.zip
+
+# Local environment
+.env
+.env.local
