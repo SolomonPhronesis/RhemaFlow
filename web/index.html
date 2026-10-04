@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RhemaFlow — The preacher speaks. RhemaFlow understands.</title>
+  <meta name="description" content="RhemaFlow is an intelligent church presentation and sermon-intelligence platform designed around local-first speech recognition and human operator control.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#top" aria-label="RhemaFlow home">
+      <span class="brand-mark">R</span>
+      <span>RhemaFlow</span>
+    </a>
+    <nav>
+      <a href="#how">How it works</a>
+      <a href="#demo">Demo</a>
+      <a href="#features">Features</a>
+    </nav>
+    <a class="nav-cta" href="#demo">Try the demo</a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow">CHURCH PRESENTATION × SERMON INTELLIGENCE</div>
+        <h1>The preacher speaks.<br><span>RhemaFlow understands.</span></h1>
+        <p class="hero-text">
+          RhemaFlow helps church presentation teams recognise Scripture references,
+          surface the right passage and keep the operator in control when human judgement matters.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#demo">Try Scripture detection</a>
+          <a class="button secondary" href="#features">Explore RhemaFlow</a>
+        </div>
+        <div class="trust-row">
+          <span>Local-first architecture</span>
+          <span>Operator controlled</span>
+          <span>Designed for live services</span>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="window-bar">
+          <span></span><span></span><span></span>
+          <strong>Operator Command Centre</strong>
+        </div>
+        <div class="status-line">
+          <div><span class="live-dot"></span> LIVE SERVICE</div>
+          <div class="recording">● RECORDING</div>
+        </div>
+        <div class="panel">
+          <div class="panel-label">CURRENT TRANSCRIPT</div>
+          <div class="transcript">“Let's turn to John chapter 3 verse 16…”</div>
+        </div>
+        <div class="detection-grid">
+          <div class="panel">
+            <div class="panel-label">DETECTED SCRIPTURE</div>
+            <div class="scripture-ref">John 3:16</div>
+            <div class="confidence">98% confidence</div>
+          </div>
+          <div class="panel">
+            <div class="panel-label">OPERATOR</div>
+            <div class="operator-actions">
+              <button class="mini approve">APPROVE</button>
+              <button class="mini correct">CORRECT</button>
+              <button class="mini dismiss">DISMISS</button>
+            </div>
+          </div>
+        </div>
+        <div class="verse-card">
+          <div class="panel-label">KJV PREVIEW</div>
+          <p>“For God so loved the world, that he gave his only begotten Son…”</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="how">
+      <div class="section-heading">
+        <div class="eyebrow">HOW IT WORKS</div>
+        <h2>A simpler flow for the person running the service.</h2>
+      </div>
+      <div class="steps">
+        <article class="step">
+          <span>01</span>
+          <h3>Listen</h3>
+          <p>RhemaFlow receives the spoken word from the service microphone or audio path.</p>
+        </article>
+        <article class="step">
+          <span>02</span>
+          <h3>Understand</h3>
+          <p>Speech recognition and Scripture logic turn the live speech into useful presentation signals.</p>
+        </article>
+        <article class="step">
+          <span>03</span>
+          <h3>Present</h3>
+          <p>The right Scripture can be surfaced quickly while the operator keeps final control.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section demo-section" id="demo">
+      <div class="section-heading">
+        <div class="eyebrow">INTERACTIVE DEMO</div>
+        <h2>Say a Scripture reference.</h2>
+        <p>Type what a preacher might say. This browser demo uses mock data and does not send audio anywhere.</p>
+      </div>
+
+      <div class="demo-card">
+        <label for="speechInput">What did the preacher say?</label>
+        <div class="input-row">
+          <input id="speechInput" type="text" value="Let's turn to John 3:16" placeholder="e.g. Romans 8:28">
+          <button id="detectBtn" class="button primary">Detect Scripture</button>
+        </div>
+        <div class="demo-result" id="demoResult" aria-live="polite">
+          <div class="result-main">
+            <span class="result-label">DETECTED</span>
+            <strong id="detectedRef">John 3:16</strong>
+            <span id="detectedConfidence">98% confidence</span>
+          </div>
+          <div class="result-verse" id="verseText">
+            For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish.
+          </div>
+          <div class="result-note">Demo only — this page uses test data and a small client-side reference map.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="section-heading">
+        <div class="eyebrow">BUILT AROUND THE SERVICE</div>
+        <h2>Useful technology without taking control away from people.</h2>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <h3>Scripture recognition</h3>
+          <p>Identify common spoken Scripture references and turn them into presentation actions.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Human control</h3>
+          <p>High-confidence automation can move quickly, while the operator remains in charge when judgement is needed.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Local-first thinking</h3>
+          <p>The current architecture is designed around local processing and dependable live-service operation.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Sermon intelligence</h3>
+          <p>Build toward transcripts, Scripture timelines, recordings and searchable sermon archives.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div>
+        <div class="eyebrow">RHEMAFLOW</div>
+        <h2>Technology that helps the service flow.</h2>
+        <p>Start with the presentation workflow. Grow into a wider sermon-intelligence platform.</p>
+      </div>
+      <a class="button primary" href="#demo">Try the demo</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>© 2026 RhemaFlow</div>
+    <div>Church presentation &amp; sermon intelligence</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
