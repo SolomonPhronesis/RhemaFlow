@@ -44,8 +44,10 @@ function runDemo() {
   verseText.textContent = found.verse;
 }
 
-document.getElementById("detectBtn").addEventListener("click", runDemo);
-document.getElementById("speechInput").addEventListener("keydown", event => {
+const detectBtn = document.getElementById("detectBtn");
+if (detectBtn) detectBtn.addEventListener("click", runDemo);
+const speechInput = document.getElementById("speechInput");
+if (speechInput) speechInput.addEventListener("keydown", event => {
   if (event.key === "Enter") runDemo();
 });
 document.querySelectorAll(".mini").forEach(button => {

@@ -106,31 +106,24 @@
     </section>
 
     <section class="section demo-section" id="demo">
-      <div class="section-heading">
-        <div class="eyebrow">INTERACTIVE DEMO</div>
-        <h2>Say a Scripture reference.</h2>
-        <p>Type what a preacher might say. This browser demo uses mock data and does not send audio anywhere.</p>
+  <div class="section-heading">
+    <div class="eyebrow">LIVE INTERACTIVE DEMO</div>
+    <h2>See the real RhemaFlow operator app.</h2>
+    <p>The demo below is the full RhemaFlow application — the same operator workflow used by the app, not the old mock detector.</p>
+  </div>
+  <div class="full-demo-card">
+    <div class="full-demo-toolbar">
+      <div>
+        <strong>RhemaFlow Operator App</strong>
+        <span>Full-function interactive demo</span>
       </div>
-
-      <div class="demo-card">
-        <label for="speechInput">What did the preacher say?</label>
-        <div class="input-row">
-          <input id="speechInput" type="text" value="Let's turn to John 3:16" placeholder="e.g. Romans 8:28">
-          <button id="detectBtn" class="button primary">Detect Scripture</button>
-        </div>
-        <div class="demo-result" id="demoResult" aria-live="polite">
-          <div class="result-main">
-            <span class="result-label">DETECTED</span>
-            <strong id="detectedRef">John 3:16</strong>
-            <span id="detectedConfidence">98% confidence</span>
-          </div>
-          <div class="result-verse" id="verseText">
-            For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish.
-          </div>
-          <div class="result-note">Demo only — this page uses test data and a small client-side reference map.</div>
-        </div>
-      </div>
-    </section>
+      <a class="button primary" href="rhemaflow-app.html" target="_blank" rel="noopener">Open full app</a>
+    </div>
+    <div class="full-demo-frame-wrap">
+      <iframe class="full-demo-frame" src="rhemaflow-app.html" title="RhemaFlow full interactive operator application" loading="lazy" allow="microphone; fullscreen"></iframe>
+    </div>
+  </div>
+</section>
 
     <section class="section" id="features">
       <div class="section-heading">
