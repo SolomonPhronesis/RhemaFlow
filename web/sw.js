@@ -1,5 +1,19 @@
-const CACHE = "rhemaflow-pwa-v1";
-const SHELL = ["/", "/index.html", "/manifest.webmanifest", "/icons/icon-192.png", "/icons/icon-512.png"];
+const CACHE = "rhemaflow-pwa-v2";
+const SHELL = [
+  "/",
+  "/index.html",
+  "/manifest.webmanifest",
+  "/rhemaflow-app.html",
+  "/rhemaflow-app.webmanifest",
+  "/styles.css",
+  "/script.js",
+  "/rhemaflow-app.css",
+  "/rhemaflow-core.js",
+  "/rhemaflow-kjv.js",
+  "/rhemaflow-ui.js",
+  "/icons/icon-192.png",
+  "/icons/icon-512.png"
+];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(

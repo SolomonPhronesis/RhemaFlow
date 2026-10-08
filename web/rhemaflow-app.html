@@ -83,5 +83,16 @@
 <script src="rhemaflow-core.js"></script>
 <script src="rhemaflow-kjv.js"></script>
 <script src="rhemaflow-ui.js"></script>
+
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("/sw.js", { scope: "/" }).catch((err) => {
+      console.warn("RhemaFlow service worker registration failed:", err);
+    });
+  });
+}
+</script>
+
 </body>
 </html>
