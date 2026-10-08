@@ -3,6 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="manifest" href="/manifest.webmanifest">
+<meta name="theme-color" content="#0d1017">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
   <title>RhemaFlow — The preacher speaks. RhemaFlow understands.</title>
   <meta name="description" content="RhemaFlow is an intelligent church presentation and sermon-intelligence platform designed around local-first speech recognition and human operator control.">
   <link rel="stylesheet" href="styles.css">
@@ -168,5 +173,52 @@
   </footer>
 
   <script src="script.js"></script>
+
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("/sw.js").catch((err) => {
+      console.warn("RhemaFlow service worker registration failed:", err);
+    });
+  });
+}
+</script>
+
+
+<script id="RHEMAFLOW_COPY_DETERRENTS">
+(() => {
+  "use strict";
+
+  // Casual copy deterrents only. They are NOT a security boundary.
+  document.addEventListener("contextmenu", (event) => {
+    event.preventDefault();
+  });
+
+  document.addEventListener("copy", (event) => {
+    event.preventDefault();
+  });
+
+  document.addEventListener("cut", (event) => {
+    event.preventDefault();
+  });
+
+  document.addEventListener("dragstart", (event) => {
+    event.preventDefault();
+  });
+
+  document.addEventListener("keydown", (event) => {
+    const key = String(event.key).toLowerCase();
+    const modifier = event.ctrlKey || event.metaKey;
+
+    if (
+      modifier &&
+      ["u", "s"].includes(key)
+    ) {
+      event.preventDefault();
+    }
+  });
+})();
+</script>
+
 </body>
 </html>
