@@ -1,12 +1,14 @@
 repository: git@github.com:SolomonPhronesis/RhemaFlow.git
 branch: rhemaflow/research-chat3/scorer-speaker-lyrics-20261111
 base_sha: c8ad92b70c116d71cc390b09560d15b20d24e70a
-commit_sha: 90f6eaaf6a0207b10782dfb61a8fa65b6ac8ecce
-remote_sha: 90f6eaaf6a0207b10782dfb61a8fa65b6ac8ecce
-verification: PUSH_VERIFIED
-pushed_at_utc: 2026-11-11T15:52:35Z
+research_commit_sha: 90f6eaaf6a0207b10782dfb61a8fa65b6ac8ecce
+research_commit_remote_sha: 90f6eaaf6a0207b10782dfb61a8fa65b6ac8ecce
+research_commit_verification: PUSH_VERIFIED
+metadata_commit: this commit (GIT_PUSH.txt only)
+note: a commit cannot contain its own SHA; the branch head verified at report time
+      is printed in the chat and equals `git ls-remote origin refs/heads/rhemaflow/research-chat3/scorer-speaker-lyrics-20261111`.
 
-staged_paths:
+staged_paths (research commit 90f6eaaf6a0207b10782dfb61a8fa65b6ac8ecce):
   research/chat3/SCORER_AUDIT.md
   research/chat3/SPEAKER_PLAN.md
   research/chat3/LYRICS_EVAL.md
