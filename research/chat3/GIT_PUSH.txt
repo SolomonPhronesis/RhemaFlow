@@ -1,34 +1,25 @@
 repository: git@github.com:SolomonPhronesis/RhemaFlow.git
-branch: rhemaflow/research-chat3/adaptive-fir-isolation-20261111
-base_sha: ddb36f19cb3b0e7e9d942ac3c994557044fc00bc
-research_commit_sha: 16c9952c783ecac2399875a7591cedf67c7caa74
-research_commit_remote_sha: 16c9952c783ecac2399875a7591cedf67c7caa74
-research_commit_verification: PUSH_VERIFIED
-line_ending_fix_commit: c80ae1d47980311b7e222060f2c945bbc28477f5
-metadata_commit: this commit (GIT_PUSH.txt only)
+branch: rhemaflow/research-chat3/real-speaker-validation-20261111
+base_sha: 3f06d516342e8d0cc13633bf083f552b1f9e6c2c
+research_commit_sha: recorded after push
+research_commit_remote_sha: recorded after push
+metadata_commit: this branch's final commit updates this file with the verified SHAs
 note: a commit cannot contain its own SHA; the branch head verified at report time
-      is printed in the chat and equals `git ls-remote origin refs/heads/rhemaflow/research-chat3/adaptive-fir-isolation-20261111`.
+      is printed in the chat and equals `git ls-remote origin refs/heads/rhemaflow/research-chat3/real-speaker-validation-20261111`.
 
 staged_paths:
-  research/chat3/ADAPTIVE_FIR_RESULTS.md
-  research/chat3/SPLIT_AND_PROTOCOL.md
+  research/chat3/FORENSIC_WRONG_CARD.md
+  research/chat3/FILTER_ADVANCE.md
+  research/chat3/OPERATOR_KIT.md
   research/chat3/RESULTS.md
   research/chat3/BEFORE-AFTER.md
   research/chat3/SHA256SUMS.txt
   research/chat3/scripts/fir_isolation.py
-  research/chat3/scripts/score_fir.py
   research/chat3/tests/test_fir_isolation.py
-  research/chat3/data/results_holdout.csv
-  research/chat3/data/results_holdout_detail.csv
-  research/chat3/data/results_ci.csv
-  research/chat3/data/tune_grid.csv
-  research/chat3/data/split_manifest.csv
-  research/chat3/data/holdout_signal.csv
-  research/chat3/data/holdout_signal_summary.csv
-  research/chat3/data/throughput.json
-  research/chat3/data/fir_cards.csv
-  research/chat3/charts/holdout_wer.svg
-  research/chat3/charts/holdout_signal.svg
+  research/chat3/data/holdout_sdi.csv
+  research/chat3/data/tracking_tune.csv
+  research/chat3/data/gate_forensics.csv
+  research/chat3/data/guard_ratios.csv
 
 not_committed: audio, model weights, recordings, lyrics, names, binaries, credentials
 SHA256SUMS: excludes GIT_PUSH.txt and itself (both are push metadata)

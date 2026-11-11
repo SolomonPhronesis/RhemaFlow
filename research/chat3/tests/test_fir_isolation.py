@@ -41,9 +41,22 @@ class FirCausalityTests(unittest.TestCase):
         self.assertTrue(np.allclose(base[:cut - F.BLOCK], changed[:cut - F.BLOCK], atol=1e-9))
 
     def test_no_oracle_arguments(self):
-        params = set(inspect.signature(F.fir_nlms).parameters)
-        for banned in ('target', 'interference', 'leak', 'true_delay', 'tir'):
-            self.assertNotIn(banned, params, f'{banned} must not be an algorithm input')
+        for fn in (F.fir_nlms, F.fir_tracking):
+            params = set(inspect.signature(fn).parameters)
+            for banned in ('target', 'interference', 'leak', 'true_delay', 'tir'):
+                self.assertNotIn(banned, params, f'{banned} must not be an algorithm input to {fn.__name__}')
+
+    def test_tracking_future_samples_do_not_change_past_output(self):
+        t, i = speechlike(), noise()
+        close = t + i
+        room = 0.5 * F.shift(t, 48) + 2.0 * F.shift(i, 48)
+        base, _, _ = F.fir_tracking(close, room, taps=32, mu=0.3, chunk_s=1.0)
+        cut = F.SR * 3
+        c2, r2 = close.copy(), room.copy()
+        c2[cut:] = 0.0
+        r2[cut:] = 0.0
+        changed, _, _ = F.fir_tracking(c2, r2, taps=32, mu=0.3, chunk_s=1.0)
+        self.assertTrue(np.allclose(base[:cut - F.BLOCK], changed[:cut - F.BLOCK], atol=1e-9))
 
     def test_delay_estimate_is_causal_calibration(self):
         t = speechlike()

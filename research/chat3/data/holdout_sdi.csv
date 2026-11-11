@@ -1,0 +1,17 @@
+method,condition,clips,ref_words,S,D,I,wer_pct
+close,chatter_-5dB,10,282,98,111,8,76.95
+close,chatter_0dB,10,282,28,33,19,28.369
+close,preacher2_-5dB,10,282,165,94,1,92.199
+close,preacher2_0dB,10,282,36,164,1,71.277
+scalar,chatter_-5dB,10,282,59,51,0,39.007
+scalar,chatter_0dB,10,282,21,11,0,11.348
+scalar,preacher2_-5dB,10,282,99,132,0,81.915
+scalar,preacher2_0dB,10,282,23,65,4,32.624
+fir,chatter_-5dB,10,282,62,99,0,57.092
+fir,chatter_0dB,10,282,22,25,3,17.73
+fir,preacher2_-5dB,10,282,125,115,0,85.106
+fir,preacher2_0dB,10,282,16,117,1,47.518
+fir_dt,chatter_-5dB,10,282,80,82,0,57.447
+fir_dt,chatter_0dB,10,282,20,37,8,23.05
+fir_dt,preacher2_-5dB,10,282,140,115,0,90.426
+fir_dt,preacher2_0dB,10,282,17,116,1,47.518

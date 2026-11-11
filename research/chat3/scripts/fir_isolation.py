@@ -182,6 +182,41 @@ def fir_nlms(close, room, taps=64, mu=0.3, gate=True, double_talk=False, cal=CAL
     return out, lag, elapsed
 
 
+
+def fir_tracking(close, room, taps=64, mu=0.3, chunk_s=2.0, cal_ms=400):
+    """Causal FIR with per-chunk delay tracking.
+
+    The delay is re-estimated at each chunk boundary from the PREVIOUS chunk only
+    (never the current or future one), then applied to the next chunk. Filter taps
+    are updated only from past blocks.
+    """
+    lag = est_delay(close, room, SR * cal_ms // 1000)
+    n = min(len(close), len(room))
+    c, r = close[:n], room[:n]
+    chunk = int(SR * chunk_s)
+    w = np.zeros(taps)
+    out = np.empty(n)
+    t0 = time.perf_counter()
+    prev_lag = lag
+    for s in range(0, n, chunk):
+        e_end = min(s + chunk, n)
+        # re-estimate delay from the previous chunk (causal) before processing this one
+        if s > 0:
+            p0 = max(0, s - chunk)
+            est = est_delay(c[p0:s], r[p0:s], min(chunk, s - p0))
+            if abs(est) <= 200:
+                lag = est
+        idx = (np.arange(s, e_end)[:, None] + lag) - np.arange(taps - 1, -1, -1)[None, :]
+        idx = np.clip(idx, 0, n - 1)
+        W = r[idx]
+        y = W @ w
+        out[s:e_end] = c[s:e_end] - y
+        if rms(r[s:e_end]) > rms(c[s:e_end]):
+            e = out[s:e_end]
+            w = np.clip(w + mu * (W.T @ e) / (float(np.sum(W * W)) + 1e-9), -2.0, 2.0)
+    return out, lag, time.perf_counter() - t0
+
+
 def sir_db(out, target, interf):
     n = min(len(out), len(target), len(interf))
     t, i = target[:n], interf[:n]
