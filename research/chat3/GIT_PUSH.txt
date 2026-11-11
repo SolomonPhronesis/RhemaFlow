@@ -1,9 +1,10 @@
 repository: git@github.com:SolomonPhronesis/RhemaFlow.git
 branch: rhemaflow/research-chat3/codex-handoff-20261111
 base_sha: 2b35d064ac343411a2e37db1d072ba11d9c7bf4d
-research_commit_sha: recorded after push
-research_commit_remote_sha: recorded after push
-metadata_commit: this branch's final commit updates this file with the verified SHAs
+research_commit_sha: 4c62141b31b2d0f34a5655609ec0bbae61e4e6ab
+research_commit_remote_sha: 4c62141b31b2d0f34a5655609ec0bbae61e4e6ab
+research_commit_verification: PUSH_VERIFIED
+metadata_commit: this commit (GIT_PUSH.txt only)
 note: a commit cannot contain its own SHA; the branch head verified at report time
       is printed in the chat and equals `git ls-remote origin refs/heads/rhemaflow/research-chat3/codex-handoff-20261111`.
 
