@@ -1,9 +1,10 @@
 repository: git@github.com:SolomonPhronesis/RhemaFlow.git
 branch: rhemaflow/research-chat3/real-speaker-validation-20261111
 base_sha: 3f06d516342e8d0cc13633bf083f552b1f9e6c2c
-research_commit_sha: recorded after push
-research_commit_remote_sha: recorded after push
-metadata_commit: this branch's final commit updates this file with the verified SHAs
+research_commit_sha: f609e8f1ec2604ffecf109fdb6181ddd328ebe89
+research_commit_remote_sha: f609e8f1ec2604ffecf109fdb6181ddd328ebe89
+research_commit_verification: PUSH_VERIFIED
+metadata_commit: this commit (GIT_PUSH.txt only)
 note: a commit cannot contain its own SHA; the branch head verified at report time
       is printed in the chat and equals `git ls-remote origin refs/heads/rhemaflow/research-chat3/real-speaker-validation-20261111`.
 
