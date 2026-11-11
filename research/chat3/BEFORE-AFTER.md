@@ -3,26 +3,28 @@
 ## Base
 
 * Repository `git@github.com:SolomonPhronesis/RhemaFlow.git`, verified head
-  `0656784b92176826c3690bad23ba9e0a320d1f2d` (previous research branch).
-* New branch `rhemaflow/research-chat3/r2t2-independent-streaming-20261111`, created from that head in the
-  existing Chat 3 research worktree (no new checkout: disk 672 MiB is below the floor).
+  `3eccb01443d4ce929998bceda562d447d7341624` (branch `rhemaflow/research-chat3/r2t2-independent-streaming-20261111`).
+* Worktree clean at start; no new worktree created (disk 662 MiB, below the checkout floor).
+* New branch `rhemaflow/research-chat3/speaker-isolation-plan-20261111` created from that head.
 
 ## After
 
 | Change | Detail |
 |---|---|
-| `R2T2_CODE_AUDIT.md` | new — blob-verified upstream audit, licence, feasibility |
-| `STREAMING_PROTOTYPE_DESIGN.md` | new — algorithm and test matrix |
-| `scripts/stable_prefix.py` | new — model-free commit engine, reply validator, card gate |
-| `tests/test_streaming.py` | new — 20 tests, all pass |
-| `BASELINE_AND_ABLATIONS.md` | new — baseline with bootstrap CIs, ablations marked blocked |
-| `ROADMAP_TO_6_PERCENT.md` | new — honest route to the aspirational target |
-| `data/baseline_ci.csv` | new — 56 arm×condition CIs |
-| `data/feasibility.csv`, `data/streaming_tests.csv` | new — matrices |
+| `NEXT_SPEAKER_STUDY.md` | new — causal question, B0–B5 arms, prerequisites, exit criteria, manifest schema |
+| `DISK_RECOVERY_CANDIDATES.md` | new — read-only inventory; **nothing deleted** |
+| `RESULTS.md` | replaced with this round's PASS/NOT_RUN/BLOCKED table |
+| `BEFORE-AFTER.md` | replaced with this change list |
+| `scripts/target_gate.py` + `tests/test_target_gate.py` | new — model-free card/target gate evaluator, 9 tests |
+| `data/condition_manifest.csv` | new — 17 conditions, ref words, provenance, licence |
+| `data/audio_provenance.csv` | new — per-condition SHA-256 of the sorted clip-hash set |
+| `data/baseline_ci.csv` | new — 56 bootstrap CIs |
+| `data/gate_sweep_648.csv` | new — measured confidence-gate sweep |
+| `data/disk_candidates.csv` | new — cleanup proposals, unbounded |
 | App / engine source | **unchanged** |
-| Deletions, audio, weights, lyrics, secrets, binaries | **none** |
+| Audio, weights, lyrics, secrets, binaries | **none added** |
 
-## Why no model experiments
+## Why model-free
 
-Disk 672 MiB < 4 GiB hard floor. The brief forbids model runs, builds, corpus expansion and worktree checkouts
-under the floor; the safe work is source audit, saved-transcript analysis and model-free prototype code.
+Disk 662 MiB < 4 GiB hard floor. The brief and the safety gates forbid model inference, corpus creation and builds
+under the floor; the documentation, audit and model-free tests are the safe deliverable.

@@ -1,0 +1,12 @@
+candidate,path,size_mib,provenance,regenerable,collateral_risk,proposed_action
+chat3 matrix audio (generated),/Users/solomonphronesis/Documents/deepseek-harness/default-workspace/matrix_work/audio,151,derived from 40 KJV WAVs + owner-approved sources,yes (scripts/build_matrix.py),delete only after report freeze; rebuild 3 min,needs approval
+chat3 gitpush audio (generated),/Users/solomonphronesis/Documents/deepseek-harness/default-workspace/matrix_work/gitpush/audio,44,codec test encodes/decodes,yes,safe to remove after metrics stored,needs approval
+chat3 fixtures (previous round),/Users/solomonphronesis/Documents/deepseek-harness/default-workspace/RF_CHAT3_NEXT_20261110/fixtures,121,520-clip stress corpus generated from the same audio,yes (rf-bench fixtures),rebuild ~1 min,needs approval
+chat3 fixtures_stress,/Users/solomonphronesis/Documents/deepseek-harness/default-workspace/RF_CHAT3_NEXT_20261110/fixtures_stress,40,pause/continuous fixtures,yes,rebuild ~1 min,needs approval
+chat3 fixtures_pause2,/Users/solomonphronesis/Documents/deepseek-harness/default-workspace/RF_CHAT3_NEXT_20261110/fixtures_pause2,21,held-out pause positions,yes,rebuild ~1 min,needs approval
+chat3 raw transcripts,/Users/solomonphronesis/Documents/deepseek-harness/default-workspace/matrix_work/raw,3,"model outputs, JSONL",no (would need re-run),keep: evidence for published numbers,do not delete
+chat3 results CSVs,/Users/solomonphronesis/Documents/deepseek-harness/default-workspace/matrix_work/out/data,1,aggregated metrics,no,keep,do not delete
+other chat workspace,/Users/solomonphronesis/Documents/deepseek-harness/default-workspace/RF_PERSONAL1_EXEC_20261110,3969,another workstream,unknown,DO NOT TOUCH — not this chat,owner decision
+huggingface cache,/Users/solomonphronesis/.cache/huggingface,2389,Qwen 0.6B / whisper / R2T2 configs,yes (re-download),not needed by V3/V4 pipeline; licence check for R2T2 parts,owner decision
+downloads archives,/Users/solomonphronesis/Downloads,60454,owner media/archives,unknown,owner decision; no external SSD mounted,owner decision
+tmp scratch,/tmp,0,mixed chat scratch,unknown,mixed ownership; inspect per path,owner decision

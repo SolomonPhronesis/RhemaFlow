@@ -1,49 +1,51 @@
-# RESULTS — R2T2-inspired independent streaming, Qwen/Q4, and the realistic path to 6 %
+# RESULTS — target-speaker isolation study (model-free stage)
 
-**Date:** 2026-11-11 · **Branch:** `rhemaflow/research-chat3/r2t2-independent-streaming-20261111`
-**Disk:** 672 MiB free at start (hard floor 4 GiB) → **no model runs, no builds, no 648-clip rerun**.
-**Verdicts: `PUSH_VERIFIED` (see GIT_PUSH.txt) · `RESEARCH_GO` · `PRODUCTION_NO_GO`.**
+**Date:** 2026-11-11 16:23–16:50 UTC · **Branch base:** `3eccb014…` (verified) · **Disk:** 662 MiB → 1.7 GiB free
+**Gate applied:** below 4 GiB → **no model inference, no corpus creation, no builds**.
+**Verdict: `RESEARCH_GO` / `PRODUCTION_NO_GO`.**
 
-## 1. What was delivered
+## 1. PASS — what was verified this round
 
-| Deliverable | Content |
+| Item | Result |
 |---|---|
-| `R2T2_CODE_AUDIT.md` | upstream HEAD `72b81be7…`, seven files blob-verified, algorithm, licence §3.4(c), feasibility |
-| `STREAMING_PROTOTYPE_DESIGN.md` + `scripts/stable_prefix.py` | model-free stable-prefix engine, sidecar validator, card de-duplicator — **20/20 tests** |
-| `BASELINE_AND_ABLATIONS.md` | frozen 560-clip baseline with 95 % bootstrap CIs; every requested ablation marked `NOT_RUN`/`NOT_AVAILABLE` with the exact blocker |
-| `ROADMAP_TO_6_PERCENT.md` | error decomposition and why streaming cannot reach 6 % |
-| `BEFORE-AFTER.md`, `data/*.csv` | change list, feasibility matrix, test matrix, CIs |
+| Preflight (df, APFS, swap, git, remote, model paths) | **PASS** — remote verified, HEAD `3eccb014…`, models present (Q4 475 MB, Qwen 1.4 GB, Tiny 77 MB) |
+| Scorer v2 regression suite | **PASS 20/20** |
+| Stable-prefix prototype suite | **PASS 20/20** |
+| Target-gate evaluator (new, model-free) | **PASS 9/9** |
+| 648-clip audit (conditions, provenance, licences, SNR) | **PASS** — 17 conditions, 560 target / 88 control, `data/condition_manifest.csv`, `data/audio_provenance.csv` |
+| Per-condition 95 % bootstrap CIs | **PASS** — `data/baseline_ci.csv`, 56 arm×condition rows |
+| Confidence-gate sweep on saved V3 output | **PASS (negative result)** — 0.7 loses 14 correct cards, 0.8 loses 33; **0 wrong removed at every threshold** |
+| Source/experiment provenance record | **PASS** — `BEFORE-AFTER.md` |
 
-## 2. Key findings
+## 2. NOT_RUN — every acoustic arm, with the exact blocker
 
-1. **R2T2's gain is trained, not architectural.** The repo has no training code (48 files, none for LSP/SFT/GRPO);
-   README describes 1,500 h LSP training with a frozen encoder. Calling `streaming_transcribe` on base Qwen is not
-   R2T2. Its weights are licence-restricted (§3.4(c)) and were not touched.
-2. **5.76 % ≠ our noise result.** It is a 13-test-set English/Chinese macro average at 160 ms/U=1; our 560-clip
-   mixed-noise WER is Q4 26.31 %, Qwen 24.39 %, Tiny 44.79 %.
-3. **Streaming cannot fix competing speakers.** Qwen beats Q4 by 29.5 pp at overlap 0 dB and loses by 14 pp on the
-   triple mix; the dominant errors are other-speaker words (96.4 % / 90.6 % at −5 dB).
-4. **The commit engine is correct under adversarial input** (repeated words, partial words, silence, cutoff,
-   speaker handoff, stale ids, malformed JSON, duplicate cards) — verified without any model.
-5. **Reaching < 6 % requires new acoustic capture (multi-mic/separation) and in-domain adaptation**, not a streaming
-   tweak. Current honest milestones: ≤26.3 % reached, ≤20 % not yet, ≤15 % blocked on data/hardware.
+| Arm | Status | Blocker |
+|---|---|---|
+| B0 single-mic baseline re-run | **NOT_RUN** | disk < 4 GiB; baseline reported from frozen transcripts, not re-run |
+| B1 close-mic | **NOT_RUN** | no lawfully recorded close-mic audio |
+| B2 two-mic | **NOT_RUN** | no simultaneously recorded 2-channel audio; synthetic duplication explicitly refused |
+| B3 overlap/foreground detector | **NOT_RUN (evaluator only)** | no audio feature pass under the floor; gate evaluator shipped and measured on saved data |
+| B4 separation / enrolment | **NOT_RUN** | no licensed separator, no consented enrolment audio, no disk headroom |
+| B5 streaming layer | **NOT_RUN** | model-free commit engine exists; no model streaming inference permitted here |
 
-## 3. Status table
+## 3. BLOCKED
 
-| Item | Status |
+| Item | Reason |
 |---|---|
-| R2T2 source audit (blob-verified) | **PASS** |
-| Independent stable-prefix prototype + tests | **PASS (logic only, 20/20)** |
-| Qwen / Q4 model re-runs | **NOT_RUN — disk 672 MiB** |
-| 648-clip re-run | **NOT_RUN — disk** |
-| Speaker ablations (2-mic, diarisation, separation) | **NOT_AVAILABLE / NOT_RUN** |
-| Independent church gold | **BLOCKED_GOLD** |
-| `card_visible` | **NOT_MEASURED** |
-| Production | **PRODUCTION_NO_GO** |
+| Church WER | `BLOCKED_GOLD` — no consented human-annotated speaker-labelled corpus |
+| Physical card visibility | `NOT_MEASURED` — no supervised GUI session; installed app is not V3/V4 |
+| 6 % target | aspirational; requires multi-mic/separation **and** in-domain adaptation |
+| Disk headroom for experiments | 1.7 GiB free; needs owner cleanup/external drive (see `DISK_RECOVERY_CANDIDATES.md`) |
 
-## 4. Commands
+## 4. Deliverables
 
-```bash
-python3 research/chat3/tests/test_streaming.py -v      # 20/20
-python3 research/chat3/tests/test_wer.py -v            # 20/20
-```
+`NEXT_SPEAKER_STUDY.md` (B0–B5 design, exit criteria, manifest schema, milestones) ·
+`DISK_RECOVERY_CANDIDATES.md` (read-only inventory, no deletions) · `scripts/target_gate.py` + tests ·
+`data/{condition_manifest,audio_provenance,baseline_ci,gate_sweep_648,disk_candidates}.csv` ·
+`BEFORE-AFTER.md` · `SHA256SUMS.txt` · `GIT_PUSH.txt`.
+
+## 5. Next action
+
+Owner decision on cleanup is the single unblocker for acoustic work; the scientific next step after that is
+**B1/B2 capture** (close mic + simultaneous room mic), because every measured result says the residual error is
+competing-speaker energy, not streaming.

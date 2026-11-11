@@ -1,0 +1,18 @@
+condition,snr_db,clips,has_target,ref_words,source,licence,notes
+chatter_0,0,40,yes,1069,target + chatter at 0 dB SNR,KJV public domain + owner-approved research audio,SNR = target relative to interference
+chatter_m5,-5,40,yes,1069,target + chatter at -5 dB SNR,KJV public domain + owner-approved research audio,SNR = target relative to interference
+chatter_only,-inf,40,no,0,"chatter only, no target",KJV public domain + owner-approved research audio,
+chatter_p10,10,40,yes,1069,target + chatter at 10 dB SNR,KJV public domain + owner-approved research audio,SNR = target relative to interference
+chatter_p5,5,40,yes,1069,target + chatter at 5 dB SNR,KJV public domain + owner-approved research audio,SNR = target relative to interference
+clean,inf,40,yes,1069,kjv target only,KJV public domain + owner-approved research audio,
+mixed_0,0,40,yes,1069,"target + music + chatter, each at 0 dB",KJV public domain + owner-approved research audio,SNR = target relative to interference
+music_0,0,40,yes,1069,target + music at 0 dB SNR,KJV public domain + owner-approved research audio,SNR = target relative to interference
+music_m5,-5,40,yes,1069,target + music at -5 dB SNR,KJV public domain + owner-approved research audio,SNR = target relative to interference
+music_only,-inf,40,no,0,"music only, no target",KJV public domain + owner-approved research audio,
+music_p10,10,40,yes,1069,target + music at 10 dB SNR,KJV public domain + owner-approved research audio,SNR = target relative to interference
+music_p5,5,40,yes,1069,target + music at 5 dB SNR,KJV public domain + owner-approved research audio,SNR = target relative to interference
+overlap_0,0,40,yes,1069,target + second preacher at 0 dB SNR,KJV public domain + owner-approved research audio,SNR = target relative to interference
+overlap_m5,-5,40,yes,1069,target + second preacher at -5 dB SNR,KJV public domain + owner-approved research audio,SNR = target relative to interference
+overlap_p10,10,40,yes,1069,target + second preacher at 10 dB SNR,KJV public domain + owner-approved research audio,SNR = target relative to interference
+overlap_p5,5,40,yes,1069,target + second preacher at 5 dB SNR,KJV public domain + owner-approved research audio,SNR = target relative to interference
+silence,-inf,8,no,0,digital silence,KJV public domain + owner-approved research audio,
