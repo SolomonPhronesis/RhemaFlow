@@ -1,29 +1,32 @@
 repository: git@github.com:SolomonPhronesis/RhemaFlow.git
-branch: rhemaflow/research-chat3/speaker-isolation-next-20261111
-base_sha: 02ec12faa0ae8ad247b65d26c40eb89ac0f119ce
-brief_verified_head: 3eccb01443d4ce929998bceda562d447d7341624 (ancestor of base_sha)
-research_commit_sha: c37d3ddd7ba396d90979386c3fe1039da3981e2a
-research_commit_remote_sha: c37d3ddd7ba396d90979386c3fe1039da3981e2a
+branch: rhemaflow/research-chat3/causal-dualmic-validation-20261111
+base_sha: 6a5fc926dbd889d8672db2791ad822c0f0c3a940
+research_commit_sha: a8bde983dafaa1a82e66a40ced287adb22e43189
+research_commit_remote_sha: a8bde983dafaa1a82e66a40ced287adb22e43189
 research_commit_verification: PUSH_VERIFIED
 metadata_commit: this commit (GIT_PUSH.txt only)
 note: a commit cannot contain its own SHA; the branch head verified at report time
-      is printed in the chat and equals `git ls-remote origin refs/heads/rhemaflow/research-chat3/speaker-isolation-next-20261111`.
+      is printed in the chat and equals `git ls-remote origin refs/heads/rhemaflow/research-chat3/causal-dualmic-validation-20261111`.
 
 staged_paths:
-  research/chat3/SPEAKER_ISOLATION_STUDY.md
+  research/chat3/ORACLE_AUDIT.md
+  research/chat3/CAUSAL_BASELINES.md
+  research/chat3/REAL_GOLD_PROTOCOL.md
+  research/chat3/ACCURACY_ROADMAP.md
   research/chat3/RESULTS.md
   research/chat3/BEFORE-AFTER.md
   research/chat3/SHA256SUMS.txt
-  research/chat3/scripts/two_channel_sim.py
-  research/chat3/tests/test_two_channel_sim.py
-  research/chat3/data/two_channel_sim.csv
-  research/chat3/data/phase1_rerun.csv
-  research/chat3/data/twoch_wer.csv
-  research/chat3/data/twoch_cards.csv
-  research/chat3/data/pseudo_stream.csv
-  research/chat3/scripts/build_twoch.py
-  research/chat3/scripts/score_twoch.py
-  research/chat3/scripts/pseudo_stream.py
+  research/chat3/scripts/causal_isolation.py
+  research/chat3/scripts/score_causal.py
+  research/chat3/tests/test_causal_isolation.py
+  research/chat3/data/causal_aggregate.csv
+  research/chat3/data/causal_detail.csv
+  research/chat3/data/causal_ci.csv
+  research/chat3/data/causal_robustness.csv
+  research/chat3/data/causal_cards.csv
+  research/chat3/data/causal_delays.csv
+  research/chat3/charts/causal_wer.svg
+  research/chat3/charts/causal_robustness.svg
 
 not_committed: audio, model weights, recordings, lyrics, names, binaries, credentials
 SHA256SUMS: excludes GIT_PUSH.txt and itself (both are push metadata)
