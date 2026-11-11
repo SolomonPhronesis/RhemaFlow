@@ -1,0 +1,20 @@
+fixture,expected_edits_or_count,pass
+splits phrase into words,6,True
+unicode apostrophe kept,3,True
+numbers split,3,True
+identical -> 0 edits,0,True
+one substitution -> 1,1,True
+one deletion -> 1,1,True
+one insertion -> 1,1,True
+empty hypothesis -> deletions,2,True
+empty reference -> insertions,2,True
+S+D+I equals independent distance (200 random pairs),n/a,True
+duplicate ids rejected,n/a,True
+missing gold fails closed,n/a,True
+truncated JSONL rejected,n/a,True
+manifest mapping,n/a,True
+composite key case_id+condition,n/a,True
+empty-reference rows excluded from WER,n/a,True
+conflicting gold text rejected,n/a,True
+repeated identical gold allowed,n/a,True
+condition exclusion,n/a,True

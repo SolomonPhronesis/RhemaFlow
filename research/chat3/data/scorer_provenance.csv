@@ -1,0 +1,5 @@
+arm,n_clips,ref_words,substitutions,deletions,insertions,wer_v2_pct,published_pct,delta_pp,verdict
+B0_Q4,560,15008,1988,1862,98,26.306,26.31,-0.004,reproduced
+TINY_EN,560,15008,3091,3237,394,44.7894,44.79,-0.0006,reproduced
+QWEN17B_MLX,560,15008,2526,1017,117,24.387,24.39,-0.003,reproduced
+V3_20S_P900,560,15008,1983,1867,98,26.306,26.31,-0.004,reproduced

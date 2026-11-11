@@ -2,26 +2,24 @@
 
 ## Base
 
-* Repository: `SolomonPhronesis/RhemaFlow.git` (verified remote, SSH reachable)
-* Base commit: `5e31b98916e1886d1ede2b71f022b5deb172d10b` (`fix: register service worker for full RhemaFlow app`)
-* Branch created for this work: `rhemaflow/research-chat3/opus-lyrics-noise-20261111`
-* Isolated worktree: separate directory, clean status before the change.
+* Repository `git@github.com:SolomonPhronesis/RhemaFlow.git`, base commit `c8ad92b70c116d71cc390b09560d15b20d24e70a`.
+* Branch `rhemaflow/research-chat3/scorer-speaker-lyrics-20261111`, isolated worktree, clean status at start.
 
-## After (this commit)
+## After
 
 | Change | Detail |
 |---|---|
-| Added `research/chat3/RESULTS.md` | measured results, verdicts, reproduction |
-| Added `research/chat3/BEFORE-AFTER.md` | this file |
-| Added `research/chat3/data/*.csv` | aggregated metrics only (no audio, no raw transcripts) |
-| Added `research/chat3/scripts/*.py`, `*.sh` | reproducible harness for Opus, lyrics, cloud contract |
-| Added `research/chat3/SHA256SUMS.txt` | hashes of every committed research artifact |
-| Modified app source | **none** |
-| Deleted anything | **none** |
-| Added binaries / models / audio / lyrics | **none** |
+| `scripts/wer.py` | replaced v1 with v2: correct tokenisation, explicit ids/manifest mapping, composite keys, fail-closed coverage, S/D/I, empty-ref policy, normalised/verbatim modes |
+| `tests/test_wer.py` | new: 20 fixture/unit tests (all pass) |
+| `scripts/cloud_contract_test.py` | v2: +6 cases (versioning, stale key, crash/resume, corrupt cache) → 15/15 |
+| `scripts/lyrics_match.py` | unchanged logic; documents text-only status |
+| `data/*.csv` | added scorer provenance, fixtures, Opus rescore, card policy; refreshed contract results |
+| docs | SCORER_AUDIT.md, SPEAKER_PLAN.md, LYRICS_EVAL.md, REPLICATION_TESTS.md, RESULTS_NEXT.md, BEFORE-AFTER.md, SHA256SUMS.txt |
+| App/engine source | **unchanged** |
+| Deletions | **none** |
+| Audio/weights/lyrics/secrets/binaries | **none added** |
 
-## Why no code changes to the app
+## Why no engine change
 
-This round is evidence work: codec, lyric-matching and restore-contract behaviour plus noise robustness numbers.
-Changing the Rust engine on a 3.3 GiB-free machine, without human gold, would be an unverified production change —
-explicitly out of scope.
+The speaker work produced a negative result (no gate removes wrong cards without losing correct ones), and the
+scorer defect was tooling. Changing the Rust engine with no validated gain would be an unverified production change.

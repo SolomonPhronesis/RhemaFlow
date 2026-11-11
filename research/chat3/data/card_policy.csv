@@ -1,0 +1,21 @@
+condition,correct,wrong,review,none,policy
+clean,34,0,2,4,current gate
+music_m5,34,0,2,4,current gate
+music_0,34,0,2,4,current gate
+music_p5,34,0,2,4,current gate
+music_p10,34,0,2,4,current gate
+chatter_m5,1,0,14,25,current gate
+chatter_0,26,0,2,12,current gate
+chatter_p5,34,0,2,4,current gate
+chatter_p10,34,0,2,4,current gate
+overlap_m5,0,0,32,8,current gate
+overlap_0,11,0,8,21,current gate
+overlap_p5,33,0,2,5,current gate
+overlap_p10,33,0,2,5,current gate
+mixed_0,3,0,12,25,current gate
+music_only,0,0,0,40,current gate
+chatter_only,0,0,14,26,current gate
+silence,0,0,0,8,current gate
+ORACLE abstain overlap<=0,-11,0,,,"loses 11 correct, removes 0 wrong"
+ORACLE abstain chatter<=0,-27,0,,,"loses 27 correct, removes 0 wrong"
+ORACLE abstain overlap+chatter<=0+mixed,-41,0,,,"loses 41 correct, removes 0 wrong"
