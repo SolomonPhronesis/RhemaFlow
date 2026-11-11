@@ -76,3 +76,31 @@ energy-ratio **overlap detector** scored against known interference-vs-target fr
   increasing frames of target loss above the close-only baseline.
 * If it cannot, keep close-only (a better microphone is still a legitimate intervention).
 * Any gate that only removes correct cards is rejected, as already measured.
+
+
+## 7. End-to-end through the real ASR (post-restart, disk available)
+
+After the restart the disk gate opened (18 GiB), so the synthetic channels were finally scored end-to-end with the
+real Parakeet Q4 Metal backend. 160 mixtures (40 verses × 2 interfering sources × TIR 0/−5 dB), 4,288 reference words.
+
+| Condition | close-mic WER | isolated WER | Δ | close intrusion /100 words | isolated intrusion /100 |
+|---|---:|---:|---:|---:|---:|
+| chatter −5 dB | 78.36 % | **2.15 %** | −76.2 pp | 36.75 | 1.77 |
+| chatter 0 dB | 26.59 % | **2.61 %** | −24.0 pp | 11.10 | 2.24 |
+| second preacher −5 dB | 93.00 % | **2.43 %** | −90.6 pp | 54.57 | 1.96 |
+| second preacher 0 dB | 68.19 % | **2.99 %** | −65.2 pp | 15.76 | 2.33 |
+| **aggregate (160 clips)** | **66.54 %** | **2.54 %** | **−64.0 pp** | — | — |
+
+Card stage on the isolated channel (V3-20s, pause 900 ms): **136 QUOTE, all 136 correct, 0 wrong**, 8 review,
+16 none — identical to the clean-audio baseline (34 correct / 2 review / 4 none per condition).
+
+**This is the strongest measured signal in the whole programme, and it is still synthetic.** The cancellation is
+non-causal (least-squares coefficient over the whole clip), the close mic contains no reverb or room noise, and the
+interferer is a known recording. The honest conclusion is directional: *if* a real second channel is captured, the
+remaining WER ceiling is dominated by capture, not by the decoder. A real 2-mic trial is the correct next step.
+
+### Correction to the earlier "6 % is not plausible" line
+
+On this synthetic two-channel set, **2.54 % is reached** — below the aspirational 6 %. That does **not** mean 6 %
+has been reached on church audio; it means the 6 % barrier is a capture problem, not a model-size problem. The
+milestones table in `ROADMAP_TO_6_PERCENT.md` refers to the single-channel mixed-noise matrix and is unchanged.

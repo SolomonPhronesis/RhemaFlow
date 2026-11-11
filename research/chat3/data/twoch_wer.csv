@@ -1,0 +1,5 @@
+condition,clips,ref_words,close_wer,iso_wer,delta_pp,close_intrusion_per_100,iso_intrusion_per_100
+chatter_-5dB,40,1072,78.358,2.146,-76.212,36.75,1.77
+chatter_0dB,40,1072,26.586,2.612,-23.974,11.1,2.24
+preacher2_-5dB,40,1072,93.004,2.425,-90.579,54.57,1.96
+preacher2_0dB,40,1072,68.19,2.985,-65.205,15.76,2.33

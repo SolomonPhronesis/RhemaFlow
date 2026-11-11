@@ -20,6 +20,9 @@
 | `scripts/two_channel_sim.py` | new — synthetic 2-channel generator, delay estimation, cancellation, overlap ROC |
 | `tests/test_two_channel_sim.py` | new — 6 deterministic tests |
 | `data/two_channel_sim.csv` | new — measured synthetic results (8 clips × 2 sources × 2 TIR) |
+| `data/phase1_rerun.csv` | new — post-restart 648-clip rerun (Q4/Qwen/V3/V4) |
+| `data/twoch_wer.csv`, `data/twoch_cards.csv` | new — synthetic two-channel end-to-end WER and cards |
+| `data/pseudo_stream.csv` | new — heuristic pseudo-streaming runs on real Qwen |
 | App / engine source | **unchanged** |
 | Audio, weights, names, lyrics, secrets, binaries | **none added** |
 
