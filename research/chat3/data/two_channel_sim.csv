@@ -1,0 +1,5 @@
+source,target_to_interference_db,clips,mean_delta_sir_db,mean_residual_vs_close_db,mean_target_retention_db,mean_target_frames_lost_pct,overlap_auc
+chatter,0.0,8,11.93,-7.13,-3.07,7.24,0.99
+chatter,-5.0,8,21.88,-9.42,-2.72,7.41,0.999
+preacher2,0.0,8,12.3,-7.08,-2.93,5.35,0.956
+preacher2,-5.0,8,22.57,-9.37,-2.53,6.33,0.991

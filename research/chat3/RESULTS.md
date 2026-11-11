@@ -1,51 +1,53 @@
-# RESULTS — target-speaker isolation study (model-free stage)
+# RESULTS — post-restart speaker isolation (synthetic, model-free)
 
-**Date:** 2026-11-11 16:23–16:50 UTC · **Branch base:** `3eccb014…` (verified) · **Disk:** 662 MiB → 1.7 GiB free
-**Gate applied:** below 4 GiB → **no model inference, no corpus creation, no builds**.
+**Date:** 2026-11-11 17:07–17:40 UTC · **Disk:** 3.9 GiB free (below the 4 GiB floor) · **Swap:** 8.97 GiB
+**Reboot check:** **NOT rebooted** — `uptime` 6 days 10 h, boot 2026-11-05 06:55.
 **Verdict: `RESEARCH_GO` / `PRODUCTION_NO_GO`.**
 
-## 1. PASS — what was verified this round
+## 1. Gate and scope
+
+At 3.9 GiB the brief allows read-only inventory and light pure-Python evaluation only. No model runs, no corpus
+generation, no builds. This round therefore delivers a **synthetic two-channel simulation** (known components),
+model-free tests and documentation — clearly labelled `SYNTHETIC_SIMULATION`.
+
+## 2. PASS
 
 | Item | Result |
 |---|---|
-| Preflight (df, APFS, swap, git, remote, model paths) | **PASS** — remote verified, HEAD `3eccb014…`, models present (Q4 475 MB, Qwen 1.4 GB, Tiny 77 MB) |
-| Scorer v2 regression suite | **PASS 20/20** |
-| Stable-prefix prototype suite | **PASS 20/20** |
-| Target-gate evaluator (new, model-free) | **PASS 9/9** |
-| 648-clip audit (conditions, provenance, licences, SNR) | **PASS** — 17 conditions, 560 target / 88 control, `data/condition_manifest.csv`, `data/audio_provenance.csv` |
-| Per-condition 95 % bootstrap CIs | **PASS** — `data/baseline_ci.csv`, 56 arm×condition rows |
-| Confidence-gate sweep on saved V3 output | **PASS (negative result)** — 0.7 loses 14 correct cards, 0.8 loses 33; **0 wrong removed at every threshold** |
-| Source/experiment provenance record | **PASS** — `BEFORE-AFTER.md` |
+| Preflight (disk, APFS, swap, git, remote, processes, models) | **PASS** — remote verified, HEAD `02ec12f…`, models present, no stray model/build processes |
+| Reboot verification | **PASS** — machine was not rebooted (reported as such, not assumed) |
+| Two-channel simulation harness + tests | **PASS** — 6/6 tests |
+| Full model-free suite | **PASS 55/55** (scorer 20, streaming 20, gate 9, two-channel 6) |
+| Synthetic isolation measurement | **PASS** — ΔSIR +11.9 to +22.6 dB; target retention −2.5 to −3.1 dB; 5–7 % frames with >6 dB target loss; overlap AUC 0.956–0.999 |
 
-## 2. NOT_RUN — every acoustic arm, with the exact blocker
+## 3. NOT_RUN / NOT_AVAILABLE
 
-| Arm | Status | Blocker |
+| Item | Status | Reason |
 |---|---|---|
-| B0 single-mic baseline re-run | **NOT_RUN** | disk < 4 GiB; baseline reported from frozen transcripts, not re-run |
-| B1 close-mic | **NOT_RUN** | no lawfully recorded close-mic audio |
-| B2 two-mic | **NOT_RUN** | no simultaneously recorded 2-channel audio; synthetic duplication explicitly refused |
-| B3 overlap/foreground detector | **NOT_RUN (evaluator only)** | no audio feature pass under the floor; gate evaluator shipped and measured on saved data |
-| B4 separation / enrolment | **NOT_RUN** | no licensed separator, no consented enrolment audio, no disk headroom |
-| B5 streaming layer | **NOT_RUN** | model-free commit engine exists; no model streaming inference permitted here |
+| Real close-mic / two-channel capture | **NOT_AVAILABLE** | no such recordings exist; synthetic duplication refused |
+| ASR WER after cancellation | **NOT_RUN** | disk < 4 GiB; audio-level SIR is not WER |
+| Q4 / Qwen / Tiny model runs | **NOT_RUN** | disk gate |
+| Card recall after isolation | **NOT_RUN** | needs ASR + matcher |
+| Church WER | **BLOCKED_GOLD** | no consented human-annotated corpus |
+| `card_visible` | **NOT_MEASURED** | no supervised GUI session |
 
-## 3. BLOCKED
+## 4. What the synthetic result implies
 
-| Item | Reason |
-|---|---|
-| Church WER | `BLOCKED_GOLD` — no consented human-annotated speaker-labelled corpus |
-| Physical card visibility | `NOT_MEASURED` — no supervised GUI session; installed app is not V3/V4 |
-| 6 % target | aspirational; requires multi-mic/separation **and** in-domain adaptation |
-| Disk headroom for experiments | 1.7 GiB free; needs owner cleanup/external drive (see `DISK_RECOVERY_CANDIDATES.md`) |
-
-## 4. Deliverables
-
-`NEXT_SPEAKER_STUDY.md` (B0–B5 design, exit criteria, manifest schema, milestones) ·
-`DISK_RECOVERY_CANDIDATES.md` (read-only inventory, no deletions) · `scripts/target_gate.py` + tests ·
-`data/{condition_manifest,audio_provenance,baseline_ci,gate_sweep_648,disk_candidates}.csv` ·
-`BEFORE-AFTER.md` · `SHA256SUMS.txt` · `GIT_PUSH.txt`.
+A real two-channel capture is the only studied intervention with an effect large enough to matter
+(+12–23 dB SIR). It also demonstrates the risk: naive least-squares cancellation costs ~3 dB of target and loses
+5–7 % of frames. Any real implementation must be adaptive/causal and must be scored on target WER **and** card
+recall, not on SIR alone.
 
 ## 5. Next action
 
-Owner decision on cleanup is the single unblocker for acoustic work; the scientific next step after that is
-**B1/B2 capture** (close mic + simultaneous room mic), because every measured result says the residual error is
-competing-speaker energy, not streaming.
+1. Owner: free disk to ≥ 8 GiB (generated Chat 3 audio 377 MiB; larger gains require owner data decisions).
+2. Record 10+ sessions with a close mic **and** a simultaneous room mic, consented.
+3. Run B1/B2 with the existing frozen scorer and card metrics.
+4. Only then evaluate separation/diarisation models.
+
+## 6. Reproduction
+
+```bash
+python3 research/chat3/scripts/two_channel_sim.py "$PWD"     # writes data/two_channel_sim.csv
+python3 research/chat3/tests/test_two_channel_sim.py -v      # 6/6
+```
