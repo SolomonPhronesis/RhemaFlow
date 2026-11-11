@@ -2,24 +2,27 @@
 
 ## Base
 
-* Repository `git@github.com:SolomonPhronesis/RhemaFlow.git`, base commit `c8ad92b70c116d71cc390b09560d15b20d24e70a`.
-* Branch `rhemaflow/research-chat3/scorer-speaker-lyrics-20261111`, isolated worktree, clean status at start.
+* Repository `git@github.com:SolomonPhronesis/RhemaFlow.git`, verified head
+  `0656784b92176826c3690bad23ba9e0a320d1f2d` (previous research branch).
+* New branch `rhemaflow/research-chat3/r2t2-independent-streaming-20261111`, created from that head in the
+  existing Chat 3 research worktree (no new checkout: disk 672 MiB is below the floor).
 
 ## After
 
 | Change | Detail |
 |---|---|
-| `scripts/wer.py` | replaced v1 with v2: correct tokenisation, explicit ids/manifest mapping, composite keys, fail-closed coverage, S/D/I, empty-ref policy, normalised/verbatim modes |
-| `tests/test_wer.py` | new: 20 fixture/unit tests (all pass) |
-| `scripts/cloud_contract_test.py` | v2: +6 cases (versioning, stale key, crash/resume, corrupt cache) → 15/15 |
-| `scripts/lyrics_match.py` | unchanged logic; documents text-only status |
-| `data/*.csv` | added scorer provenance, fixtures, Opus rescore, card policy; refreshed contract results |
-| docs | SCORER_AUDIT.md, SPEAKER_PLAN.md, LYRICS_EVAL.md, REPLICATION_TESTS.md, RESULTS_NEXT.md, BEFORE-AFTER.md, SHA256SUMS.txt |
-| App/engine source | **unchanged** |
-| Deletions | **none** |
-| Audio/weights/lyrics/secrets/binaries | **none added** |
+| `R2T2_CODE_AUDIT.md` | new — blob-verified upstream audit, licence, feasibility |
+| `STREAMING_PROTOTYPE_DESIGN.md` | new — algorithm and test matrix |
+| `scripts/stable_prefix.py` | new — model-free commit engine, reply validator, card gate |
+| `tests/test_streaming.py` | new — 20 tests, all pass |
+| `BASELINE_AND_ABLATIONS.md` | new — baseline with bootstrap CIs, ablations marked blocked |
+| `ROADMAP_TO_6_PERCENT.md` | new — honest route to the aspirational target |
+| `data/baseline_ci.csv` | new — 56 arm×condition CIs |
+| `data/feasibility.csv`, `data/streaming_tests.csv` | new — matrices |
+| App / engine source | **unchanged** |
+| Deletions, audio, weights, lyrics, secrets, binaries | **none** |
 
-## Why no engine change
+## Why no model experiments
 
-The speaker work produced a negative result (no gate removes wrong cards without losing correct ones), and the
-scorer defect was tooling. Changing the Rust engine with no validated gain would be an unverified production change.
+Disk 672 MiB < 4 GiB hard floor. The brief forbids model runs, builds, corpus expansion and worktree checkouts
+under the floor; the safe work is source audit, saved-transcript analysis and model-free prototype code.

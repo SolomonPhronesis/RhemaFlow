@@ -1,0 +1,21 @@
+test,covers,result
+repeated_words_are_not_dropped_or_duplicated,repeated words,PASS
+committed_prefix_never_changes,stable prefix invariant,PASS
+punctuation_and_unicode_apostrophes,God’s vs God's,PASS
+partial_word_is_replaced_not_duplicated,partial words,PASS
+filler_is_preserved_verbatim,filler,PASS
+silence_commits_nothing,silence,PASS
+abrupt_cutoff_raises_and_keeps_committed,abrupt cutoff,PASS
+speaker_handoff_is_rejected,target-speaker handoff,PASS
+long_utterance_grows_monotonically,long audio,PASS
+holdback_values,U=0/1/2,PASS
+initial_lookahead_delays_commit,initial lookahead,PASS
+valid_reply,sidecar protocol,PASS
+malformed_json,malformed JSON,PASS
+stale_id,stale request ids,PASS
+error_reply,ok=false,PASS
+empty_text,empty text,PASS
+duplicate_card_suppressed,duplicate Bible cards,PASS
+pending_duplicate_suppressed,duplicate Bible cards,PASS
+empty_ref_ignored,empty reference,PASS
+module_has_no_audio_or_file_io,no audio leakage,PASS

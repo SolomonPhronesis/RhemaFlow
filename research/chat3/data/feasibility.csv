@@ -1,0 +1,11 @@
+option,status,blocker,notes
+Qwen base full-context,AUDIO_AVAILABLE_NOT_RUN_DISK,672 MiB free (hard floor 4 GiB),MLX weights verified real (1.4 GB model.safetensors)
+Qwen pseudo-streaming B,RUN_LOGIC_ONLY,no model inference under disk floor,stable_prefix.py + 20 tests pass
+Q4 buffered window C,NOT_RUN_DISK,needs 5/10/20 s window decodes,would need ~2-3 GB temp for window corpora
+R2T2 inference,PROHIBITED,model licence 3.4(c),no download, no weights, no teacher use
+2-channel pastor/room mic,NOT_AVAILABLE,single-channel corpus,needs separately recorded two-channel audio
+Target-speaker enrolment,NOT_AVAILABLE,no embedding model + no consented enrolment audio,-
+Diarization,NOT_AVAILABLE,transcribe-cli --diarize is moss/granite-only,Parakeet returns one segment
+Speech separation / beamforming,NOT_RUN_DISK + no model,needs licensed separator + >2 GB temp,no training from R2T2
+Confidence abstention,MEASURED_NEGATIVE,keeps 340/365 correct (7% loss),removes 0 wrong cards
+Oracle overlap abstention,MEASURED_NEGATIVE,loses 11 correct cards,removes 0 wrong cards
