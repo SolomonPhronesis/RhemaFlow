@@ -2,9 +2,10 @@ repository: git@github.com:SolomonPhronesis/RhemaFlow.git
 branch: rhemaflow/research-chat3/speaker-isolation-next-20261111
 base_sha: 02ec12faa0ae8ad247b65d26c40eb89ac0f119ce
 brief_verified_head: 3eccb01443d4ce929998bceda562d447d7341624 (ancestor of base_sha)
-research_commit_sha: recorded after push
-research_commit_remote_sha: recorded after push
-metadata_commit: this branch's final commit updates this file with the verified SHAs
+research_commit_sha: c37d3ddd7ba396d90979386c3fe1039da3981e2a
+research_commit_remote_sha: c37d3ddd7ba396d90979386c3fe1039da3981e2a
+research_commit_verification: PUSH_VERIFIED
+metadata_commit: this commit (GIT_PUSH.txt only)
 note: a commit cannot contain its own SHA; the branch head verified at report time
       is printed in the chat and equals `git ls-remote origin refs/heads/rhemaflow/research-chat3/speaker-isolation-next-20261111`.
 
@@ -16,6 +17,13 @@ staged_paths:
   research/chat3/scripts/two_channel_sim.py
   research/chat3/tests/test_two_channel_sim.py
   research/chat3/data/two_channel_sim.csv
+  research/chat3/data/phase1_rerun.csv
+  research/chat3/data/twoch_wer.csv
+  research/chat3/data/twoch_cards.csv
+  research/chat3/data/pseudo_stream.csv
+  research/chat3/scripts/build_twoch.py
+  research/chat3/scripts/score_twoch.py
+  research/chat3/scripts/pseudo_stream.py
 
 not_committed: audio, model weights, recordings, lyrics, names, binaries, credentials
 SHA256SUMS: excludes GIT_PUSH.txt and itself (both are push metadata)
