@@ -1,0 +1,5 @@
+method,delta_pp_close_minus_method,ci_low,ci_high
+room,-2772.8,-32.6,-22.7
+mix,-2353.0,-27.63,-19.59
+causal,6371.3,58.88,68.47
+oracle_ls,6399.3,59.16,68.9

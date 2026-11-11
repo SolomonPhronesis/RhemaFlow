@@ -2,31 +2,23 @@
 
 ## Base
 
-* Repository `git@github.com:SolomonPhronesis/RhemaFlow.git`.
-* Brief’s verified head `3eccb014…`; a **newer verified branch** also exists at
-  `02ec12faa0ae8ad247b65d26c40eb89ac0f119ce` (`speaker-isolation-plan-20261111`), which contains `3eccb014` plus the
-  previous round’s study. This round forks from **02ec12f** so that work is not lost; the ancestry is reported
-  explicitly rather than silently substituting bases.
-* New branch `rhemaflow/research-chat3/speaker-isolation-next-20261111`, same Chat 3 worktree (no new checkout:
-  disk 3.9 GiB).
+* Repository `git@github.com:SolomonPhronesis/RhemaFlow.git`, base head
+  `6a5fc926dbd889d8672db2791ad822c0f0c3a940` (`speaker-isolation-next-20261111`), clean worktree.
+* New branch `rhemaflow/research-chat3/causal-dualmic-validation-20261111` in the same Chat 3 worktree.
 
 ## After
 
 | Change | Detail |
 |---|---|
-| `SPEAKER_ISOLATION_STUDY.md` | new — simulation model, measured SIR/retention/AUC, hard limits |
-| `RESULTS.md` | replaced — PASS/NOT_RUN/NOT_AVAILABLE with the disk gate and reboot check |
-| `BEFORE-AFTER.md` | replaced — this list, including the base-commit discrepancy |
-| `scripts/two_channel_sim.py` | new — synthetic 2-channel generator, delay estimation, cancellation, overlap ROC |
-| `tests/test_two_channel_sim.py` | new — 6 deterministic tests |
-| `data/two_channel_sim.csv` | new — measured synthetic results (8 clips × 2 sources × 2 TIR) |
-| `data/phase1_rerun.csv` | new — post-restart 648-clip rerun (Q4/Qwen/V3/V4) |
-| `data/twoch_wer.csv`, `data/twoch_cards.csv` | new — synthetic two-channel end-to-end WER and cards |
-| `data/pseudo_stream.csv` | new — heuristic pseudo-streaming runs on real Qwen |
+| `ORACLE_AUDIT.md` | new — exactly which future samples the 2.54 % used |
+| `CAUSAL_BASELINES.md` | new — 5 methods, CIs, cards, robustness |
+| `REAL_GOLD_PROTOCOL.md` | new — acquisition/annotation protocol; `REAL_GOLD_NOT_AVAILABLE` |
+| `ACCURACY_ROADMAP.md` | new — milestones, transfer, next stage |
+| `RESULTS.md` | replaced — phase-by-phase DONE/BLOCKED table |
+| `scripts/causal_isolation.py` | new — gated causal NLMS + clean/reverb builders |
+| `scripts/score_causal.py` | new — WER, intrusion, paired bootstrap CIs |
+| `tests/test_causal_isolation.py` | new — 5 tests incl. causality proof |
+| `data/causal_*.csv` | new — aggregate, per-condition, CIs, robustness, cards |
+| `charts/causal_wer.svg`, `charts/causal_robustness.svg` | new |
 | App / engine source | **unchanged** |
 | Audio, weights, names, lyrics, secrets, binaries | **none added** |
-
-## Why no model runs
-
-Disk 3.9 GiB < 4 GiB. The brief forbids model inference and corpus generation under the floor; the simulation is
-memory-only (no audio written) and the tests are pure Python.

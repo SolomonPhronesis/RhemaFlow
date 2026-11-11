@@ -1,0 +1,4 @@
+set,clips,ref_words,wer_pct
+causal_clean,40,1072,1.586
+close_preacher_0dB(reference for reverb),40,1072,68.19
+causal_reverb_drift,40,1072,68.097
