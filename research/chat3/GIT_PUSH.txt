@@ -1,26 +1,17 @@
 repository: git@github.com:SolomonPhronesis/RhemaFlow.git
-branch: rhemaflow/research-chat3/real-speaker-validation-20261111
-base_sha: 3f06d516342e8d0cc13633bf083f552b1f9e6c2c
-research_commit_sha: f609e8f1ec2604ffecf109fdb6181ddd328ebe89
-research_commit_remote_sha: f609e8f1ec2604ffecf109fdb6181ddd328ebe89
-research_commit_verification: PUSH_VERIFIED
-metadata_commit: this commit (GIT_PUSH.txt only)
+branch: rhemaflow/research-chat3/codex-handoff-20261111
+base_sha: 2b35d064ac343411a2e37db1d072ba11d9c7bf4d
+research_commit_sha: recorded after push
+research_commit_remote_sha: recorded after push
+metadata_commit: this branch's final commit updates this file with the verified SHAs
 note: a commit cannot contain its own SHA; the branch head verified at report time
-      is printed in the chat and equals `git ls-remote origin refs/heads/rhemaflow/research-chat3/real-speaker-validation-20261111`.
+      is printed in the chat and equals `git ls-remote origin refs/heads/rhemaflow/research-chat3/codex-handoff-20261111`.
 
 staged_paths:
-  research/chat3/FORENSIC_WRONG_CARD.md
-  research/chat3/FILTER_ADVANCE.md
-  research/chat3/OPERATOR_KIT.md
-  research/chat3/RESULTS.md
-  research/chat3/BEFORE-AFTER.md
+  research/chat3/HANDOFF_CHAT3_FOR_CODEX.md
+  research/chat3/CODEX_CHAT3_START_HERE.md
+  research/chat3/scripts/build_noise_matrix.py
   research/chat3/SHA256SUMS.txt
-  research/chat3/scripts/fir_isolation.py
-  research/chat3/tests/test_fir_isolation.py
-  research/chat3/data/holdout_sdi.csv
-  research/chat3/data/tracking_tune.csv
-  research/chat3/data/gate_forensics.csv
-  research/chat3/data/guard_ratios.csv
 
 not_committed: audio, model weights, recordings, lyrics, names, binaries, credentials
 SHA256SUMS: excludes GIT_PUSH.txt and itself (both are push metadata)
