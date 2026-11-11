@@ -1,29 +1,26 @@
 repository: git@github.com:SolomonPhronesis/RhemaFlow.git
-branch: rhemaflow/research-chat3/scorer-speaker-lyrics-20261111
-base_sha: c8ad92b70c116d71cc390b09560d15b20d24e70a
-research_commit_sha: 90f6eaaf6a0207b10782dfb61a8fa65b6ac8ecce
-research_commit_remote_sha: 90f6eaaf6a0207b10782dfb61a8fa65b6ac8ecce
+branch: rhemaflow/research-chat3/r2t2-independent-streaming-20261111
+base_sha: 0656784b92176826c3690bad23ba9e0a320d1f2d
+research_commit_sha: efe407a310998c4d812972353bcae0d71407ba73
+research_commit_remote_sha: efe407a310998c4d812972353bcae0d71407ba73
 research_commit_verification: PUSH_VERIFIED
 metadata_commit: this commit (GIT_PUSH.txt only)
 note: a commit cannot contain its own SHA; the branch head verified at report time
-      is printed in the chat and equals `git ls-remote origin refs/heads/rhemaflow/research-chat3/scorer-speaker-lyrics-20261111`.
+      is printed in the chat and equals `git ls-remote origin refs/heads/rhemaflow/research-chat3/r2t2-independent-streaming-20261111`.
 
-staged_paths (research commit 90f6eaaf6a0207b10782dfb61a8fa65b6ac8ecce):
-  research/chat3/SCORER_AUDIT.md
-  research/chat3/SPEAKER_PLAN.md
-  research/chat3/LYRICS_EVAL.md
-  research/chat3/REPLICATION_TESTS.md
-  research/chat3/RESULTS_NEXT.md
+staged_paths (research commit efe407a310998c4d812972353bcae0d71407ba73):
+  research/chat3/R2T2_CODE_AUDIT.md
+  research/chat3/BASELINE_AND_ABLATIONS.md
+  research/chat3/STREAMING_PROTOTYPE_DESIGN.md
+  research/chat3/ROADMAP_TO_6_PERCENT.md
+  research/chat3/RESULTS.md
   research/chat3/BEFORE-AFTER.md
   research/chat3/SHA256SUMS.txt
-  research/chat3/scripts/wer.py
-  research/chat3/scripts/cloud_contract_test.py
-  research/chat3/tests/test_wer.py
-  research/chat3/data/scorer_provenance.csv
-  research/chat3/data/scorer_fixtures.csv
-  research/chat3/data/opus_rescore.csv
-  research/chat3/data/card_policy.csv
-  research/chat3/data/cloud_contract.csv
+  research/chat3/scripts/stable_prefix.py
+  research/chat3/tests/test_streaming.py
+  research/chat3/data/baseline_ci.csv
+  research/chat3/data/feasibility.csv
+  research/chat3/data/streaming_tests.csv
 
-not_committed: audio, model weights, raw transcripts, proprietary lyrics, names, binaries, credentials
+not_committed: audio, model weights, R2T2 checkpoints, lyrics, names, binaries, credentials
 SHA256SUMS: excludes GIT_PUSH.txt and itself (both are push metadata)
