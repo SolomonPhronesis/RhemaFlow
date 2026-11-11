@@ -1,0 +1,10 @@
+case,ok_expected,ok_actual,error,pass
+clean_restore,True,True,,True
+one_replica_corrupt_restores_from_peer,True,True,,True
+one_replica_missing_restores_from_peer,True,True,,True
+chunk_lost_everywhere_fails_closed,False,False,chunk 7 unavailable in all replicas,True
+single_good_replica_is_enough,True,True,,True
+wrong_pinned_manifest_hash_fails,False,False,manifest_sha256_mismatch,True
+tampered_manifest_on_disk_is_rejected,False,False,manifest_sha256_mismatch,True
+restored_manifest_verifies_again,True,True,,True
+truncated_chunk_falls_back_to_peer,True,True,,True

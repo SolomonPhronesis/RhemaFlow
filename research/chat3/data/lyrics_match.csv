@@ -1,0 +1,5 @@
+set,n,top1,top1_pct
+exact,40,40,100.0
+err10,40,38,95.0
+err25,40,30,75.0
+holdout_negative,2,2,100.0

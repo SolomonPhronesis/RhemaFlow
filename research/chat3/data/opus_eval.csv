@@ -1,0 +1,11 @@
+variant,kbps_effective,mb_per_2h_extrapolated,asr_wer_pct_after_roundtrip,measured_seconds
+clean PCM,221.8,199.6,1.85,160.0
+clean Opus 16k,14.6,13.1,1.85,160.0
+clean Opus 20k,18.0,16.2,1.85,160.0
+clean Opus 24k,21.5,19.4,1.85,160.0
+clean MP3 64k,56.5,50.8,1.85,160.0
+music Opus 48k,48.7,43.8,n/a (no target speech),30.0
+music Opus 64k,64.7,58.3,n/a (no target speech),30.0
+music Opus 96k,96.7,87.1,n/a (no target speech),30.0
+music MP3 96k,96.5,86.8,n/a (no target speech),30.0
+music PCM,256.0,230.4,n/a (no target speech),30.0

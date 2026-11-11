@@ -1,0 +1,6 @@
+arm,target_ref_words,edits,wer_pct,cards_correct,cards_wrong,false_words_no_target
+B0_Q4,15008,3948,26.31,0,0,804
+TINY_EN,15008,6722,44.79,0,0,975
+V3_20S_P900,15008,3948,26.31,345,0,842
+V4_20S_P900,15008,3948,26.31,345,0,842
+QWEN17B_MLX,15008,3660,24.39,0,0,839
