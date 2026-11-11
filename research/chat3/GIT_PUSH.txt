@@ -1,0 +1,27 @@
+repository: git@github.com:SolomonPhronesis/RhemaFlow.git
+branch: rhemaflow/research-chat3/scorer-speaker-lyrics-20261111
+base_sha: c8ad92b70c116d71cc390b09560d15b20d24e70a
+commit_sha: 90f6eaaf6a0207b10782dfb61a8fa65b6ac8ecce
+remote_sha: 90f6eaaf6a0207b10782dfb61a8fa65b6ac8ecce
+verification: PUSH_VERIFIED
+pushed_at_utc: 2026-11-11T15:52:35Z
+
+staged_paths:
+  research/chat3/SCORER_AUDIT.md
+  research/chat3/SPEAKER_PLAN.md
+  research/chat3/LYRICS_EVAL.md
+  research/chat3/REPLICATION_TESTS.md
+  research/chat3/RESULTS_NEXT.md
+  research/chat3/BEFORE-AFTER.md
+  research/chat3/SHA256SUMS.txt
+  research/chat3/scripts/wer.py
+  research/chat3/scripts/cloud_contract_test.py
+  research/chat3/tests/test_wer.py
+  research/chat3/data/scorer_provenance.csv
+  research/chat3/data/scorer_fixtures.csv
+  research/chat3/data/opus_rescore.csv
+  research/chat3/data/card_policy.csv
+  research/chat3/data/cloud_contract.csv
+
+not_committed: audio, model weights, raw transcripts, proprietary lyrics, names, binaries, credentials
+SHA256SUMS: excludes GIT_PUSH.txt and itself (both are push metadata)
