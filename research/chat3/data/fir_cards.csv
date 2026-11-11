@@ -1,0 +1,3 @@
+set,clips,quote,correct,wrong,review,no_card,words
+fir_holdout,40,19,19,0,8,13,779
+fir_controls,28,1,0,1,1,26,418
