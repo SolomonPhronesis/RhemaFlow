@@ -1,0 +1,20 @@
+{
+  "base_commit": "56aa411050a6490222d1ce5d8e9b55f360fe271c",
+  "baseline_model_free_tests": 153,
+  "final_model_free_tests": 167,
+  "new_tests": 14,
+  "baseline_manifest_entries_verified": 165,
+  "baseline_git_files_preserved": 167,
+  "baseline_manifest_mismatches": [],
+  "python": "3.14.5",
+  "new_asr_inference_runs": 0,
+  "new_training_runs": 0,
+  "new_model_downloads": 0,
+  "new_runtime_installs": 0,
+  "new_audio_model_uploads": 0,
+  "private_code_read_for_exchange": false,
+  "research_only_changes": true,
+  "real_church_wer_pct": null,
+  "goal_met": false,
+  "production": "PRODUCTION_NO_GO"
+}

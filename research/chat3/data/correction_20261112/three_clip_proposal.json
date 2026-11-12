@@ -1,0 +1,106 @@
+{
+  "schema": "RF_CHAT3_MINIMUM_PILOT_PROPOSAL_V1",
+  "source_base_commit": "56aa411050a6490222d1ce5d8e9b55f360fe271c",
+  "slots": [
+    {
+      "slot": "P1",
+      "pilot_role": "clean_target",
+      "actual_audio_sha256": null,
+      "access": "NOT_PROVIDED",
+      "rights": "RIGHTS_PENDING",
+      "gold": "BLOCKED_GOLD",
+      "execution": "NOT_RUN"
+    },
+    {
+      "slot": "P2",
+      "pilot_role": "codec_target",
+      "actual_audio_sha256": null,
+      "access": "NOT_PROVIDED",
+      "rights": "RIGHTS_PENDING",
+      "gold": "BLOCKED_GOLD",
+      "execution": "NOT_RUN"
+    },
+    {
+      "slot": "P3",
+      "pilot_role": "no_target",
+      "actual_audio_sha256": null,
+      "access": "NOT_PROVIDED",
+      "rights": "RIGHTS_PENDING",
+      "gold": "BLOCKED_GOLD",
+      "execution": "NOT_RUN"
+    }
+  ],
+  "models_in_order": [
+    {
+      "owner_priority": "1",
+      "model": "qwen3-asr-1.7b-en16k-4bit-embed8",
+      "family": "qwen3-asr-1.7b-base",
+      "precision": "4bit-embed8",
+      "weight_sha256": "05b7fbea3adf326c59c5d5bbdd02a0eb001308e336c880fda170108c1e450e86",
+      "tokenizer_sha256": "2659afa30ee6d5fe7d24cd86c6d09009d3fd51250b341ae1c3039334f1fb31d7",
+      "identity_evidence": "PUBLIC_BASELINE_PIN_ONLY; actual model bytes not re-read",
+      "runtime_verified": false,
+      "execution": "NOT_RUN",
+      "wer_pct": null
+    },
+    {
+      "owner_priority": "2",
+      "model": "parakeet-tdt-0.6b-v2-Q4_K_M.gguf",
+      "family": "parakeet-v2-q4",
+      "precision": "q4_k_m",
+      "weight_sha256": "4853f9653f641d376e6f7de65d73c7a34a73677704a606727bf51acc83f999f3",
+      "tokenizer_sha256": "e630be51fc35e5bc4224ca8abd2c1fc68bec11bff809c583a3bfd2b806a7f59f",
+      "identity_evidence": "PUBLIC_BASELINE_PIN_ONLY; actual model bytes not re-read",
+      "runtime_verified": false,
+      "execution": "NOT_RUN",
+      "wer_pct": null
+    },
+    {
+      "owner_priority": "3",
+      "model": "parakeet-tdt-0.6b-v2-Q8_0.gguf",
+      "family": "parakeet-v2-q8",
+      "precision": "q8_0",
+      "weight_sha256": "f0d0e99cebb6d3b83f1f7069b82b5d3c2e39a54545b0da039cb4bafd9c4e5caa",
+      "tokenizer_sha256": "e630be51fc35e5bc4224ca8abd2c1fc68bec11bff809c583a3bfd2b806a7f59f",
+      "identity_evidence": "PUBLIC_BASELINE_PIN_ONLY; actual model bytes not re-read",
+      "runtime_verified": false,
+      "execution": "NOT_RUN",
+      "wer_pct": null
+    },
+    {
+      "owner_priority": "4",
+      "model": "qwen3-asr-1.7b-en16k-bf16",
+      "family": "qwen3-asr-1.7b-base",
+      "precision": "bf16",
+      "weight_sha256": "2336d2bc828e74d6c38c0b31f91582d8518c73ac3cab496b784819d16e7b72e7",
+      "tokenizer_sha256": "2659afa30ee6d5fe7d24cd86c6d09009d3fd51250b341ae1c3039334f1fb31d7",
+      "identity_evidence": "PUBLIC_BASELINE_PIN_ONLY; actual model bytes not re-read",
+      "runtime_verified": false,
+      "execution": "NOT_RUN",
+      "wer_pct": null
+    }
+  ],
+  "model_pin_file_sha256": "3b40116292d045a1b9d8ee7e0231f1bf47d412543e4c5db40a0c7a5df79dfc84",
+  "minimum_free_bytes": 8589934592,
+  "observed_free_bytes": 2629189632,
+  "runtime": "BLOCKED_RUNTIME",
+  "active_interpreter_modules": {
+    "numpy": true,
+    "mlx": false,
+    "mlx_audio": false,
+    "qwen_asr": false,
+    "nemo": false
+  },
+  "current_eligible_real_clips": 0,
+  "asr_execution_authorized": false,
+  "asr_runs": 0,
+  "training_runs": 0,
+  "real_wer_pct": null,
+  "goal": "NOT_MET",
+  "status": [
+    "RESEARCH_GO",
+    "BLOCKED_GOLD",
+    "PRODUCTION_NO_GO"
+  ],
+  "sampling_note": "P1/P2 share one source cluster; P3 is target absent; three files cannot establish real church under-6% WER."
+}
