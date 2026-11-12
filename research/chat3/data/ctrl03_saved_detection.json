@@ -1,0 +1,17 @@
+{
+  "evidence_class": "SAVED_NEGATIVE_CONTROL",
+  "source": "FORENSIC_WRONG_CARD.md at ec025bcbe1f7272a0c67025056148a95f5e30308",
+  "case_id": "CTRL03",
+  "condition": "chatter_only",
+  "has_target": false,
+  "target_speaker_id": null,
+  "observed_speaker_id": "other_preacher",
+  "verse_id": "",
+  "text": "the children and the disobedient to the what the wisdom of the just that's what i'm trying to describe to you",
+  "card_kind": "QUOTE",
+  "card_ref": "Luke 1:17",
+  "card_confidence": 0.833,
+  "acoustic_reproduction": "BLOCKED_FIXTURE",
+  "actual_matcher_reexecution": "BLOCKED_MATCHER",
+  "purpose": "Replay and audit the recorded detection; this is not a new ASR or matcher result."
+}

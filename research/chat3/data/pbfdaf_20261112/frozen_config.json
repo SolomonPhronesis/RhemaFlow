@@ -1,0 +1,274 @@
+{
+  "evidence_class": "MODEL_FREE_SYNTHETIC",
+  "fixture_family": "procedural-v1",
+  "source_hashes": {
+    "pbfdaf.py": "b19147d7f57045d40ff2682a484ccb99f91a65edd24d6c42a9448e8758fce9de",
+    "pbfdaf_study.py": "e7cdec106a44bccf8075a3bc201eb8495e05bfb2ec4bcf326cf246acff25a575"
+  },
+  "sample_rate": 16000,
+  "duration_s": 4,
+  "tune_ids": [
+    "0021",
+    "0022",
+    "0023",
+    "0024",
+    "0025",
+    "0026",
+    "0027",
+    "0028",
+    "0029",
+    "0030"
+  ],
+  "holdout_ids": [
+    "0031",
+    "0032",
+    "0033",
+    "0034",
+    "0035",
+    "0036",
+    "0037",
+    "0038",
+    "0039",
+    "0040"
+  ],
+  "tune_cases": 40,
+  "grid": [
+    {
+      "config": {
+        "sample_rate": 16000,
+        "fft_size": 256,
+        "partitions": 4,
+        "mu": 0.15,
+        "room_ratio": 1.05,
+        "surge_ratio": 3.0,
+        "min_coherence": 0.05,
+        "prediction_budget": 0.5,
+        "max_norm": 1.5,
+        "power_floor": 1e-09,
+        "control": true
+      },
+      "mean_delta_sir_db": 0.4942987218970719,
+      "mean_target_retention_db": -0.4804316942500856,
+      "objective": 0.4942987218970719
+    },
+    {
+      "config": {
+        "sample_rate": 16000,
+        "fft_size": 256,
+        "partitions": 4,
+        "mu": 0.4,
+        "room_ratio": 1.05,
+        "surge_ratio": 3.0,
+        "min_coherence": 0.05,
+        "prediction_budget": 0.5,
+        "max_norm": 1.5,
+        "power_floor": 1e-09,
+        "control": true
+      },
+      "mean_delta_sir_db": 0.68158010894338,
+      "mean_target_retention_db": -0.6530808749509369,
+      "objective": 0.68158010894338
+    },
+    {
+      "config": {
+        "sample_rate": 16000,
+        "fft_size": 256,
+        "partitions": 8,
+        "mu": 0.15,
+        "room_ratio": 1.05,
+        "surge_ratio": 3.0,
+        "min_coherence": 0.05,
+        "prediction_budget": 0.5,
+        "max_norm": 1.5,
+        "power_floor": 1e-09,
+        "control": true
+      },
+      "mean_delta_sir_db": 0.5216804297361815,
+      "mean_target_retention_db": -0.45246762792715484,
+      "objective": 0.5216804297361815
+    },
+    {
+      "config": {
+        "sample_rate": 16000,
+        "fft_size": 256,
+        "partitions": 8,
+        "mu": 0.4,
+        "room_ratio": 1.05,
+        "surge_ratio": 3.0,
+        "min_coherence": 0.05,
+        "prediction_budget": 0.5,
+        "max_norm": 1.5,
+        "power_floor": 1e-09,
+        "control": true
+      },
+      "mean_delta_sir_db": 0.6672958061799344,
+      "mean_target_retention_db": -0.6895375133470202,
+      "objective": 0.6672958061799344
+    },
+    {
+      "config": {
+        "sample_rate": 16000,
+        "fft_size": 256,
+        "partitions": 16,
+        "mu": 0.15,
+        "room_ratio": 1.05,
+        "surge_ratio": 3.0,
+        "min_coherence": 0.05,
+        "prediction_budget": 0.5,
+        "max_norm": 1.5,
+        "power_floor": 1e-09,
+        "control": true
+      },
+      "mean_delta_sir_db": 0.4312203199391407,
+      "mean_target_retention_db": -0.3908239469603493,
+      "objective": 0.4312203199391407
+    },
+    {
+      "config": {
+        "sample_rate": 16000,
+        "fft_size": 256,
+        "partitions": 16,
+        "mu": 0.4,
+        "room_ratio": 1.05,
+        "surge_ratio": 3.0,
+        "min_coherence": 0.05,
+        "prediction_budget": 0.5,
+        "max_norm": 1.5,
+        "power_floor": 1e-09,
+        "control": true
+      },
+      "mean_delta_sir_db": 0.5544012950273121,
+      "mean_target_retention_db": -0.6306427902436182,
+      "objective": 0.5544012950273121
+    },
+    {
+      "config": {
+        "sample_rate": 16000,
+        "fft_size": 512,
+        "partitions": 4,
+        "mu": 0.15,
+        "room_ratio": 1.05,
+        "surge_ratio": 3.0,
+        "min_coherence": 0.05,
+        "prediction_budget": 0.5,
+        "max_norm": 1.5,
+        "power_floor": 1e-09,
+        "control": true
+      },
+      "mean_delta_sir_db": 0.44743459514072087,
+      "mean_target_retention_db": -0.2775823982548213,
+      "objective": 0.44743459514072087
+    },
+    {
+      "config": {
+        "sample_rate": 16000,
+        "fft_size": 512,
+        "partitions": 4,
+        "mu": 0.4,
+        "room_ratio": 1.05,
+        "surge_ratio": 3.0,
+        "min_coherence": 0.05,
+        "prediction_budget": 0.5,
+        "max_norm": 1.5,
+        "power_floor": 1e-09,
+        "control": true
+      },
+      "mean_delta_sir_db": 0.5473524777011622,
+      "mean_target_retention_db": -0.47607152421968824,
+      "objective": 0.5473524777011622
+    },
+    {
+      "config": {
+        "sample_rate": 16000,
+        "fft_size": 512,
+        "partitions": 8,
+        "mu": 0.15,
+        "room_ratio": 1.05,
+        "surge_ratio": 3.0,
+        "min_coherence": 0.05,
+        "prediction_budget": 0.5,
+        "max_norm": 1.5,
+        "power_floor": 1e-09,
+        "control": true
+      },
+      "mean_delta_sir_db": 0.3908911668839045,
+      "mean_target_retention_db": -0.25441413138407043,
+      "objective": 0.3908911668839045
+    },
+    {
+      "config": {
+        "sample_rate": 16000,
+        "fft_size": 512,
+        "partitions": 8,
+        "mu": 0.4,
+        "room_ratio": 1.05,
+        "surge_ratio": 3.0,
+        "min_coherence": 0.05,
+        "prediction_budget": 0.5,
+        "max_norm": 1.5,
+        "power_floor": 1e-09,
+        "control": true
+      },
+      "mean_delta_sir_db": 0.5173553991721763,
+      "mean_target_retention_db": -0.43348446330012297,
+      "objective": 0.5173553991721763
+    },
+    {
+      "config": {
+        "sample_rate": 16000,
+        "fft_size": 512,
+        "partitions": 16,
+        "mu": 0.15,
+        "room_ratio": 1.05,
+        "surge_ratio": 3.0,
+        "min_coherence": 0.05,
+        "prediction_budget": 0.5,
+        "max_norm": 1.5,
+        "power_floor": 1e-09,
+        "control": true
+      },
+      "mean_delta_sir_db": 0.31714158112653623,
+      "mean_target_retention_db": -0.21757281655977484,
+      "objective": 0.31714158112653623
+    },
+    {
+      "config": {
+        "sample_rate": 16000,
+        "fft_size": 512,
+        "partitions": 16,
+        "mu": 0.4,
+        "room_ratio": 1.05,
+        "surge_ratio": 3.0,
+        "min_coherence": 0.05,
+        "prediction_budget": 0.5,
+        "max_norm": 1.5,
+        "power_floor": 1e-09,
+        "control": true
+      },
+      "mean_delta_sir_db": 0.45594324495524435,
+      "mean_target_retention_db": -0.39601335806002025,
+      "objective": 0.45594324495524435
+    }
+  ],
+  "selected": {
+    "config": {
+      "sample_rate": 16000,
+      "fft_size": 256,
+      "partitions": 4,
+      "mu": 0.4,
+      "room_ratio": 1.05,
+      "surge_ratio": 3.0,
+      "min_coherence": 0.05,
+      "prediction_budget": 0.5,
+      "max_norm": 1.5,
+      "power_floor": 1e-09,
+      "control": true
+    },
+    "mean_delta_sir_db": 0.68158010894338,
+    "mean_target_retention_db": -0.6530808749509369,
+    "objective": 0.68158010894338
+  },
+  "selection_rule": "mean delta SIR + 2*min(0, mean target retention + 1 dB)",
+  "holdout_generated_before_freeze": false,
+  "no_target_controls_used_for_selection": false
+}

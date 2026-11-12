@@ -1,0 +1,239 @@
+{
+  "source_hashes_checked": 90,
+  "source_hash_issues": [],
+  "saved_aggregate_replication": [
+    {
+      "method": "close",
+      "clips": 40,
+      "ref_words": 1128,
+      "edits": 758,
+      "wer_recomputed_pct": 67.19858156028369,
+      "stored_wer_pct": 67.199,
+      "rounding_agrees": true,
+      "sdi_sum": 758,
+      "sdi_agrees": true,
+      "status": "SAVED_COUNTS_ARITHMETIC_ONLY"
+    },
+    {
+      "method": "room",
+      "clips": 40,
+      "ref_words": 1128,
+      "edits": 1041,
+      "wer_recomputed_pct": 92.2872340425532,
+      "stored_wer_pct": 92.287,
+      "rounding_agrees": true,
+      "sdi_sum": null,
+      "sdi_agrees": null,
+      "status": "SAVED_COUNTS_ARITHMETIC_ONLY"
+    },
+    {
+      "method": "mix",
+      "clips": 40,
+      "ref_words": 1128,
+      "edits": 948,
+      "wer_recomputed_pct": 84.04255319148936,
+      "stored_wer_pct": 84.043,
+      "rounding_agrees": true,
+      "sdi_sum": null,
+      "sdi_agrees": null,
+      "status": "SAVED_COUNTS_ARITHMETIC_ONLY"
+    },
+    {
+      "method": "scalar",
+      "clips": 40,
+      "ref_words": 1128,
+      "edits": 465,
+      "wer_recomputed_pct": 41.223404255319146,
+      "stored_wer_pct": 41.223,
+      "rounding_agrees": true,
+      "sdi_sum": 465,
+      "sdi_agrees": true,
+      "status": "SAVED_COUNTS_ARITHMETIC_ONLY"
+    },
+    {
+      "method": "fir",
+      "clips": 40,
+      "ref_words": 1128,
+      "edits": 585,
+      "wer_recomputed_pct": 51.861702127659576,
+      "stored_wer_pct": 51.862,
+      "rounding_agrees": true,
+      "sdi_sum": 585,
+      "sdi_agrees": true,
+      "status": "SAVED_COUNTS_ARITHMETIC_ONLY"
+    },
+    {
+      "method": "fir_dt",
+      "clips": 40,
+      "ref_words": 1128,
+      "edits": 616,
+      "wer_recomputed_pct": 54.60992907801418,
+      "stored_wer_pct": 54.61,
+      "rounding_agrees": true,
+      "sdi_sum": 616,
+      "sdi_agrees": true,
+      "status": "SAVED_COUNTS_ARITHMETIC_ONLY"
+    }
+  ],
+  "saved_single_channel_replication": [
+    {
+      "arm": "B0_Q4",
+      "clips": 560,
+      "ref_words": 15008,
+      "edits": 3948,
+      "wer_recomputed_pct": 26.30597014925373,
+      "stored_wer_pct": 26.306,
+      "status": "SAVED_COUNTS_ARITHMETIC_ONLY"
+    },
+    {
+      "arm": "TINY_EN",
+      "clips": 560,
+      "ref_words": 15008,
+      "edits": 6722,
+      "wer_recomputed_pct": 44.78944562899787,
+      "stored_wer_pct": 44.7894,
+      "status": "SAVED_COUNTS_ARITHMETIC_ONLY"
+    },
+    {
+      "arm": "QWEN17B_MLX",
+      "clips": 560,
+      "ref_words": 15008,
+      "edits": 3660,
+      "wer_recomputed_pct": 24.386993603411515,
+      "stored_wer_pct": 24.387,
+      "status": "SAVED_COUNTS_ARITHMETIC_ONLY"
+    },
+    {
+      "arm": "V3_20S_P900",
+      "clips": 560,
+      "ref_words": 15008,
+      "edits": 3948,
+      "wer_recomputed_pct": 26.30597014925373,
+      "stored_wer_pct": 26.306,
+      "status": "SAVED_COUNTS_ARITHMETIC_ONLY"
+    }
+  ],
+  "stored_ci_only_not_recomputed": [
+    {
+      "method": "room",
+      "delta_pp": "-25.088",
+      "ci_low": "-34.54",
+      "ci_high": "-16.59"
+    },
+    {
+      "method": "mix",
+      "delta_pp": "-16.844",
+      "ci_low": "-23.53",
+      "ci_high": "-10.97"
+    },
+    {
+      "method": "scalar",
+      "delta_pp": "25.976",
+      "ci_low": "17.37",
+      "ci_high": "35.06"
+    },
+    {
+      "method": "fir",
+      "delta_pp": "15.337",
+      "ci_low": "7.57",
+      "ci_high": "22.96"
+    },
+    {
+      "method": "fir_dt",
+      "delta_pp": "12.589",
+      "ci_low": "5.21",
+      "ci_high": "20.55"
+    }
+  ],
+  "stored_control_counts_not_acoustically_rerun": [
+    {
+      "set": "fir_holdout",
+      "clips": "40",
+      "quote": "19",
+      "correct": "19",
+      "wrong": "0",
+      "review": "8",
+      "no_card": "13",
+      "words": "779"
+    },
+    {
+      "set": "fir_controls",
+      "clips": "28",
+      "quote": "1",
+      "correct": "0",
+      "wrong": "1",
+      "review": "1",
+      "no_card": "26",
+      "words": "418"
+    }
+  ],
+  "ctrl03_saved_detection_audit": {
+    "records": 1,
+    "correct_quotes": 0,
+    "wrong_quotes": 1,
+    "no_target_quotes": 1,
+    "review": 0,
+    "no_card": 0,
+    "words_on_no_target": 21
+  },
+  "ctrl03_confidence_threshold_08_replay": {
+    "cards_seen": 1,
+    "kept": 1,
+    "correct": 0,
+    "wrong": 1,
+    "review": 0,
+    "none": 0,
+    "correct_lost": 0,
+    "wrong_removed": 0,
+    "recall": null,
+    "precision": 0.0,
+    "total_correct": 0,
+    "total_wrong": 1
+  },
+  "actual_matcher_reexecution": "BLOCKED_MATCHER",
+  "acoustic_reproduction": "BLOCKED_FIXTURE",
+  "strict_causality_counterexamples": {
+    "legacy_scalar": {
+      "future_mutation_starts": 16079,
+      "room_lag_estimated": 48,
+      "max_past_output_difference": 1.1275919692641085,
+      "first_affected_sample": 16031,
+      "strict_source_time_prefix_pass": false
+    },
+    "legacy_fir32": {
+      "future_mutation_starts": 16079,
+      "room_lag_estimated": 48,
+      "max_past_output_difference": 0.662249429766778,
+      "first_affected_sample": 16031,
+      "strict_source_time_prefix_pass": false
+    },
+    "legacy_fir32_dt": {
+      "future_mutation_starts": 16079,
+      "room_lag_estimated": 48,
+      "max_past_output_difference": 0.662249429766778,
+      "first_affected_sample": 16031,
+      "strict_source_time_prefix_pass": false
+    },
+    "legacy_tracking": {
+      "future_mutation_starts": 16079,
+      "room_lag_estimated": 48,
+      "max_past_output_difference": 0.03961736420717677,
+      "first_affected_sample": 16031,
+      "strict_source_time_prefix_pass": false
+    },
+    "pbfdaf": {
+      "future_mutation_starts": 16079,
+      "room_lag_estimated": 48,
+      "max_past_output_difference": 2.7755575615628914e-17,
+      "first_affected_sample": null,
+      "strict_source_time_prefix_pass": true
+    },
+    "legacy_initial_calibration": {
+      "mutation_starts": 320,
+      "old_estimated_lag": 48,
+      "new_estimated_lag": 96,
+      "max_output_difference_before_mutation": 0.16806900033201133
+    }
+  },
+  "legacy_numbers_preserved_but_causal_label_disputed": true
+}

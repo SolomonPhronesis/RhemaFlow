@@ -1,0 +1,66 @@
+[
+  {
+    "suite": "test_causal_isolation.py",
+    "tests": 5,
+    "returncode": 0,
+    "wall_s": 0.2553115410009923,
+    "stdout": "",
+    "stderr": "test_clean_signal_is_preserved (__main__.CausalTests.test_clean_signal_is_preserved) ... ok\ntest_converges_toward_room_scale (__main__.CausalTests.test_converges_toward_room_scale) ... ok\ntest_delay_calibration_recovers_known_delay (__main__.CausalTests.test_delay_calibration_recovers_known_delay) ... ok\ntest_only_past_samples_are_used (__main__.CausalTests.test_only_past_samples_are_used) ... ok\ntest_reverb_room_is_harder_than_clean_room (__main__.CausalTests.test_reverb_room_is_harder_than_clean_room) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.128s\n\nOK\n"
+  },
+  {
+    "suite": "test_fir_isolation.py",
+    "tests": 6,
+    "returncode": 0,
+    "wall_s": 0.29833729099846096,
+    "stdout": "",
+    "stderr": "test_delay_estimate_is_causal_calibration (__main__.FirCausalityTests.test_delay_estimate_is_causal_calibration) ... ok\ntest_fir_reduces_residual_on_short_reverb (__main__.FirCausalityTests.test_fir_reduces_residual_on_short_reverb) ... ok\ntest_fir_stable_under_zero_input (__main__.FirCausalityTests.test_fir_stable_under_zero_input) ... ok\ntest_future_samples_do_not_change_past_output (__main__.FirCausalityTests.test_future_samples_do_not_change_past_output) ... ok\ntest_no_oracle_arguments (__main__.FirCausalityTests.test_no_oracle_arguments) ... ok\ntest_tracking_future_samples_do_not_change_past_output (__main__.FirCausalityTests.test_tracking_future_samples_do_not_change_past_output) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.198s\n\nOK\n"
+  },
+  {
+    "suite": "test_pbfdaf.py",
+    "tests": 18,
+    "returncode": 0,
+    "wall_s": 0.6501780830003554,
+    "stdout": "",
+    "stderr": "test_bad_config_is_rejected (__main__.PBFDAFTests.test_bad_config_is_rejected) ... ok\ntest_bad_inputs_are_rejected_before_state_change (__main__.PBFDAFTests.test_bad_inputs_are_rejected_before_state_change) ... ok\ntest_closed_stream_cannot_resume (__main__.PBFDAFTests.test_closed_stream_cannot_resume) ... ok\ntest_controlled_output_is_causal_inside_blocks (__main__.PBFDAFTests.test_controlled_output_is_causal_inside_blocks) ... ok\ntest_converges_on_known_causal_long_echo (__main__.PBFDAFTests.test_converges_on_known_causal_long_echo) ... ok\ntest_emission_waits_for_one_block (__main__.PBFDAFTests.test_emission_waits_for_one_block) ... ok\ntest_every_partial_block_prefix_is_causal (__main__.PBFDAFTests.test_every_partial_block_prefix_is_causal) ... ok\ntest_flush_is_length_preserving_and_does_not_read_future (__main__.PBFDAFTests.test_flush_is_length_preserving_and_does_not_read_future) ... ok\ntest_impulsive_input_does_not_diverge (__main__.PBFDAFTests.test_impulsive_input_does_not_diverge) ... ok\ntest_irregular_chunks_keep_exact_state (__main__.PBFDAFTests.test_irregular_chunks_keep_exact_state) ... ok\ntest_late_impulse_cannot_appear_early (__main__.PBFDAFTests.test_late_impulse_cannot_appear_early) ... ok\ntest_no_oracle_or_label_inputs (__main__.PBFDAFTests.test_no_oracle_or_label_inputs) ... ok\ntest_partitioned_output_matches_independent_linear_convolution (__main__.PBFDAFTests.test_partitioned_output_matches_independent_linear_convolution) ... ok\ntest_persistent_memory_does_not_grow_with_stream_length (__main__.PBFDAFTests.test_persistent_memory_does_not_grow_with_stream_length) ... ok\ntest_reference_free_target_is_preserved_after_adaptation (__main__.PBFDAFTests.test_reference_free_target_is_preserved_after_adaptation) ... ok\ntest_silence_has_finite_exact_zero_output (__main__.PBFDAFTests.test_silence_has_finite_exact_zero_output) ... ok\ntest_target_only_quiet_room_is_preserved (__main__.PBFDAFTests.test_target_only_quiet_room_is_preserved) ... ok\ntest_weights_remain_causal_after_updates (__main__.PBFDAFTests.test_weights_remain_causal_after_updates) ... ok\n\n----------------------------------------------------------------------\nRan 18 tests in 0.548s\n\nOK\n"
+  },
+  {
+    "suite": "test_pbfdaf_audit.py",
+    "tests": 5,
+    "returncode": 0,
+    "wall_s": 0.31236537500080885,
+    "stdout": "",
+    "stderr": "test_coverage_is_fail_closed (__main__.EvidenceAuditTests.test_coverage_is_fail_closed) ... ok\ntest_legacy_lookahead_is_detected_without_hiding_it (__main__.EvidenceAuditTests.test_legacy_lookahead_is_detected_without_hiding_it) ... ok\ntest_missing_target_annotation_is_rejected (__main__.EvidenceAuditTests.test_missing_target_annotation_is_rejected) ... ok\ntest_target_labels_and_negative_controls_are_both_retained (__main__.EvidenceAuditTests.test_target_labels_and_negative_controls_are_both_retained) ... ok\ntest_wrong_speaker_remains_wrong_even_when_verse_matches (__main__.EvidenceAuditTests.test_wrong_speaker_remains_wrong_even_when_verse_matches) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.203s\n\nOK\n"
+  },
+  {
+    "suite": "test_streaming.py",
+    "tests": 20,
+    "returncode": 0,
+    "wall_s": 0.05921816599948215,
+    "stdout": "",
+    "stderr": "test_duplicate_card_suppressed (__main__.CardGateTests.test_duplicate_card_suppressed) ... ok\ntest_empty_ref_ignored (__main__.CardGateTests.test_empty_ref_ignored) ... ok\ntest_pending_duplicate_suppressed (__main__.CardGateTests.test_pending_duplicate_suppressed) ... ok\ntest_abrupt_cutoff_raises_and_keeps_committed (__main__.CommitTests.test_abrupt_cutoff_raises_and_keeps_committed) ... ok\ntest_committed_prefix_never_changes (__main__.CommitTests.test_committed_prefix_never_changes) ... ok\ntest_filler_is_preserved_verbatim (__main__.CommitTests.test_filler_is_preserved_verbatim) ... ok\ntest_holdback_values (__main__.CommitTests.test_holdback_values) ... ok\ntest_initial_lookahead_delays_commit (__main__.CommitTests.test_initial_lookahead_delays_commit) ... ok\ntest_long_utterance_grows_monotonically (__main__.CommitTests.test_long_utterance_grows_monotonically) ... ok\ntest_partial_word_is_replaced_not_duplicated (__main__.CommitTests.test_partial_word_is_replaced_not_duplicated) ... ok\ntest_punctuation_and_unicode_apostrophes (__main__.CommitTests.test_punctuation_and_unicode_apostrophes) ... ok\ntest_repeated_words_are_not_dropped_or_duplicated (__main__.CommitTests.test_repeated_words_are_not_dropped_or_duplicated) ... ok\ntest_silence_commits_nothing (__main__.CommitTests.test_silence_commits_nothing) ... ok\ntest_speaker_handoff_is_rejected (__main__.CommitTests.test_speaker_handoff_is_rejected) ... ok\ntest_module_has_no_audio_or_file_io (__main__.NoAudioLeakageTests.test_module_has_no_audio_or_file_io) ... ok\ntest_empty_text (__main__.ProtocolTests.test_empty_text) ... ok\ntest_error_reply (__main__.ProtocolTests.test_error_reply) ... ok\ntest_malformed_json (__main__.ProtocolTests.test_malformed_json) ... ok\ntest_stale_id (__main__.ProtocolTests.test_stale_id) ... ok\ntest_valid_reply (__main__.ProtocolTests.test_valid_reply) ... ok\n\n----------------------------------------------------------------------\nRan 20 tests in 0.008s\n\nOK\n"
+  },
+  {
+    "suite": "test_target_gate.py",
+    "tests": 9,
+    "returncode": 0,
+    "wall_s": 0.05213854199973866,
+    "stdout": "",
+    "stderr": "test_correct (__main__.ClassifyTests.test_correct) ... ok\ntest_quote_without_ref_is_review (__main__.ClassifyTests.test_quote_without_ref_is_review) ... ok\ntest_review_and_none (__main__.ClassifyTests.test_review_and_none) ... ok\ntest_wrong (__main__.ClassifyTests.test_wrong) ... ok\ntest_gate_below_all_keeps_everything (__main__.GateTests.test_gate_below_all_keeps_everything) ... ok\ntest_gate_removes_wrong_only_when_below_threshold (__main__.GateTests.test_gate_removes_wrong_only_when_below_threshold) ... ok\ntest_no_cards_precision_is_none (__main__.GateTests.test_no_cards_precision_is_none) ... ok\ntest_sweep_shape (__main__.GateTests.test_sweep_shape) ... ok\ntest_ungated (__main__.GateTests.test_ungated) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 0.000s\n\nOK\n"
+  },
+  {
+    "suite": "test_two_channel_sim.py",
+    "tests": 6,
+    "returncode": 0,
+    "wall_s": 0.22468741700140527,
+    "stdout": "",
+    "stderr": "test_cancellation_improves_sir (__main__.CancelTests.test_cancellation_improves_sir) ... ok\ntest_target_is_not_erased (__main__.CancelTests.test_target_is_not_erased) ... ok\ntest_known_delay_is_recovered (__main__.DelayTests.test_known_delay_is_recovered) ... ok\ntest_rejects_wrong_sample_rate (__main__.GuardTests.test_rejects_wrong_sample_rate) ... ok\ntest_auc_high_when_interference_dominates (__main__.OverlapTests.test_auc_high_when_interference_dominates) ... ok\ntest_frame_vectors_same_length (__main__.OverlapTests.test_frame_vectors_same_length) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.129s\n\nOK\n"
+  },
+  {
+    "suite": "test_wer.py",
+    "tests": 20,
+    "returncode": 0,
+    "wall_s": 0.07211425000059535,
+    "stdout": "rows 2 used 2 coverage 100.0% ref_words 12 S/D/I 0/0/0 WER 0.0%\n  clean            n=  1 ref=    6 WER=0.0%\n  overlap_0        n=  1 ref=    6 WER=0.0%\n{\n  \"n_rows\": 2,\n  \"n_used\": 2,\n  \"n_missing_gold\": 0,\n  \"n_empty_ref\": 0,\n  \"hyp_words_on_empty_ref\": 0,\n  \"n_ref_words\": 11,\n  \"n_hyp_words\": 11,\n  \"substitutions\": 1,\n  \"deletions\": 0,\n  \"insertions\": 0,\n  \"edits\": 1,\n  \"wer_pct\": 9.0909,\n  \"coverage_pct\": 100.0,\n  \"per_condition\": {\n    \"all\": {\n      \"n\": 2,\n      \"ref_words\": 11,\n      \"edits\": 1,\n      \"wer_pct\": 9.0909\n    }\n  }\n}\nrows 1 used 1 coverage 100.0% ref_words 6 S/D/I 0/0/0 WER 0.0%\n  all              n=  1 ref=    6 WER=0.0%\nERROR: 1 transcripts have no gold row\nrows 1 used 1 coverage 100.0% ref_words 6 S/D/I 0/0/0 WER 0.0%\n  all              n=  1 ref=    6 WER=0.0%\n",
+    "stderr": "test_counts_match_independent_distance (__main__.EditCountTests.test_counts_match_independent_distance) ... ok\ntest_empty_hypothesis (__main__.EditCountTests.test_empty_hypothesis) ... ok\ntest_empty_reference (__main__.EditCountTests.test_empty_reference) ... ok\ntest_identical (__main__.EditCountTests.test_identical) ... ok\ntest_one_deletion (__main__.EditCountTests.test_one_deletion) ... ok\ntest_one_insertion (__main__.EditCountTests.test_one_insertion) ... ok\ntest_one_substitution (__main__.EditCountTests.test_one_substitution) ... ok\ntest_composite_key_allows_same_case_in_two_conditions (__main__.EndToEndTests.test_composite_key_allows_same_case_in_two_conditions) ... ok\ntest_corpus_wer (__main__.EndToEndTests.test_corpus_wer) ... ok\ntest_duplicate_ids_rejected (__main__.EndToEndTests.test_duplicate_ids_rejected) ... ok\ntest_empty_reference_excluded_from_wer_but_reported (__main__.EndToEndTests.test_empty_reference_excluded_from_wer_but_reported) ... ok\ntest_exclude_conditions (__main__.EndToEndTests.test_exclude_conditions) ... ok\ntest_manifest_mapping (__main__.EndToEndTests.test_manifest_mapping) ... ok\ntest_missing_gold_fails_closed (__main__.EndToEndTests.test_missing_gold_fails_closed) ... ok\ntest_repeated_identical_gold_rows_allowed_conflicting_rejected (__main__.EndToEndTests.test_repeated_identical_gold_rows_allowed_conflicting_rejected) ... ok\ntest_truncated_jsonl_rejected (__main__.EndToEndTests.test_truncated_jsonl_rejected) ... ok\ntest_numbers (__main__.TokenTests.test_numbers) ... ok\ntest_splits_phrase (__main__.TokenTests.test_splits_phrase) ... ok\ntest_unicode_punctuation (__main__.TokenTests.test_unicode_punctuation) ... ok\ntest_verbatim_mode_keeps_punctuation (__main__.TokenTests.test_verbatim_mode_keeps_punctuation) ... ok\n\n----------------------------------------------------------------------\nRan 20 tests in 0.011s\n\nOK\n"
+  }
+]
