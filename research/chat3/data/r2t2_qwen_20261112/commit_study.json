@@ -1,0 +1,5294 @@
+{
+  "evidence_class": "MODEL_FREE_SYNTHETIC_TEXT",
+  "models_executed": [],
+  "source": "new authored hypothesis fixtures plus explicitly labelled saved CTRL03 text",
+  "cases_per_policy": 34,
+  "results": [
+    {
+      "policy": "baseline_revisable_text",
+      "ref_words": 24,
+      "edits": 0,
+      "words_on_no_target": 116,
+      "rejected_updates": 0,
+      "visible_prefix_rewrites": 3,
+      "target_cases": 6,
+      "other_speaker_cases": 20,
+      "silence_cases": 8,
+      "committed_final_wer_pct": 0.0,
+      "text_wrapper_cpu_ms_p50": 0.0002090018824674189,
+      "text_wrapper_cpu_ms_p95": 0.0003332534106448293,
+      "authored_timeline_matched_word_lag_ms_p50": null,
+      "authored_timeline_matched_word_lag_ms_p95": null,
+      "lag_matched_words": 0,
+      "actual_asr_latency_ms_p50": null,
+      "actual_asr_latency_ms_p95": null,
+      "asr_rtf": null,
+      "energy_joules": null,
+      "actual_wrong_cards": null,
+      "actual_correct_cards": null,
+      "cases": [
+        {
+          "case_id": "recover",
+          "has_target": true,
+          "gold": "a red cup opens now",
+          "final_text": "a red cup opens now",
+          "hypotheses": [
+            "a red cap",
+            "a red cup opens",
+            "a red cup opens now",
+            "a red cup opens now"
+          ],
+          "events": [
+            {
+              "committed_text": null,
+              "visible_text": "a red cap",
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "committed_text": null,
+              "visible_text": "a red cup opens",
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "committed_text": null,
+              "visible_text": "a red cup opens now",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "committed_text": null,
+              "visible_text": "a red cup opens now",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "stable_wrong",
+          "has_target": true,
+          "gold": "the gate is open",
+          "final_text": "the gate is open",
+          "hypotheses": [
+            "the gate is closed",
+            "the gate is closed",
+            "the gate is open",
+            "the gate is open"
+          ],
+          "events": [
+            {
+              "committed_text": null,
+              "visible_text": "the gate is closed",
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "committed_text": null,
+              "visible_text": "the gate is closed",
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "committed_text": null,
+              "visible_text": "the gate is open",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "committed_text": null,
+              "visible_text": "the gate is open",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "numbers",
+          "has_target": true,
+          "gold": "chapter three verse sixteen",
+          "final_text": "chapter three verse sixteen",
+          "hypotheses": [
+            "chapter three verse",
+            "chapter three verse",
+            "chapter three verse sixteen",
+            "chapter three verse sixteen"
+          ],
+          "events": [
+            {
+              "committed_text": null,
+              "visible_text": "chapter three verse",
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "committed_text": null,
+              "visible_text": "chapter three verse",
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "committed_text": null,
+              "visible_text": "chapter three verse sixteen",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "committed_text": null,
+              "visible_text": "chapter three verse sixteen",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "display",
+          "has_target": true,
+          "gold": "God's word remains",
+          "final_text": "God's word remains",
+          "hypotheses": [
+            "God\u2019s word",
+            "God\u2019s word",
+            "God's word remains",
+            "God's word remains"
+          ],
+          "events": [
+            {
+              "committed_text": null,
+              "visible_text": "God\u2019s word",
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "committed_text": null,
+              "visible_text": "God\u2019s word",
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "committed_text": null,
+              "visible_text": "God's word remains",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "committed_text": null,
+              "visible_text": "God's word remains",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "repeat",
+          "has_target": true,
+          "gold": "very very clear today",
+          "final_text": "very very clear today",
+          "hypotheses": [
+            "very very",
+            "very very clear",
+            "very very clear today",
+            "very very clear today"
+          ],
+          "events": [
+            {
+              "committed_text": null,
+              "visible_text": "very very",
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "committed_text": null,
+              "visible_text": "very very clear",
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "committed_text": null,
+              "visible_text": "very very clear today",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "committed_text": null,
+              "visible_text": "very very clear today",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "late",
+          "has_target": true,
+          "gold": "please read the line",
+          "final_text": "please read the line",
+          "hypotheses": [
+            "",
+            "please read",
+            "please read the line",
+            "please read the line"
+          ],
+          "events": [
+            {
+              "committed_text": null,
+              "visible_text": "",
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "committed_text": null,
+              "visible_text": "please read",
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "committed_text": null,
+              "visible_text": "please read the line",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "committed_text": null,
+              "visible_text": "please read the line",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "SAVED_CTRL03_TEXT",
+          "has_target": false,
+          "gold": "",
+          "final_text": "the children and the disobedient to the what the wisdom of the just that's what i'm trying to describe to you",
+          "hypotheses": [
+            "the children and the disobedient to the what the wisdom of the just that's what i'm trying to describe to you",
+            "the children and the disobedient to the what the wisdom of the just that's what i'm trying to describe to you",
+            "the children and the disobedient to the what the wisdom of the just that's what i'm trying to describe to you",
+            "the children and the disobedient to the what the wisdom of the just that's what i'm trying to describe to you"
+          ],
+          "events": [
+            {
+              "committed_text": null,
+              "visible_text": "the children and the disobedient to the what the wisdom of the just that's what i'm trying to describe to you",
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "committed_text": null,
+              "visible_text": "the children and the disobedient to the what the wisdom of the just that's what i'm trying to describe to you",
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "committed_text": null,
+              "visible_text": "the children and the disobedient to the what the wisdom of the just that's what i'm trying to describe to you",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "committed_text": null,
+              "visible_text": "the children and the disobedient to the what the wisdom of the just that's what i'm trying to describe to you",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER01",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER02",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER03",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER04",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER05",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER06",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER07",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER08",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER09",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER10",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER11",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER12",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER13",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER14",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER15",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER16",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER17",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER18",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER19",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "committed_text": null,
+              "visible_text": "another voice says these words",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "SILENCE01",
+          "has_target": false,
+          "gold": "",
+          "final_text": "",
+          "hypotheses": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "events": [
+            {
+              "committed_text": null,
+              "visible_text": "",
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "committed_text": null,
+              "visible_text": "",
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "committed_text": null,
+              "visible_text": "",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "committed_text": null,
+              "visible_text": "",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "SILENCE02",
+          "has_target": false,
+          "gold": "",
+          "final_text": "",
+          "hypotheses": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "events": [
+            {
+              "committed_text": null,
+              "visible_text": "",
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "committed_text": null,
+              "visible_text": "",
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "committed_text": null,
+              "visible_text": "",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "committed_text": null,
+              "visible_text": "",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "SILENCE03",
+          "has_target": false,
+          "gold": "",
+          "final_text": "",
+          "hypotheses": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "events": [
+            {
+              "committed_text": null,
+              "visible_text": "",
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "committed_text": null,
+              "visible_text": "",
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "committed_text": null,
+              "visible_text": "",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "committed_text": null,
+              "visible_text": "",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "SILENCE04",
+          "has_target": false,
+          "gold": "",
+          "final_text": "",
+          "hypotheses": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "events": [
+            {
+              "committed_text": null,
+              "visible_text": "",
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "committed_text": null,
+              "visible_text": "",
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "committed_text": null,
+              "visible_text": "",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "committed_text": null,
+              "visible_text": "",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "SILENCE05",
+          "has_target": false,
+          "gold": "",
+          "final_text": "",
+          "hypotheses": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "events": [
+            {
+              "committed_text": null,
+              "visible_text": "",
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "committed_text": null,
+              "visible_text": "",
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "committed_text": null,
+              "visible_text": "",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "committed_text": null,
+              "visible_text": "",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "SILENCE06",
+          "has_target": false,
+          "gold": "",
+          "final_text": "",
+          "hypotheses": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "events": [
+            {
+              "committed_text": null,
+              "visible_text": "",
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "committed_text": null,
+              "visible_text": "",
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "committed_text": null,
+              "visible_text": "",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "committed_text": null,
+              "visible_text": "",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "SILENCE07",
+          "has_target": false,
+          "gold": "",
+          "final_text": "",
+          "hypotheses": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "events": [
+            {
+              "committed_text": null,
+              "visible_text": "",
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "committed_text": null,
+              "visible_text": "",
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "committed_text": null,
+              "visible_text": "",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "committed_text": null,
+              "visible_text": "",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "SILENCE08",
+          "has_target": false,
+          "gold": "",
+          "final_text": "",
+          "hypotheses": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "events": [
+            {
+              "committed_text": null,
+              "visible_text": "",
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "committed_text": null,
+              "visible_text": "",
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "committed_text": null,
+              "visible_text": "",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "committed_text": null,
+              "visible_text": "",
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "policy": "local_agreement_holdback_words_0",
+      "ref_words": 24,
+      "edits": 2,
+      "words_on_no_target": 116,
+      "rejected_updates": 4,
+      "visible_prefix_rewrites": 0,
+      "target_cases": 6,
+      "other_speaker_cases": 20,
+      "silence_cases": 8,
+      "committed_final_wer_pct": 8.333333333333334,
+      "text_wrapper_cpu_ms_p50": 0.0023749962565489113,
+      "text_wrapper_cpu_ms_p95": 0.00431274929724168,
+      "authored_timeline_matched_word_lag_ms_p50": 600.0,
+      "authored_timeline_matched_word_lag_ms_p95": 989.9999999999999,
+      "lag_matched_words": 22,
+      "actual_asr_latency_ms_p50": null,
+      "actual_asr_latency_ms_p95": null,
+      "asr_rtf": null,
+      "energy_joules": null,
+      "actual_wrong_cards": null,
+      "actual_correct_cards": null,
+      "cases": [
+        {
+          "case_id": "recover",
+          "has_target": true,
+          "gold": "a red cup opens now",
+          "final_text": "a red cup opens now",
+          "hypotheses": [
+            "a red cap",
+            "a red cup opens",
+            "a red cup opens now",
+            "a red cup opens now"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "a red",
+              "delta": "a red",
+              "units_committed": 2,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "a red cup opens",
+              "delta": " cup opens",
+              "units_committed": 4,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "a red cup opens now",
+              "delta": " now",
+              "units_committed": 5,
+              "action": "EMIT",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "stable_wrong",
+          "has_target": true,
+          "gold": "the gate is open",
+          "final_text": "the gate is closed",
+          "hypotheses": [
+            "the gate is closed",
+            "the gate is closed",
+            "the gate is open",
+            "the gate is open"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "the gate is closed",
+              "delta": "the gate is closed",
+              "units_committed": 4,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "committed_text": "the gate is closed",
+              "rejected": true,
+              "reason": "hypothesis would rewrite committed prefix",
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "committed_text": "the gate is closed",
+              "rejected": true,
+              "reason": "hypothesis would rewrite committed prefix",
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "numbers",
+          "has_target": true,
+          "gold": "chapter three verse sixteen",
+          "final_text": "chapter three verse sixteen",
+          "hypotheses": [
+            "chapter three verse",
+            "chapter three verse",
+            "chapter three verse sixteen",
+            "chapter three verse sixteen"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "chapter three verse",
+              "delta": "chapter three verse",
+              "units_committed": 3,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "chapter three verse",
+              "delta": "",
+              "units_committed": 3,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "chapter three verse sixteen",
+              "delta": " sixteen",
+              "units_committed": 4,
+              "action": "EMIT",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "display",
+          "has_target": true,
+          "gold": "God's word remains",
+          "final_text": "God\u2019s word",
+          "hypotheses": [
+            "God\u2019s word",
+            "God\u2019s word",
+            "God's word remains",
+            "God's word remains"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "God\u2019s word",
+              "delta": "God\u2019s word",
+              "units_committed": 2,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "committed_text": "God\u2019s word",
+              "rejected": true,
+              "reason": "hypothesis would rewrite committed prefix",
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "committed_text": "God\u2019s word",
+              "rejected": true,
+              "reason": "hypothesis would rewrite committed prefix",
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "repeat",
+          "has_target": true,
+          "gold": "very very clear today",
+          "final_text": "very very clear today",
+          "hypotheses": [
+            "very very",
+            "very very clear",
+            "very very clear today",
+            "very very clear today"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "very very",
+              "delta": "very very",
+              "units_committed": 2,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "very very clear",
+              "delta": " clear",
+              "units_committed": 3,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "very very clear today",
+              "delta": " today",
+              "units_committed": 4,
+              "action": "EMIT",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "late",
+          "has_target": true,
+          "gold": "please read the line",
+          "final_text": "please read the line",
+          "hypotheses": [
+            "",
+            "please read",
+            "please read the line",
+            "please read the line"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "please read",
+              "delta": "please read",
+              "units_committed": 2,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "please read the line",
+              "delta": " the line",
+              "units_committed": 4,
+              "action": "EMIT",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "SAVED_CTRL03_TEXT",
+          "has_target": false,
+          "gold": "",
+          "final_text": "the children and the disobedient to the what the wisdom of the just that's what i'm trying to describe to you",
+          "hypotheses": [
+            "the children and the disobedient to the what the wisdom of the just that's what i'm trying to describe to you",
+            "the children and the disobedient to the what the wisdom of the just that's what i'm trying to describe to you",
+            "the children and the disobedient to the what the wisdom of the just that's what i'm trying to describe to you",
+            "the children and the disobedient to the what the wisdom of the just that's what i'm trying to describe to you"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "the children and the disobedient to the what the wisdom of the just that's what i'm trying to describe to you",
+              "delta": "the children and the disobedient to the what the wisdom of the just that's what i'm trying to describe to you",
+              "units_committed": 21,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "the children and the disobedient to the what the wisdom of the just that's what i'm trying to describe to you",
+              "delta": "",
+              "units_committed": 21,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "the children and the disobedient to the what the wisdom of the just that's what i'm trying to describe to you",
+              "delta": "",
+              "units_committed": 21,
+              "action": "WAIT_HEURISTIC",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER01",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "another voice says these words",
+              "delta": "another voice says these words",
+              "units_committed": 5,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "another voice says these words",
+              "delta": "",
+              "units_committed": 5,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "another voice says these words",
+              "delta": "",
+              "units_committed": 5,
+              "action": "WAIT_HEURISTIC",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER02",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "another voice says these words",
+              "delta": "another voice says these words",
+              "units_committed": 5,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "another voice says these words",
+              "delta": "",
+              "units_committed": 5,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "another voice says these words",
+              "delta": "",
+              "units_committed": 5,
+              "action": "WAIT_HEURISTIC",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER03",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "another voice says these words",
+              "delta": "another voice says these words",
+              "units_committed": 5,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "another voice says these words",
+              "delta": "",
+              "units_committed": 5,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "another voice says these words",
+              "delta": "",
+              "units_committed": 5,
+              "action": "WAIT_HEURISTIC",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER04",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "another voice says these words",
+              "delta": "another voice says these words",
+              "units_committed": 5,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "another voice says these words",
+              "delta": "",
+              "units_committed": 5,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "another voice says these words",
+              "delta": "",
+              "units_committed": 5,
+              "action": "WAIT_HEURISTIC",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER05",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "another voice says these words",
+              "delta": "another voice says these words",
+              "units_committed": 5,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "another voice says these words",
+              "delta": "",
+              "units_committed": 5,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "another voice says these words",
+              "delta": "",
+              "units_committed": 5,
+              "action": "WAIT_HEURISTIC",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER06",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "another voice says these words",
+              "delta": "another voice says these words",
+              "units_committed": 5,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "another voice says these words",
+              "delta": "",
+              "units_committed": 5,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "another voice says these words",
+              "delta": "",
+              "units_committed": 5,
+              "action": "WAIT_HEURISTIC",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER07",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "another voice says these words",
+              "delta": "another voice says these words",
+              "units_committed": 5,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "another voice says these words",
+              "delta": "",
+              "units_committed": 5,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "another voice says these words",
+              "delta": "",
+              "units_committed": 5,
+              "action": "WAIT_HEURISTIC",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER08",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "another voice says these words",
+              "delta": "another voice says these words",
+              "units_committed": 5,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "another voice says these words",
+              "delta": "",
+              "units_committed": 5,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "another voice says these words",
+              "delta": "",
+              "units_committed": 5,
+              "action": "WAIT_HEURISTIC",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER09",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "another voice says these words",
+              "delta": "another voice says these words",
+              "units_committed": 5,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "another voice says these words",
+              "delta": "",
+              "units_committed": 5,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "another voice says these words",
+              "delta": "",
+              "units_committed": 5,
+              "action": "WAIT_HEURISTIC",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER10",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "another voice says these words",
+              "delta": "another voice says these words",
+              "units_committed": 5,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "another voice says these words",
+              "delta": "",
+              "units_committed": 5,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "another voice says these words",
+              "delta": "",
+              "units_committed": 5,
+              "action": "WAIT_HEURISTIC",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER11",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "another voice says these words",
+              "delta": "another voice says these words",
+              "units_committed": 5,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "another voice says these words",
+              "delta": "",
+              "units_committed": 5,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "another voice says these words",
+              "delta": "",
+              "units_committed": 5,
+              "action": "WAIT_HEURISTIC",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER12",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "another voice says these words",
+              "delta": "another voice says these words",
+              "units_committed": 5,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "another voice says these words",
+              "delta": "",
+              "units_committed": 5,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "another voice says these words",
+              "delta": "",
+              "units_committed": 5,
+              "action": "WAIT_HEURISTIC",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER13",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "another voice says these words",
+              "delta": "another voice says these words",
+              "units_committed": 5,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "another voice says these words",
+              "delta": "",
+              "units_committed": 5,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "another voice says these words",
+              "delta": "",
+              "units_committed": 5,
+              "action": "WAIT_HEURISTIC",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER14",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "another voice says these words",
+              "delta": "another voice says these words",
+              "units_committed": 5,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "another voice says these words",
+              "delta": "",
+              "units_committed": 5,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "another voice says these words",
+              "delta": "",
+              "units_committed": 5,
+              "action": "WAIT_HEURISTIC",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER15",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "another voice says these words",
+              "delta": "another voice says these words",
+              "units_committed": 5,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "another voice says these words",
+              "delta": "",
+              "units_committed": 5,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "another voice says these words",
+              "delta": "",
+              "units_committed": 5,
+              "action": "WAIT_HEURISTIC",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER16",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "another voice says these words",
+              "delta": "another voice says these words",
+              "units_committed": 5,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "another voice says these words",
+              "delta": "",
+              "units_committed": 5,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "another voice says these words",
+              "delta": "",
+              "units_committed": 5,
+              "action": "WAIT_HEURISTIC",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER17",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "another voice says these words",
+              "delta": "another voice says these words",
+              "units_committed": 5,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "another voice says these words",
+              "delta": "",
+              "units_committed": 5,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "another voice says these words",
+              "delta": "",
+              "units_committed": 5,
+              "action": "WAIT_HEURISTIC",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER18",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "another voice says these words",
+              "delta": "another voice says these words",
+              "units_committed": 5,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "another voice says these words",
+              "delta": "",
+              "units_committed": 5,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "another voice says these words",
+              "delta": "",
+              "units_committed": 5,
+              "action": "WAIT_HEURISTIC",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER19",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "another voice says these words",
+              "delta": "another voice says these words",
+              "units_committed": 5,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "another voice says these words",
+              "delta": "",
+              "units_committed": 5,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "another voice says these words",
+              "delta": "",
+              "units_committed": 5,
+              "action": "WAIT_HEURISTIC",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "SILENCE01",
+          "has_target": false,
+          "gold": "",
+          "final_text": "",
+          "hypotheses": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "SILENCE02",
+          "has_target": false,
+          "gold": "",
+          "final_text": "",
+          "hypotheses": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "SILENCE03",
+          "has_target": false,
+          "gold": "",
+          "final_text": "",
+          "hypotheses": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "SILENCE04",
+          "has_target": false,
+          "gold": "",
+          "final_text": "",
+          "hypotheses": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "SILENCE05",
+          "has_target": false,
+          "gold": "",
+          "final_text": "",
+          "hypotheses": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "SILENCE06",
+          "has_target": false,
+          "gold": "",
+          "final_text": "",
+          "hypotheses": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "SILENCE07",
+          "has_target": false,
+          "gold": "",
+          "final_text": "",
+          "hypotheses": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "SILENCE08",
+          "has_target": false,
+          "gold": "",
+          "final_text": "",
+          "hypotheses": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "policy": "local_agreement_holdback_words_1",
+      "ref_words": 24,
+      "edits": 2,
+      "words_on_no_target": 116,
+      "rejected_updates": 2,
+      "visible_prefix_rewrites": 0,
+      "target_cases": 6,
+      "other_speaker_cases": 20,
+      "silence_cases": 8,
+      "committed_final_wer_pct": 8.333333333333334,
+      "text_wrapper_cpu_ms_p50": 0.0023750035325065255,
+      "text_wrapper_cpu_ms_p95": 0.0031672516342950985,
+      "authored_timeline_matched_word_lag_ms_p50": 800.0,
+      "authored_timeline_matched_word_lag_ms_p95": 1000.0,
+      "lag_matched_words": 22,
+      "actual_asr_latency_ms_p50": null,
+      "actual_asr_latency_ms_p95": null,
+      "asr_rtf": null,
+      "energy_joules": null,
+      "actual_wrong_cards": null,
+      "actual_correct_cards": null,
+      "cases": [
+        {
+          "case_id": "recover",
+          "has_target": true,
+          "gold": "a red cup opens now",
+          "final_text": "a red cup opens now",
+          "hypotheses": [
+            "a red cap",
+            "a red cup opens",
+            "a red cup opens now",
+            "a red cup opens now"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "a",
+              "delta": "a",
+              "units_committed": 1,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "a red cup",
+              "delta": " red cup",
+              "units_committed": 3,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "a red cup opens now",
+              "delta": " opens now",
+              "units_committed": 5,
+              "action": "EMIT",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "stable_wrong",
+          "has_target": true,
+          "gold": "the gate is open",
+          "final_text": "the gate is open",
+          "hypotheses": [
+            "the gate is closed",
+            "the gate is closed",
+            "the gate is open",
+            "the gate is open"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "the gate is",
+              "delta": "the gate is",
+              "units_committed": 3,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "the gate is",
+              "delta": "",
+              "units_committed": 3,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "the gate is open",
+              "delta": " open",
+              "units_committed": 4,
+              "action": "EMIT",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "numbers",
+          "has_target": true,
+          "gold": "chapter three verse sixteen",
+          "final_text": "chapter three verse sixteen",
+          "hypotheses": [
+            "chapter three verse",
+            "chapter three verse",
+            "chapter three verse sixteen",
+            "chapter three verse sixteen"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "chapter three",
+              "delta": "chapter three",
+              "units_committed": 2,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "chapter three",
+              "delta": "",
+              "units_committed": 2,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "chapter three verse sixteen",
+              "delta": " verse sixteen",
+              "units_committed": 4,
+              "action": "EMIT",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "display",
+          "has_target": true,
+          "gold": "God's word remains",
+          "final_text": "God\u2019s",
+          "hypotheses": [
+            "God\u2019s word",
+            "God\u2019s word",
+            "God's word remains",
+            "God's word remains"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "God\u2019s",
+              "delta": "God\u2019s",
+              "units_committed": 1,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "committed_text": "God\u2019s",
+              "rejected": true,
+              "reason": "hypothesis would rewrite committed prefix",
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "committed_text": "God\u2019s",
+              "rejected": true,
+              "reason": "hypothesis would rewrite committed prefix",
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "repeat",
+          "has_target": true,
+          "gold": "very very clear today",
+          "final_text": "very very clear today",
+          "hypotheses": [
+            "very very",
+            "very very clear",
+            "very very clear today",
+            "very very clear today"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "very",
+              "delta": "very",
+              "units_committed": 1,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "very very",
+              "delta": " very",
+              "units_committed": 2,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "very very clear today",
+              "delta": " clear today",
+              "units_committed": 4,
+              "action": "EMIT",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "late",
+          "has_target": true,
+          "gold": "please read the line",
+          "final_text": "please read the line",
+          "hypotheses": [
+            "",
+            "please read",
+            "please read the line",
+            "please read the line"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "please",
+              "delta": "please",
+              "units_committed": 1,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "please read the line",
+              "delta": " read the line",
+              "units_committed": 4,
+              "action": "EMIT",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "SAVED_CTRL03_TEXT",
+          "has_target": false,
+          "gold": "",
+          "final_text": "the children and the disobedient to the what the wisdom of the just that's what i'm trying to describe to you",
+          "hypotheses": [
+            "the children and the disobedient to the what the wisdom of the just that's what i'm trying to describe to you",
+            "the children and the disobedient to the what the wisdom of the just that's what i'm trying to describe to you",
+            "the children and the disobedient to the what the wisdom of the just that's what i'm trying to describe to you",
+            "the children and the disobedient to the what the wisdom of the just that's what i'm trying to describe to you"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "the children and the disobedient to the what the wisdom of the just that's what i'm trying to describe to",
+              "delta": "the children and the disobedient to the what the wisdom of the just that's what i'm trying to describe to",
+              "units_committed": 20,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "the children and the disobedient to the what the wisdom of the just that's what i'm trying to describe to",
+              "delta": "",
+              "units_committed": 20,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "the children and the disobedient to the what the wisdom of the just that's what i'm trying to describe to you",
+              "delta": " you",
+              "units_committed": 21,
+              "action": "EMIT",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER01",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "another voice says these",
+              "delta": "another voice says these",
+              "units_committed": 4,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "another voice says these",
+              "delta": "",
+              "units_committed": 4,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "another voice says these words",
+              "delta": " words",
+              "units_committed": 5,
+              "action": "EMIT",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER02",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "another voice says these",
+              "delta": "another voice says these",
+              "units_committed": 4,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "another voice says these",
+              "delta": "",
+              "units_committed": 4,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "another voice says these words",
+              "delta": " words",
+              "units_committed": 5,
+              "action": "EMIT",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER03",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "another voice says these",
+              "delta": "another voice says these",
+              "units_committed": 4,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "another voice says these",
+              "delta": "",
+              "units_committed": 4,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "another voice says these words",
+              "delta": " words",
+              "units_committed": 5,
+              "action": "EMIT",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER04",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "another voice says these",
+              "delta": "another voice says these",
+              "units_committed": 4,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "another voice says these",
+              "delta": "",
+              "units_committed": 4,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "another voice says these words",
+              "delta": " words",
+              "units_committed": 5,
+              "action": "EMIT",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER05",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "another voice says these",
+              "delta": "another voice says these",
+              "units_committed": 4,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "another voice says these",
+              "delta": "",
+              "units_committed": 4,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "another voice says these words",
+              "delta": " words",
+              "units_committed": 5,
+              "action": "EMIT",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER06",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "another voice says these",
+              "delta": "another voice says these",
+              "units_committed": 4,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "another voice says these",
+              "delta": "",
+              "units_committed": 4,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "another voice says these words",
+              "delta": " words",
+              "units_committed": 5,
+              "action": "EMIT",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER07",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "another voice says these",
+              "delta": "another voice says these",
+              "units_committed": 4,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "another voice says these",
+              "delta": "",
+              "units_committed": 4,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "another voice says these words",
+              "delta": " words",
+              "units_committed": 5,
+              "action": "EMIT",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER08",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "another voice says these",
+              "delta": "another voice says these",
+              "units_committed": 4,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "another voice says these",
+              "delta": "",
+              "units_committed": 4,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "another voice says these words",
+              "delta": " words",
+              "units_committed": 5,
+              "action": "EMIT",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER09",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "another voice says these",
+              "delta": "another voice says these",
+              "units_committed": 4,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "another voice says these",
+              "delta": "",
+              "units_committed": 4,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "another voice says these words",
+              "delta": " words",
+              "units_committed": 5,
+              "action": "EMIT",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER10",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "another voice says these",
+              "delta": "another voice says these",
+              "units_committed": 4,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "another voice says these",
+              "delta": "",
+              "units_committed": 4,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "another voice says these words",
+              "delta": " words",
+              "units_committed": 5,
+              "action": "EMIT",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER11",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "another voice says these",
+              "delta": "another voice says these",
+              "units_committed": 4,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "another voice says these",
+              "delta": "",
+              "units_committed": 4,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "another voice says these words",
+              "delta": " words",
+              "units_committed": 5,
+              "action": "EMIT",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER12",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "another voice says these",
+              "delta": "another voice says these",
+              "units_committed": 4,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "another voice says these",
+              "delta": "",
+              "units_committed": 4,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "another voice says these words",
+              "delta": " words",
+              "units_committed": 5,
+              "action": "EMIT",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER13",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "another voice says these",
+              "delta": "another voice says these",
+              "units_committed": 4,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "another voice says these",
+              "delta": "",
+              "units_committed": 4,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "another voice says these words",
+              "delta": " words",
+              "units_committed": 5,
+              "action": "EMIT",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER14",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "another voice says these",
+              "delta": "another voice says these",
+              "units_committed": 4,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "another voice says these",
+              "delta": "",
+              "units_committed": 4,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "another voice says these words",
+              "delta": " words",
+              "units_committed": 5,
+              "action": "EMIT",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER15",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "another voice says these",
+              "delta": "another voice says these",
+              "units_committed": 4,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "another voice says these",
+              "delta": "",
+              "units_committed": 4,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "another voice says these words",
+              "delta": " words",
+              "units_committed": 5,
+              "action": "EMIT",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER16",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "another voice says these",
+              "delta": "another voice says these",
+              "units_committed": 4,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "another voice says these",
+              "delta": "",
+              "units_committed": 4,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "another voice says these words",
+              "delta": " words",
+              "units_committed": 5,
+              "action": "EMIT",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER17",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "another voice says these",
+              "delta": "another voice says these",
+              "units_committed": 4,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "another voice says these",
+              "delta": "",
+              "units_committed": 4,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "another voice says these words",
+              "delta": " words",
+              "units_committed": 5,
+              "action": "EMIT",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER18",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "another voice says these",
+              "delta": "another voice says these",
+              "units_committed": 4,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "another voice says these",
+              "delta": "",
+              "units_committed": 4,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "another voice says these words",
+              "delta": " words",
+              "units_committed": 5,
+              "action": "EMIT",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "OTHER19",
+          "has_target": false,
+          "gold": "",
+          "final_text": "another voice says these words",
+          "hypotheses": [
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words",
+            "another voice says these words"
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "another voice says these",
+              "delta": "another voice says these",
+              "units_committed": 4,
+              "action": "EMIT",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "another voice says these",
+              "delta": "",
+              "units_committed": 4,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "another voice says these words",
+              "delta": " words",
+              "units_committed": 5,
+              "action": "EMIT",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "SILENCE01",
+          "has_target": false,
+          "gold": "",
+          "final_text": "",
+          "hypotheses": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "SILENCE02",
+          "has_target": false,
+          "gold": "",
+          "final_text": "",
+          "hypotheses": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "SILENCE03",
+          "has_target": false,
+          "gold": "",
+          "final_text": "",
+          "hypotheses": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "SILENCE04",
+          "has_target": false,
+          "gold": "",
+          "final_text": "",
+          "hypotheses": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "SILENCE05",
+          "has_target": false,
+          "gold": "",
+          "final_text": "",
+          "hypotheses": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "SILENCE06",
+          "has_target": false,
+          "gold": "",
+          "final_text": "",
+          "hypotheses": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "SILENCE07",
+          "has_target": false,
+          "gold": "",
+          "final_text": "",
+          "hypotheses": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        },
+        {
+          "case_id": "SILENCE08",
+          "has_target": false,
+          "gold": "",
+          "final_text": "",
+          "hypotheses": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "events": [
+            {
+              "request_id": 1,
+              "audio_samples": 6400,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 400
+            },
+            {
+              "request_id": 2,
+              "audio_samples": 12800,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 800
+            },
+            {
+              "request_id": 3,
+              "audio_samples": 19200,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": false,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1200
+            },
+            {
+              "request_id": 4,
+              "audio_samples": 25600,
+              "committed_text": "",
+              "delta": "",
+              "units_committed": 0,
+              "action": "WAIT_HEURISTIC",
+              "final": true,
+              "rejected": false,
+              "synthetic_audio_time_ms": 1600
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parameters_selected_on_holdout": false,
+  "actual_asr_wer": null,
+  "card_visible": "NOT_MEASURED",
+  "speaker_guard": "UNPROVEN",
+  "production": "PRODUCTION_NO_GO"
+}

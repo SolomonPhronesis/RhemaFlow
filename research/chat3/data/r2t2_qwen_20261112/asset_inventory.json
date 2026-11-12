@@ -1,0 +1,1223 @@
+{
+  "paths": [
+    {
+      "path": "/Users/solomonphronesis/Documents/deepseek-harness/default-workspace/recovery_v4_work/bench/evidence/kjv40/manifest/40_verse_gold_manifest.csv",
+      "status": "EXISTS_DENIED",
+      "detail": "Probe denied; a denied ancestor does not prove the leaf exists."
+    },
+    {
+      "path": "/Users/solomonphronesis/Documents/deepseek-harness/default-workspace/recovery_v4_work/bench/sources/music_freely_16k.wav",
+      "status": "EXISTS_DENIED",
+      "detail": "Probe denied; a denied ancestor does not prove the leaf exists."
+    },
+    {
+      "path": "/Users/solomonphronesis/Documents/deepseek-harness/default-workspace/recovery_v4_work/bench/sources/chatter_pewbeam_16k.wav",
+      "status": "EXISTS_DENIED",
+      "detail": "Probe denied; a denied ancestor does not prove the leaf exists."
+    },
+    {
+      "path": "/Users/solomonphronesis/Documents/deepseek-harness/default-workspace/recovery_v4_work/bench/sources/overlap_smartverse_16k.wav",
+      "status": "EXISTS_DENIED",
+      "detail": "Probe denied; a denied ancestor does not prove the leaf exists."
+    },
+    {
+      "path": "/Users/solomonphronesis/Documents/deepseek-harness/default-workspace/RF_CHAT3_NEXT_20261110/external/qwen_mlx_adapter.sh",
+      "status": "EXISTS_DENIED",
+      "detail": "Probe denied; a denied ancestor does not prove the leaf exists."
+    },
+    {
+      "path": "/Users/solomonphronesis/Documents/deepseek-harness/default-workspace/rounds_restart/fir",
+      "status": "EXISTS_DENIED",
+      "detail": "Probe denied; a denied ancestor does not prove the leaf exists."
+    },
+    {
+      "path": "/Users/solomonphronesis/Downloads/RhemaFlow_Personal_Chat3_Qwen_R2T2_Codex_20261112.zip",
+      "status": "NOT_FOUND"
+    },
+    {
+      "path": "/Users/solomonphronesis/Documents/deepseek-harness/default-workspace/RhemaFlow_Chat3_Real_Speaker_Validation_20261111.zip",
+      "status": "EXISTS_DENIED",
+      "detail": "Probe denied; a denied ancestor does not prove the leaf exists."
+    },
+    {
+      "path": "/Users/solomonphronesis/Documents/deepseek-harness/default-workspace/RhemaFlow_Chat3_Adaptive_FIR_Isolation_20261111.zip",
+      "status": "EXISTS_DENIED",
+      "detail": "Probe denied; a denied ancestor does not prove the leaf exists."
+    },
+    {
+      "path": "/Users/solomonphronesis/Documents/deepseek-harness/default-workspace/RhemaFlow_Chat3_Causal_DualMic_Validation_20261111.zip",
+      "status": "EXISTS_DENIED",
+      "detail": "Probe denied; a denied ancestor does not prove the leaf exists."
+    },
+    {
+      "path": "/Users/solomonphronesis/Documents/deepseek-harness/default-workspace/RhemaFlow_Chat3_PostRestart_Isolation_20261111.zip",
+      "status": "EXISTS_DENIED",
+      "detail": "Probe denied; a denied ancestor does not prove the leaf exists."
+    },
+    {
+      "path": "/Users/solomonphronesis/Documents/deepseek-harness/default-workspace/RhemaFlow_Chat3_R2T2_Streaming_Research_20261111.zip",
+      "status": "EXISTS_DENIED",
+      "detail": "Probe denied; a denied ancestor does not prove the leaf exists."
+    },
+    {
+      "path": "/Users/solomonphronesis/Documents/deepseek-harness/default-workspace/RhemaFlow_Chat3_Scorer_Speaker_Lyrics_20261111.zip",
+      "status": "EXISTS_DENIED",
+      "detail": "Probe denied; a denied ancestor does not prove the leaf exists."
+    },
+    {
+      "path": "/Users/solomonphronesis/Documents/deepseek-harness/default-workspace/RhemaFlow_Chat3_Speaker_Isolation_Plan_20261111.zip",
+      "status": "EXISTS_DENIED",
+      "detail": "Probe denied; a denied ancestor does not prove the leaf exists."
+    },
+    {
+      "path": "/Users/solomonphronesis/Downloads/RhemaFlow_Chat3_Real_Speaker_Validation_20261111.zip",
+      "status": "NOT_FOUND"
+    },
+    {
+      "path": "/Users/solomonphronesis/Downloads/RhemaFlow_Chat3_Adaptive_FIR_Isolation_20261111.zip",
+      "status": "NOT_FOUND"
+    },
+    {
+      "path": "/Users/solomonphronesis/Downloads/RhemaFlow_Chat3_Causal_DualMic_Validation_20261111.zip",
+      "status": "NOT_FOUND"
+    },
+    {
+      "path": "/Users/solomonphronesis/Downloads/RhemaFlow_Chat3_PostRestart_Isolation_20261111.zip",
+      "status": "NOT_FOUND"
+    },
+    {
+      "path": "/Users/solomonphronesis/Downloads/RhemaFlow_Chat3_R2T2_Streaming_Research_20261111.zip",
+      "status": "NOT_FOUND"
+    },
+    {
+      "path": "/Users/solomonphronesis/Downloads/RhemaFlow_Chat3_Scorer_Speaker_Lyrics_20261111.zip",
+      "status": "NOT_FOUND"
+    },
+    {
+      "path": "/Users/solomonphronesis/Downloads/RhemaFlow_Chat3_Speaker_Isolation_Plan_20261111.zip",
+      "status": "NOT_FOUND"
+    }
+  ],
+  "archives": [
+    {
+      "path": "/Users/solomonphronesis/Downloads/GLM_Chat3_Parakeet_Accents_Complete.zip",
+      "status": "FOUND_AND_READABLE",
+      "entries": 8,
+      "unsafe_paths": false,
+      "audio_entries": []
+    },
+    {
+      "path": "/Users/solomonphronesis/Downloads/RF-Chat3-Web-Package.zip",
+      "status": "FOUND_AND_READABLE",
+      "entries": 7,
+      "unsafe_paths": false,
+      "audio_entries": []
+    },
+    {
+      "path": "/Users/solomonphronesis/Downloads/RhemaFlow-Chat3-V3-Mac-Package.zip",
+      "status": "FOUND_AND_READABLE",
+      "entries": 4,
+      "unsafe_paths": false,
+      "audio_entries": []
+    },
+    {
+      "path": "/Users/solomonphronesis/Downloads/RhemaFlow_CHAT3_DeepSeek_SEPARATE_GIT_PUSH_Handoff_20261111.zip",
+      "status": "FOUND_AND_READABLE",
+      "entries": 5,
+      "unsafe_paths": false,
+      "audio_entries": []
+    },
+    {
+      "path": "/Users/solomonphronesis/Downloads/RhemaFlow_DeepSeek_CHAT3_APPROVED_CLEANUP_AND_V4_ALL_IN_ONE.zip",
+      "status": "FOUND_AND_READABLE",
+      "entries": 3,
+      "unsafe_paths": false,
+      "audio_entries": []
+    },
+    {
+      "path": "/Users/solomonphronesis/Downloads/RhemaFlow_DeepSeek_CHAT3_NEXT_V4_20S_ALL_IN_ONE.zip",
+      "status": "FOUND_AND_READABLE",
+      "entries": 4,
+      "unsafe_paths": false,
+      "audio_entries": []
+    },
+    {
+      "path": "/Users/solomonphronesis/Downloads/RhemaFlow_DeepSeek_CHAT3_RECOVERY_V4_NEXT_ALL_IN_ONE (1).zip",
+      "status": "FOUND_AND_READABLE",
+      "entries": 3,
+      "unsafe_paths": false,
+      "audio_entries": []
+    },
+    {
+      "path": "/Users/solomonphronesis/Downloads/RhemaFlow_DeepSeek_CHAT3_RECOVERY_V4_NEXT_ALL_IN_ONE.zip",
+      "status": "FOUND_AND_READABLE",
+      "entries": 3,
+      "unsafe_paths": false,
+      "audio_entries": []
+    },
+    {
+      "path": "/Users/solomonphronesis/Downloads/RhemaFlow_DeepSeek_CHAT3_SAFE_RECOVERY_NEXT_ALL_IN_ONE.zip",
+      "status": "FOUND_AND_READABLE",
+      "entries": 4,
+      "unsafe_paths": false,
+      "audio_entries": []
+    },
+    {
+      "path": "/Users/solomonphronesis/Downloads/RhemaFlow_DeepSeek_CHAT3_V3_V4_FOLLOWUP_ALL_IN_ONE.zip",
+      "status": "FOUND_AND_READABLE",
+      "entries": 4,
+      "unsafe_paths": false,
+      "audio_entries": []
+    },
+    {
+      "path": "/Users/solomonphronesis/Downloads/RhemaFlow_DeepSeek_CHAT3_V3_V4_NEXT_ALL_IN_ONE.zip",
+      "status": "FOUND_AND_READABLE",
+      "entries": 6,
+      "unsafe_paths": false,
+      "audio_entries": []
+    },
+    {
+      "path": "/Users/solomonphronesis/Downloads/RhemaFlow_DeepSeek_CHAT3_V3_V4_SOURCE_5_ROUNDS_ALL_IN_ONE.zip",
+      "status": "FOUND_AND_READABLE",
+      "entries": 15,
+      "unsafe_paths": false,
+      "audio_entries": [
+        "inputs/Smartverse_Demo.mp3"
+      ]
+    },
+    {
+      "path": "/Users/solomonphronesis/Downloads/RhemaFlow_GLM53_CHAT3_NEXT_EXECUTE_ALL_IN_ONE.zip",
+      "status": "FOUND_AND_READABLE",
+      "entries": 5,
+      "unsafe_paths": false,
+      "audio_entries": []
+    }
+  ],
+  "recovered_kjv": [
+    {
+      "archive": "/Users/solomonphronesis/Downloads/RhemaFlow_DeepSeek_CHAT3_V3_V4_NEXT_ALL_IN_ONE.zip",
+      "entry": "inputs/40_KJV_WAV_GOLD.zip",
+      "status": "FOUND_AND_READABLE",
+      "nested_zip_sha256": "e2532077d3296f486bdacabf5e132b1ab9c1cf33daf60ab5c6c8d2f80c2d5c28",
+      "gold_manifest_sha256": "20b90e207aedd08285bebbaa15394a101fa225c895edfd3fa07e8e31e5ddea55",
+      "cases": 40,
+      "unique_case_ids": 40,
+      "word_count_whitespace": 1069,
+      "word_count_existing_wer_normalizer": 1072,
+      "rights_statuses": [
+        "rights_pending"
+      ],
+      "redistribution_status": "RIGHTS_PENDING_DO_NOT_UPLOAD",
+      "asr_run": "NOT_RUN_DISK_GATE_AND_RIGHTS_PENDING",
+      "clips": [
+        {
+          "case_id": "0001",
+          "sha256": "e8acdbd6d4fa1845a51662d72b56dfdf7c6baa3614fae2f931bb7a5c0bc8dccb",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 128198,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0002",
+          "sha256": "b8508e5c378ce3d8f50c920111e385e7162df6c8349213a6c4cae08cd9d082cd",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 40875,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0003",
+          "sha256": "5d6dd6c0377ae7f1b77a13262cbcf42a0a346aab891000cd494a9bdb0404199f",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 38219,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0004",
+          "sha256": "042ed550cfdb07336b4785d26b8eaeb65568ba668db5f2a0bae9c689de673fbf",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 54491,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0005",
+          "sha256": "13756854d58273a54eb666d5df40e6aa5177b4051a6d0615d3460a83056d0073",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 54249,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0006",
+          "sha256": "4b37a5ab30c6581cbd4bed08d39a54ad906f1ba7675661c63162a3053928649d",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 122152,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0007",
+          "sha256": "84548b99401752f9d773c109cfeb29c11b74fc537fe7d128cc633caf15852390",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 14392,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0008",
+          "sha256": "f1176514e1dd8ac7f9829077d6dd281e9e2e61050f38dc2e8effb01599acf9ac",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 66230,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0009",
+          "sha256": "e281ba0899526caa21eb05c95ae4e10224e33cf7d279c47da568ebb1644b0b5c",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 142788,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0010",
+          "sha256": "9d52ae9ac721a8c0c02c7d3bddbc43e83c5ba67d429e47de953f549758f393bb",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 111892,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0011",
+          "sha256": "7104b9eb925c846b0a63255813c5f6b510eb2882cb97338117179793c5ddc106",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 196846,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0012",
+          "sha256": "54499680e7c74e0d4b27588fdaf41f2d7e898e15ad4fd8b7e9c4dbdef24805de",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 237694,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0013",
+          "sha256": "8e53a44444cb2b2b2f64b5d1260a90bf26741993241388e2d4c429b321c4d0dd",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 216542,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0014",
+          "sha256": "c8602b03c0cb09c32fa980fdee815ba60afe4450c8d29857edf650378d764ff2",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 213013,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0015",
+          "sha256": "669f80ffbca462f7dddd1fb63d89deb4a7df0cf06679d8cefb92d674e1fbfa0e",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 203348,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0016",
+          "sha256": "edd83312d68b1c215d0aa90298ce17ac6f8460649681ec3a8ef03e681c76e8f3",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 234908,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0017",
+          "sha256": "9ed164c8c04fa2e8abaa460f2a077a18782371cd024f29e12748b30e068dbb1c",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 34845,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0018",
+          "sha256": "fbf6154bdce544983f1ad4313dbe7d2d1b91da1542b88a0598f3f69621a070be",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 35427,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0019",
+          "sha256": "ba209de8672f581007d26674aeecb442df82519305e67c65461e791627e77753",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 38770,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0020",
+          "sha256": "b6c7f229ae022efa50ebb211acd2c74440381bb1fe2fa47851de3a13f28307c9",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 32269,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0021",
+          "sha256": "7d2fc0e1aba534151d7bb33788be6dc3ffe745a8508c1a5eaa8972da55555096",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 234216,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0022",
+          "sha256": "f7e8f84cc4bacccc5942e13a2852f3dce2290e4fa3a34033671fe26c440ed86a",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 150040,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0023",
+          "sha256": "61037da95ed8c32c39ed42397e9a40127ead41da85a43990b316ba85a8edd7b3",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 163762,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0024",
+          "sha256": "ff8374a445f9114a615c6a0e9fa4c465fdd293877340c0db2f86d6409b402586",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 127503,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0025",
+          "sha256": "3eca39970ef5c65ecfafa3986d17cb22da5dcaadcc85fa3e2485c53173f1cc65",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 105206,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0026",
+          "sha256": "39ab27e7659d9f7e45394ae59aa7966185e79776fc0e3fd9a27a4261de0df49e",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 100046,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0027",
+          "sha256": "604581df9029fc5ac8c5d47e7e96598896f8ee87f63f9cfe42b966f129f2b2b0",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 152988,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0028",
+          "sha256": "cbaea59ef34a0ea4a376bb2443884278ee9ad0c84ac7b8c6af8fcfb4e50505e8",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 142214,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0029",
+          "sha256": "4c8a5b1bf49e72294da50f45776935142639a682741ed5663f1bb0eb204f4426",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 162755,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0030",
+          "sha256": "33e52e6679eb5947db04bbb19e789ea39b9ae120ca07270333fe9a7fb353e05c",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 39117,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0031",
+          "sha256": "2946d4adffc2569b9fe24a9c253e444a1decb963a7e6ae2cb0e2f4fa5d9f7bd6",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 136192,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0032",
+          "sha256": "dd0e3661f324aaf33395cb2168dd59f9456376c909fa8b190a8cefb8c1a7b026",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 154686,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0033",
+          "sha256": "01729e0b5c90e43afcc8614689145ad96c4e8775f8cdabee57398599922f9830",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 66340,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0034",
+          "sha256": "1c392bb7cce1c1cb90d4d7830f01daa5ce3f98a5a9063e0e5517ec94cf0e3fad",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 139613,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0035",
+          "sha256": "31fbdf1bda43c01a939a44a787d28490bb4a370c0f3a6ecb31c55317643cf5fb",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 110263,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0036",
+          "sha256": "975583b8acff98d2eb62a64596b9a3c5731850d7fefc770a67d3709c50ebeee5",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 206402,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0037",
+          "sha256": "59f83f7cc4c8552590f3f50064e1cda7700c4d71cb43ac9d3dcb0e62324c2f6a",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 65128,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0038",
+          "sha256": "e60246bfa808b7c7c75c3bcf39807990a3350b1b3fb034948839762f5dd8d488",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 76826,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0039",
+          "sha256": "4df00311c0bbd69aa6f30e2c5c3d09b5e579b492b97bd6ed4a33158046d0390c",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 59943,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0040",
+          "sha256": "f1794e316f48347c251407968187375cd7476e923c04d89ba0eb9bfd858cdbbf",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 203379,
+          "rights_status": "rights_pending"
+        }
+      ]
+    },
+    {
+      "archive": "/Users/solomonphronesis/Downloads/RhemaFlow_DeepSeek_CHAT3_V3_V4_SOURCE_5_ROUNDS_ALL_IN_ONE.zip",
+      "entry": "inputs/40_KJV_WAV_GOLD.zip",
+      "status": "FOUND_AND_READABLE",
+      "nested_zip_sha256": "e2532077d3296f486bdacabf5e132b1ab9c1cf33daf60ab5c6c8d2f80c2d5c28",
+      "gold_manifest_sha256": "20b90e207aedd08285bebbaa15394a101fa225c895edfd3fa07e8e31e5ddea55",
+      "cases": 40,
+      "unique_case_ids": 40,
+      "word_count_whitespace": 1069,
+      "word_count_existing_wer_normalizer": 1072,
+      "rights_statuses": [
+        "rights_pending"
+      ],
+      "redistribution_status": "RIGHTS_PENDING_DO_NOT_UPLOAD",
+      "asr_run": "NOT_RUN_DISK_GATE_AND_RIGHTS_PENDING",
+      "clips": [
+        {
+          "case_id": "0001",
+          "sha256": "e8acdbd6d4fa1845a51662d72b56dfdf7c6baa3614fae2f931bb7a5c0bc8dccb",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 128198,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0002",
+          "sha256": "b8508e5c378ce3d8f50c920111e385e7162df6c8349213a6c4cae08cd9d082cd",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 40875,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0003",
+          "sha256": "5d6dd6c0377ae7f1b77a13262cbcf42a0a346aab891000cd494a9bdb0404199f",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 38219,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0004",
+          "sha256": "042ed550cfdb07336b4785d26b8eaeb65568ba668db5f2a0bae9c689de673fbf",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 54491,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0005",
+          "sha256": "13756854d58273a54eb666d5df40e6aa5177b4051a6d0615d3460a83056d0073",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 54249,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0006",
+          "sha256": "4b37a5ab30c6581cbd4bed08d39a54ad906f1ba7675661c63162a3053928649d",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 122152,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0007",
+          "sha256": "84548b99401752f9d773c109cfeb29c11b74fc537fe7d128cc633caf15852390",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 14392,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0008",
+          "sha256": "f1176514e1dd8ac7f9829077d6dd281e9e2e61050f38dc2e8effb01599acf9ac",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 66230,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0009",
+          "sha256": "e281ba0899526caa21eb05c95ae4e10224e33cf7d279c47da568ebb1644b0b5c",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 142788,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0010",
+          "sha256": "9d52ae9ac721a8c0c02c7d3bddbc43e83c5ba67d429e47de953f549758f393bb",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 111892,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0011",
+          "sha256": "7104b9eb925c846b0a63255813c5f6b510eb2882cb97338117179793c5ddc106",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 196846,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0012",
+          "sha256": "54499680e7c74e0d4b27588fdaf41f2d7e898e15ad4fd8b7e9c4dbdef24805de",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 237694,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0013",
+          "sha256": "8e53a44444cb2b2b2f64b5d1260a90bf26741993241388e2d4c429b321c4d0dd",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 216542,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0014",
+          "sha256": "c8602b03c0cb09c32fa980fdee815ba60afe4450c8d29857edf650378d764ff2",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 213013,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0015",
+          "sha256": "669f80ffbca462f7dddd1fb63d89deb4a7df0cf06679d8cefb92d674e1fbfa0e",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 203348,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0016",
+          "sha256": "edd83312d68b1c215d0aa90298ce17ac6f8460649681ec3a8ef03e681c76e8f3",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 234908,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0017",
+          "sha256": "9ed164c8c04fa2e8abaa460f2a077a18782371cd024f29e12748b30e068dbb1c",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 34845,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0018",
+          "sha256": "fbf6154bdce544983f1ad4313dbe7d2d1b91da1542b88a0598f3f69621a070be",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 35427,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0019",
+          "sha256": "ba209de8672f581007d26674aeecb442df82519305e67c65461e791627e77753",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 38770,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0020",
+          "sha256": "b6c7f229ae022efa50ebb211acd2c74440381bb1fe2fa47851de3a13f28307c9",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 32269,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0021",
+          "sha256": "7d2fc0e1aba534151d7bb33788be6dc3ffe745a8508c1a5eaa8972da55555096",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 234216,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0022",
+          "sha256": "f7e8f84cc4bacccc5942e13a2852f3dce2290e4fa3a34033671fe26c440ed86a",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 150040,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0023",
+          "sha256": "61037da95ed8c32c39ed42397e9a40127ead41da85a43990b316ba85a8edd7b3",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 163762,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0024",
+          "sha256": "ff8374a445f9114a615c6a0e9fa4c465fdd293877340c0db2f86d6409b402586",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 127503,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0025",
+          "sha256": "3eca39970ef5c65ecfafa3986d17cb22da5dcaadcc85fa3e2485c53173f1cc65",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 105206,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0026",
+          "sha256": "39ab27e7659d9f7e45394ae59aa7966185e79776fc0e3fd9a27a4261de0df49e",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 100046,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0027",
+          "sha256": "604581df9029fc5ac8c5d47e7e96598896f8ee87f63f9cfe42b966f129f2b2b0",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 152988,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0028",
+          "sha256": "cbaea59ef34a0ea4a376bb2443884278ee9ad0c84ac7b8c6af8fcfb4e50505e8",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 142214,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0029",
+          "sha256": "4c8a5b1bf49e72294da50f45776935142639a682741ed5663f1bb0eb204f4426",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 162755,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0030",
+          "sha256": "33e52e6679eb5947db04bbb19e789ea39b9ae120ca07270333fe9a7fb353e05c",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 39117,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0031",
+          "sha256": "2946d4adffc2569b9fe24a9c253e444a1decb963a7e6ae2cb0e2f4fa5d9f7bd6",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 136192,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0032",
+          "sha256": "dd0e3661f324aaf33395cb2168dd59f9456376c909fa8b190a8cefb8c1a7b026",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 154686,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0033",
+          "sha256": "01729e0b5c90e43afcc8614689145ad96c4e8775f8cdabee57398599922f9830",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 66340,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0034",
+          "sha256": "1c392bb7cce1c1cb90d4d7830f01daa5ce3f98a5a9063e0e5517ec94cf0e3fad",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 139613,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0035",
+          "sha256": "31fbdf1bda43c01a939a44a787d28490bb4a370c0f3a6ecb31c55317643cf5fb",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 110263,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0036",
+          "sha256": "975583b8acff98d2eb62a64596b9a3c5731850d7fefc770a67d3709c50ebeee5",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 206402,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0037",
+          "sha256": "59f83f7cc4c8552590f3f50064e1cda7700c4d71cb43ac9d3dcb0e62324c2f6a",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 65128,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0038",
+          "sha256": "e60246bfa808b7c7c75c3bcf39807990a3350b1b3fb034948839762f5dd8d488",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 76826,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0039",
+          "sha256": "4df00311c0bbd69aa6f30e2c5c3d09b5e579b492b97bd6ed4a33158046d0390c",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 59943,
+          "rights_status": "rights_pending"
+        },
+        {
+          "case_id": "0040",
+          "sha256": "f1794e316f48347c251407968187375cd7476e923c04d89ba0eb9bfd858cdbbf",
+          "hash_matches": true,
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_width": 2,
+          "frames": 203379,
+          "rights_status": "rights_pending"
+        }
+      ]
+    }
+  ],
+  "model_probes": [
+    {
+      "path": "/Users/solomonphronesis/Prosperous Projects/RF-H/out",
+      "status": "FOUND_AND_READABLE",
+      "is_symlink": false,
+      "resolved_path": "/Users/solomonphronesis/Prosperous Projects/RF-H/out",
+      "bytes": null,
+      "matching_entries": []
+    },
+    {
+      "path": "/Users/solomonphronesis/Prosperous Projects/RF-Personal-0936/v2models",
+      "status": "FOUND_AND_READABLE",
+      "is_symlink": false,
+      "resolved_path": "/Users/solomonphronesis/Prosperous Projects/RF-Personal-0936/v2models",
+      "bytes": null,
+      "matching_entries": [
+        {
+          "path": "/Users/solomonphronesis/Prosperous Projects/RF-Personal-0936/v2models/parakeet-tdt-0.6b-v2-Q4_K_M.gguf",
+          "status": "FOUND_AND_READABLE",
+          "is_symlink": false,
+          "resolved_path": "/Users/solomonphronesis/Prosperous Projects/RF-Personal-0936/v2models/parakeet-tdt-0.6b-v2-Q4_K_M.gguf",
+          "bytes": 475491840,
+          "sha256": "4853f9653f641d376e6f7de65d73c7a34a73677704a606727bf51acc83f999f3"
+        }
+      ]
+    },
+    {
+      "path": "/Users/solomonphronesis/.rhemaflow-models",
+      "status": "FOUND_AND_READABLE",
+      "is_symlink": false,
+      "resolved_path": "/Users/solomonphronesis/.rhemaflow-models",
+      "bytes": null,
+      "matching_entries": [
+        {
+          "path": "/Users/solomonphronesis/.rhemaflow-models/ggml-tiny.en.bin",
+          "status": "FOUND_AND_READABLE",
+          "is_symlink": false,
+          "resolved_path": "/Users/solomonphronesis/.rhemaflow-models/ggml-tiny.en.bin",
+          "bytes": 77704715,
+          "sha256": "921e4cf8686fdd993dcd081a5da5b6c365bfde1162e72b08d75ac75289920b1f"
+        }
+      ]
+    }
+  ],
+  "free_bytes": 8046137344,
+  "asr_min_free_bytes": 8589934592,
+  "asr_disk_gate_pass": false,
+  "qwen_model_precision_and_hash": [
+    {
+      "path": "/Users/solomonphronesis/Prosperous Projects/RF-H/out/RF-EN-REDUCTION-PILOT/models/qwen3-asr-1.7b-en16k-4bit",
+      "is_symlink": false,
+      "resolved_path": "/Users/solomonphronesis/Prosperous Projects/RF-H/out/RF-EN-REDUCTION-PILOT/models/qwen3-asr-1.7b-en16k-4bit",
+      "status": "FOUND_AND_READABLE",
+      "model_type": "qwen3_asr",
+      "architectures": [
+        "Qwen3ASRForConditionalGeneration"
+      ],
+      "quantization": {
+        "group_size": 64,
+        "bits": 4,
+        "mode": "affine"
+      },
+      "config_sha256": "9c7bd1f1150655891cd046130e315dc78c25f1a4d3a4d2ba421c5bf8db34059e",
+      "weights": [
+        {
+          "path": "/Users/solomonphronesis/Prosperous Projects/RF-H/out/RF-EN-REDUCTION-PILOT/models/qwen3-asr-1.7b-en16k-4bit/model.safetensors",
+          "status": "FOUND_AND_READABLE",
+          "is_symlink": false,
+          "resolved_path": "/Users/solomonphronesis/Prosperous Projects/RF-H/out/RF-EN-REDUCTION-PILOT/models/qwen3-asr-1.7b-en16k-4bit/model.safetensors",
+          "bytes": 1446925458,
+          "sha256": "9b02d98834cccb88622502cbbaeb9c66d2ee35c1a47911b137448a3377f927c0",
+          "tensor_dtypes": {
+            "BF16": 904,
+            "U32": 197
+          }
+        }
+      ],
+      "prune_manifest_sha256": "7058a685856ec8785b476ff57d80f669fae8818c8fd887b978525d9d78296814",
+      "prune_manifest_keys": [
+        "filler_tokens",
+        "measured_requirement",
+        "note",
+        "old_to_new",
+        "removed_by_script",
+        "source_checkpoint",
+        "source_revision",
+        "source_vocab_size",
+        "target_vocab_size"
+      ],
+      "local_license_file": false,
+      "inference": "NOT_RUN",
+      "format": "safetensors; mixed packed tensors for quantized variants"
+    },
+    {
+      "path": "/Users/solomonphronesis/Prosperous Projects/RF-H/out/RF-EN-REDUCTION-PILOT/models/qwen3-asr-1.7b-en16k-4bit-embed8",
+      "is_symlink": false,
+      "resolved_path": "/Users/solomonphronesis/Prosperous Projects/RF-H/out/RF-EN-REDUCTION-PILOT/models/qwen3-asr-1.7b-en16k-4bit-embed8",
+      "status": "FOUND_AND_READABLE",
+      "model_type": "qwen3_asr",
+      "architectures": [
+        "Qwen3ASRForConditionalGeneration"
+      ],
+      "quantization": {
+        "group_size": 64,
+        "bits": 4,
+        "mode": "affine",
+        "model.embed_tokens": {
+          "group_size": 64,
+          "bits": 8,
+          "mode": "affine"
+        }
+      },
+      "config_sha256": "a933f312f869d07d7e2084d128f0e055539db3f6e8f44d3735f97ae13d07da7a",
+      "weights": [
+        {
+          "path": "/Users/solomonphronesis/Prosperous Projects/RF-H/out/RF-EN-REDUCTION-PILOT/models/qwen3-asr-1.7b-en16k-4bit-embed8/model.safetensors",
+          "status": "FOUND_AND_READABLE",
+          "is_symlink": false,
+          "resolved_path": "/Users/solomonphronesis/Prosperous Projects/RF-H/out/RF-EN-REDUCTION-PILOT/models/qwen3-asr-1.7b-en16k-4bit-embed8/model.safetensors",
+          "bytes": 1463702698,
+          "sha256": "05b7fbea3adf326c59c5d5bbdd02a0eb001308e336c880fda170108c1e450e86",
+          "tensor_dtypes": {
+            "BF16": 904,
+            "U32": 197
+          }
+        }
+      ],
+      "prune_manifest_sha256": "7058a685856ec8785b476ff57d80f669fae8818c8fd887b978525d9d78296814",
+      "prune_manifest_keys": [
+        "filler_tokens",
+        "measured_requirement",
+        "note",
+        "old_to_new",
+        "removed_by_script",
+        "source_checkpoint",
+        "source_revision",
+        "source_vocab_size",
+        "target_vocab_size"
+      ],
+      "local_license_file": false,
+      "inference": "NOT_RUN",
+      "format": "safetensors; mixed packed tensors for quantized variants"
+    },
+    {
+      "path": "/Users/solomonphronesis/Prosperous Projects/RF-H/out/RF-EN-REDUCTION-PILOT/models/qwen3-asr-1.7b-en16k-bf16",
+      "is_symlink": false,
+      "resolved_path": "/Users/solomonphronesis/Prosperous Projects/RF-H/out/RF-EN-REDUCTION-PILOT/models/qwen3-asr-1.7b-en16k-bf16",
+      "status": "FOUND_AND_READABLE",
+      "model_type": "qwen3_asr",
+      "architectures": [
+        "Qwen3ASRForConditionalGeneration"
+      ],
+      "quantization": null,
+      "config_sha256": "4cf1595aea50ac9aa787409115ec08fd753b879fd4c16ffdacc6de6ed12a41f6",
+      "weights": [
+        {
+          "path": "/Users/solomonphronesis/Prosperous Projects/RF-H/out/RF-EN-REDUCTION-PILOT/models/qwen3-asr-1.7b-en16k-bf16/model.safetensors",
+          "status": "FOUND_AND_READABLE",
+          "is_symlink": false,
+          "resolved_path": "/Users/solomonphronesis/Prosperous Projects/RF-H/out/RF-EN-REDUCTION-PILOT/models/qwen3-asr-1.7b-en16k-bf16/model.safetensors",
+          "bytes": 3520970548,
+          "sha256": "2336d2bc828e74d6c38c0b31f91582d8518c73ac3cab496b784819d16e7b72e7",
+          "tensor_dtypes": {
+            "BF16": 707
+          }
+        }
+      ],
+      "prune_manifest_sha256": "7058a685856ec8785b476ff57d80f669fae8818c8fd887b978525d9d78296814",
+      "prune_manifest_keys": [
+        "filler_tokens",
+        "measured_requirement",
+        "note",
+        "old_to_new",
+        "removed_by_script",
+        "source_checkpoint",
+        "source_revision",
+        "source_vocab_size",
+        "target_vocab_size"
+      ],
+      "local_license_file": false,
+      "inference": "NOT_RUN",
+      "format": "safetensors; mixed packed tensors for quantized variants"
+    }
+  ],
+  "qwen_b_product_loop": "NOT_TESTED_NO_PRODUCT_LAUNCH",
+  "swap": "vm.swapusage: total = 2048.00M  used = 911.00M  free = 1137.00M  (encrypted)",
+  "physical_ram_bytes": 17179869184,
+  "no_audio_extracted_or_uploaded": true,
+  "no_model_loaded_or_downloaded": true
+}

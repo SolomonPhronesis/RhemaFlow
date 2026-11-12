@@ -1,0 +1,222 @@
+[
+  {
+    "upstream": "r2t2",
+    "repo": "netease-youdao/Confucius4-R2T2",
+    "commit": "72b81be7070095410b75ed2e11998e347f655218",
+    "path": "LICENSE",
+    "expected_blob": "6343ce6d9bb36beaf92af8174cc9ccd15ee9f1a4",
+    "bytes": 10963,
+    "lines": 193,
+    "sha256": "14e7c118524c62f53bbbaeacd3a1097f080a0a39e941bd00cfaace9a55fa2d24",
+    "blob_verified": true
+  },
+  {
+    "upstream": "r2t2",
+    "repo": "netease-youdao/Confucius4-R2T2",
+    "commit": "72b81be7070095410b75ed2e11998e347f655218",
+    "path": "MODEL_LICENSE",
+    "expected_blob": "7fbd11c16918aef283c559abc67efc5e1d3e5196",
+    "bytes": 11071,
+    "lines": 62,
+    "sha256": "4d9321cdad58182faa878b015de7d60069881614ddd7571de70f751a9b8e3811",
+    "blob_verified": true
+  },
+  {
+    "upstream": "r2t2",
+    "repo": "netease-youdao/Confucius4-R2T2",
+    "commit": "72b81be7070095410b75ed2e11998e347f655218",
+    "path": "README.md",
+    "expected_blob": "cdba2d56f1d75895c0eaa8c4a22b76f25832761d",
+    "bytes": 30187,
+    "lines": 579,
+    "sha256": "fb5a74eefaaa13654c8ab0cb67004b161070b9ed7da175d729162cb5f27ace1a",
+    "blob_verified": true
+  },
+  {
+    "upstream": "r2t2",
+    "repo": "netease-youdao/Confucius4-R2T2",
+    "commit": "72b81be7070095410b75ed2e11998e347f655218",
+    "path": "r2t2/r2t2_asr.py",
+    "expected_blob": "9967217b26278c27a1ffc825abf55e15b056fb2f",
+    "bytes": 35321,
+    "lines": 880,
+    "sha256": "711627d76a3ab610ba3651409e25c8358d0d874aaf07c61c51555ff84d123614",
+    "blob_verified": true
+  },
+  {
+    "upstream": "r2t2",
+    "repo": "netease-youdao/Confucius4-R2T2",
+    "commit": "72b81be7070095410b75ed2e11998e347f655218",
+    "path": "example.py",
+    "expected_blob": "d7568d76090cdf6624594f9bdaa459e5ec1a30bf",
+    "bytes": 9015,
+    "lines": 245,
+    "sha256": "02dbcbcf65d4fd0688b74f72a29a7b3912a589766f3b6f946aefb915c8b7bd69",
+    "blob_verified": true
+  },
+  {
+    "upstream": "r2t2",
+    "repo": "netease-youdao/Confucius4-R2T2",
+    "commit": "72b81be7070095410b75ed2e11998e347f655218",
+    "path": "run_example.sh",
+    "expected_blob": "82540f13ec62c861ebd2a11636929053d8847aa5",
+    "bytes": 6056,
+    "lines": 169,
+    "sha256": "2ba1650386f031546095e06c43d9608035b351a22038725185ac1e0f7db754a6",
+    "blob_verified": true
+  },
+  {
+    "upstream": "r2t2",
+    "repo": "netease-youdao/Confucius4-R2T2",
+    "commit": "72b81be7070095410b75ed2e11998e347f655218",
+    "path": "run_start_server.sh",
+    "expected_blob": "1b255b3f37756c2805405940369e379c0b18be9a",
+    "bytes": 5114,
+    "lines": 185,
+    "sha256": "0c87229293edb3415e599825b799a541e505b3efd3b59cef59d8cfc7d3daa6da",
+    "blob_verified": true
+  },
+  {
+    "upstream": "r2t2",
+    "repo": "netease-youdao/Confucius4-R2T2",
+    "commit": "72b81be7070095410b75ed2e11998e347f655218",
+    "path": "ws_server.py",
+    "expected_blob": "0845ffcf9c91c2ee5548408723806d388841e245",
+    "bytes": 57171,
+    "lines": 1281,
+    "sha256": "8e67c1c6aafee68d67861cb37b3f8e0716700d8b803cbc34502a5c55203d0e3c",
+    "blob_verified": true
+  },
+  {
+    "upstream": "r2t2",
+    "repo": "netease-youdao/Confucius4-R2T2",
+    "commit": "72b81be7070095410b75ed2e11998e347f655218",
+    "path": "ws_client.py",
+    "expected_blob": "b89087a7be5bd3cb99e0099db2651864e563062d",
+    "bytes": 6340,
+    "lines": 182,
+    "sha256": "babbad276a46c60d7979a5ad2be80682baa31eaed494969029555bb039151eef",
+    "blob_verified": true
+  },
+  {
+    "upstream": "r2t2",
+    "repo": "netease-youdao/Confucius4-R2T2",
+    "commit": "72b81be7070095410b75ed2e11998e347f655218",
+    "path": "pyproject.toml",
+    "expected_blob": "1901c92dee307c4b1b127e9faad09ca6bb9021ac",
+    "bytes": 4205,
+    "lines": 120,
+    "sha256": "99a02d0bbe188ca2716d27cfb70942851de8e41ce01c6b15c46c309a9b3638aa",
+    "blob_verified": true
+  },
+  {
+    "upstream": "r2t2",
+    "repo": "netease-youdao/Confucius4-R2T2",
+    "commit": "72b81be7070095410b75ed2e11998e347f655218",
+    "path": "r2t2_llama/README.md",
+    "expected_blob": "4fe4920d6a5f8b68f4ba9fe6c46943f96c89240c",
+    "bytes": 5018,
+    "lines": 137,
+    "sha256": "70e0861114a220e831dbc60a64ccadf83467181dadf98c6ee9d604388b67d5b0",
+    "blob_verified": true
+  },
+  {
+    "upstream": "r2t2",
+    "repo": "netease-youdao/Confucius4-R2T2",
+    "commit": "72b81be7070095410b75ed2e11998e347f655218",
+    "path": "r2t2_llama/model.py",
+    "expected_blob": "eca4cc2b3d349d81ab544a632c4f94890ee2148f",
+    "bytes": 11451,
+    "lines": 300,
+    "sha256": "07a9e1f9481ba45822048d55e1f98cf6c4c733386f0d42fa91964e45ff53eb4f",
+    "blob_verified": true
+  },
+  {
+    "upstream": "r2t2",
+    "repo": "netease-youdao/Confucius4-R2T2",
+    "commit": "72b81be7070095410b75ed2e11998e347f655218",
+    "path": "r2t2_llama/llama_native_backend.py",
+    "expected_blob": "058715a1f1b6e5faf9558c343839e62552eab54f",
+    "bytes": 16149,
+    "lines": 472,
+    "sha256": "1286a6d045c878b3454fb146d7c900de6b3bf19349699d1dfd9b750d93850ab0",
+    "blob_verified": true
+  },
+  {
+    "upstream": "r2t2",
+    "repo": "netease-youdao/Confucius4-R2T2",
+    "commit": "72b81be7070095410b75ed2e11998e347f655218",
+    "path": "r2t2_llama/native_ext.cpp",
+    "expected_blob": "508e660b881b22dacad09a2ef471e7b9890c6c63",
+    "bytes": 35337,
+    "lines": 842,
+    "sha256": "672a07ff840893256a2b254ce773ba3467a3677d8b7818f2bb535ff852f90bee",
+    "blob_verified": true
+  },
+  {
+    "upstream": "qwen",
+    "repo": "QwenLM/Qwen3-ASR",
+    "commit": "7c6daf77a2421100f5fb066495372c00129d39ff",
+    "path": "LICENSE",
+    "expected_blob": "c347eb5ec781d2702623e8e2b5923fa1a766a64d",
+    "bytes": 11343,
+    "lines": 201,
+    "sha256": "a44a6081c73ad75f0255bb2bb5cab74ef1829565a895a24e53a4f11290ab7655",
+    "blob_verified": true
+  },
+  {
+    "upstream": "qwen",
+    "repo": "QwenLM/Qwen3-ASR",
+    "commit": "7c6daf77a2421100f5fb066495372c00129d39ff",
+    "path": "README.md",
+    "expected_blob": "11cb7f061dd669e8a1024a030a7e668bd389bef3",
+    "bytes": 60537,
+    "lines": 1445,
+    "sha256": "27b5d6e31c3dc10c9b4b86e226f215baacca57bede504994779ad334a67275a0",
+    "blob_verified": true
+  },
+  {
+    "upstream": "qwen",
+    "repo": "QwenLM/Qwen3-ASR",
+    "commit": "7c6daf77a2421100f5fb066495372c00129d39ff",
+    "path": "qwen_asr/inference/qwen3_asr.py",
+    "expected_blob": "d99b91512a5bbc1c15897d97752cfd86ea68d46e",
+    "bytes": 31163,
+    "lines": 830,
+    "sha256": "0b1770f8e907b6c5a0a1e9ebce037cb63f48555f3cd15eaf6ea2078e9df41a7b",
+    "blob_verified": true
+  },
+  {
+    "upstream": "qwen",
+    "repo": "QwenLM/Qwen3-ASR",
+    "commit": "7c6daf77a2421100f5fb066495372c00129d39ff",
+    "path": "examples/example_qwen3_asr_vllm_streaming.py",
+    "expected_blob": "b137244504fddcd9e5d9a8faa6bc33d286c70498",
+    "bytes": 3342,
+    "lines": 105,
+    "sha256": "836c6960e350727fe19238e2f2e3e90a0b985fd5d671eb8b567f66735a41ac3d",
+    "blob_verified": true
+  },
+  {
+    "upstream": "qwen",
+    "repo": "QwenLM/Qwen3-ASR",
+    "commit": "7c6daf77a2421100f5fb066495372c00129d39ff",
+    "path": "qwen_asr/cli/demo_streaming.py",
+    "expected_blob": "ca6da63782199b9f63346b85e16c2bbdc41af2b4",
+    "bytes": 13945,
+    "lines": 507,
+    "sha256": "5c92e769c8b4b5dd5b2a95ab2c218c1cf476ecff86ac48863d28d0a4c9f02fa3",
+    "blob_verified": true
+  },
+  {
+    "upstream": "qwen",
+    "repo": "QwenLM/Qwen3-ASR",
+    "commit": "7c6daf77a2421100f5fb066495372c00129d39ff",
+    "path": "pyproject.toml",
+    "expected_blob": "97a4ae1fd8ad475e78a1c1bd89460f0aabf02338",
+    "bytes": 1304,
+    "lines": 55,
+    "sha256": "073b776779667e112aa809df94f0dcc5b1caa3cdd031f0f9f01af29749b5df14",
+    "blob_verified": true
+  }
+]

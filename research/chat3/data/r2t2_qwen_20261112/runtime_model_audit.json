@@ -1,0 +1,28 @@
+{
+  "active_interpreter": "/Library/Frameworks/Python.framework/Versions/3.14/bin/python3",
+  "module_availability": {
+    "mlx": null,
+    "mlx_audio": null,
+    "qwen_asr": null,
+    "transformers": "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/transformers/__init__.py",
+    "torch": "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/torch/__init__.py"
+  },
+  "local_runner": {
+    "path": "/Users/solomonphronesis/Prosperous Projects/RF-H/out/RF-D2F-MAC-20261106/scripts/d2f_qwen.py",
+    "sha256": "67886bdcace89f1df6e9e583fa24c3c227346ea7fe21fb772b8fb967cc36798b",
+    "read_only": true,
+    "executes_mlx_audio": true,
+    "qwen_b_product_routing_referenced": false,
+    "executed": false
+  },
+  "pruning_provenance": {
+    "source_revision": "7278e1e70fe206f11671096ffdd38061171dd6e5",
+    "source_vocab_size": 151936,
+    "target_vocab_size": 16384,
+    "measured_requirement": 11515,
+    "note": "lm_head.weight omitted: byte-exact duplicate of embed_tokens, discarded by mlx_audio sanitize()."
+  },
+  "runtime_compatibility": "Active interpreter lacks MLX/mlx_audio/qwen_asr; alternative environments and Metal/MPS inference are not verified. Quantized packed U32 weights require their matching loader; format equality is not backend compatibility.",
+  "official_base_model_license_source": "https://huggingface.co/Qwen/Qwen3-ASR-1.7B (Apache-2.0 model-card metadata verified)",
+  "local_variants_license_status": "No local LICENSE files; derivative provenance recorded, redistribution clearance not established by this audit."
+}

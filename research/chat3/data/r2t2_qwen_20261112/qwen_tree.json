@@ -1,0 +1,167 @@
+{
+  "repository": "QwenLM/Qwen3-ASR",
+  "commit": "7c6daf77a2421100f5fb066495372c00129d39ff",
+  "truncated": false,
+  "files": [
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "sha": "b5e42572ee8f5795056d4a476e430a8615bb8ac7",
+      "size": 3507
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "d45969a40c1877e7efa4fa85f504e07a631b22df",
+      "size": 521
+    },
+    {
+      "path": ".github/workflows/inactive.yaml",
+      "sha": "245e8c2a2f875f7de7b1baffd9af524b294a2254",
+      "size": 1461
+    },
+    {
+      "path": ".github/workflows/translate.yaml",
+      "sha": "59fe778d911402c4e0d3b27cfacbec641f8aced9",
+      "size": 575
+    },
+    {
+      "path": ".gitignore",
+      "sha": "1f6b14ccf1d00f24b51eb833b4f5df1f61caebd3",
+      "size": 196
+    },
+    {
+      "path": "LICENSE",
+      "sha": "c347eb5ec781d2702623e8e2b5923fa1a766a64d",
+      "size": 11343
+    },
+    {
+      "path": "MANIFEST.in",
+      "sha": "1027c2aa4665fc4937a7ba258760dde2994d6301",
+      "size": 228
+    },
+    {
+      "path": "README.md",
+      "sha": "11cb7f061dd669e8a1024a030a7e668bd389bef3",
+      "size": 60537
+    },
+    {
+      "path": "assets/Qwen3_ASR.pdf",
+      "sha": "7d9a98ad8ccbd09ebdf45b4eb2c6c771daafcbf3",
+      "size": 2323973
+    },
+    {
+      "path": "docker/Dockerfile-qwen3-asr-cu128",
+      "sha": "bae2a914436175cf05b941429b7b7ebf59bfa77b",
+      "size": 1589
+    },
+    {
+      "path": "examples/example_qwen3_asr_transformers.py",
+      "sha": "19fce8b34259383a0f91f0c8b67d64098388760b",
+      "size": 4903
+    },
+    {
+      "path": "examples/example_qwen3_asr_vllm.py",
+      "sha": "aa3b81dae4c37cb1c4d27dc90d6c414886fe8d2c",
+      "size": 4876
+    },
+    {
+      "path": "examples/example_qwen3_asr_vllm_streaming.py",
+      "sha": "b137244504fddcd9e5d9a8faa6bc33d286c70498",
+      "size": 3342
+    },
+    {
+      "path": "examples/example_qwen3_forced_aligner.py",
+      "sha": "d2aa1aec6b925aab826b25cbfc54d4f5796aa662",
+      "size": 6325
+    },
+    {
+      "path": "finetuning/README.md",
+      "sha": "b4e3d2d7f19df53a048a45e32fe9cb096f8aaeb2",
+      "size": 3938
+    },
+    {
+      "path": "finetuning/qwen3_asr_sft.py",
+      "sha": "0512f323e0cbd05b969d74fb7243d0889bc4d3e6",
+      "size": 10887
+    },
+    {
+      "path": "pyproject.toml",
+      "sha": "97a4ae1fd8ad475e78a1c1bd89460f0aabf02338",
+      "size": 1304
+    },
+    {
+      "path": "qwen_asr/__init__.py",
+      "sha": "b8f0320e748001d31d7d352b7caad4b44657e996",
+      "size": 861
+    },
+    {
+      "path": "qwen_asr/__main__.py",
+      "sha": "91bf6fbf0557db5d24c2333fe5aac63bf27b5bc5",
+      "size": 871
+    },
+    {
+      "path": "qwen_asr/cli/demo.py",
+      "sha": "5f93ba5ca1cda18370090be6933cde9b33685b62",
+      "size": 17978
+    },
+    {
+      "path": "qwen_asr/cli/demo_streaming.py",
+      "sha": "ca6da63782199b9f63346b85e16c2bbdc41af2b4",
+      "size": 13945
+    },
+    {
+      "path": "qwen_asr/cli/serve.py",
+      "sha": "af0961c0bb5d4b49d70d4cb12f60197f536da393",
+      "size": 1562
+    },
+    {
+      "path": "qwen_asr/core/transformers_backend/__init__.py",
+      "sha": "375ae1de3666b3fe2af96de66480a6efa823cb00",
+      "size": 807
+    },
+    {
+      "path": "qwen_asr/core/transformers_backend/configuration_qwen3_asr.py",
+      "sha": "17d7263a6a818404b3c319d7a64e3fb916fae7b4",
+      "size": 20164
+    },
+    {
+      "path": "qwen_asr/core/transformers_backend/modeling_qwen3_asr.py",
+      "sha": "75bef860ea8ccf314d67ab9d5821625034f26398",
+      "size": 57850
+    },
+    {
+      "path": "qwen_asr/core/transformers_backend/processing_qwen3_asr.py",
+      "sha": "b63f0c0f64636695981d39f7b4e184c620c599cf",
+      "size": 8545
+    },
+    {
+      "path": "qwen_asr/core/vllm_backend/__init__.py",
+      "sha": "0eef629aa630d46921f1911f2560d4565add30f0",
+      "size": 694
+    },
+    {
+      "path": "qwen_asr/core/vllm_backend/qwen3_asr.py",
+      "sha": "db36219d44051831bc29caa47a4a05ad14161238",
+      "size": 36090
+    },
+    {
+      "path": "qwen_asr/inference/assets/korean_dict_jieba.dict",
+      "sha": "42b570689e065ed2803d0f43b00ca38255813d2f",
+      "size": 275834
+    },
+    {
+      "path": "qwen_asr/inference/qwen3_asr.py",
+      "sha": "d99b91512a5bbc1c15897d97752cfd86ea68d46e",
+      "size": 31163
+    },
+    {
+      "path": "qwen_asr/inference/qwen3_forced_aligner.py",
+      "sha": "76fe043382ca9cf03b3b74b6366d28a09c355867",
+      "size": 16411
+    },
+    {
+      "path": "qwen_asr/inference/utils.py",
+      "sha": "405b3d9c799c7ed1f9af96ae462241d63e51f237",
+      "size": 13915
+    }
+  ]
+}

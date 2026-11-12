@@ -1,0 +1,247 @@
+{
+  "repository": "netease-youdao/Confucius4-R2T2",
+  "commit": "72b81be7070095410b75ed2e11998e347f655218",
+  "truncated": false,
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha": "c8a806bed487aaff659f65e82f5ede43bb0b6ecc",
+      "size": 902
+    },
+    {
+      "path": "LICENSE",
+      "sha": "6343ce6d9bb36beaf92af8174cc9ccd15ee9f1a4",
+      "size": 10963
+    },
+    {
+      "path": "MODEL_LICENSE",
+      "sha": "7fbd11c16918aef283c559abc67efc5e1d3e5196",
+      "size": 11071
+    },
+    {
+      "path": "MODEL_LICENSE_zh",
+      "sha": "5914b7f05aaac7d1f7552eac842461b7f42b4cc1",
+      "size": 7733
+    },
+    {
+      "path": "README.md",
+      "sha": "cdba2d56f1d75895c0eaa8c4a22b76f25832761d",
+      "size": 30187
+    },
+    {
+      "path": "README.zh.md",
+      "sha": "9942e03d45ebf389eeb8476fbe7a6099531e4f24",
+      "size": 27959
+    },
+    {
+      "path": "example.py",
+      "sha": "d7568d76090cdf6624594f9bdaa459e5ec1a30bf",
+      "size": 9015
+    },
+    {
+      "path": "pyproject.toml",
+      "sha": "1901c92dee307c4b1b127e9faad09ca6bb9021ac",
+      "size": 4205
+    },
+    {
+      "path": "r2t2/__init__.py",
+      "sha": "6de2ccd4cb07a8c3e46b68ea69277b6b27b2b737",
+      "size": 704
+    },
+    {
+      "path": "r2t2/r2t2_asr.py",
+      "sha": "9967217b26278c27a1ffc825abf55e15b056fb2f",
+      "size": 35321
+    },
+    {
+      "path": "r2t2_llama/CMakeLists.txt",
+      "sha": "d67bcd9242c61fbf01fffa0472cc2e9ba70e2202",
+      "size": 1763
+    },
+    {
+      "path": "r2t2_llama/README.md",
+      "sha": "4fe4920d6a5f8b68f4ba9fe6c46943f96c89240c",
+      "size": 5018
+    },
+    {
+      "path": "r2t2_llama/__init__.py",
+      "sha": "c68116376872d4ba759c43acd1d821c04930a9ec",
+      "size": 1570
+    },
+    {
+      "path": "r2t2_llama/bin/libggml-base.so",
+      "sha": "c5d4325c9d2745c58aa036d9f99a548a9947c990",
+      "size": 904200
+    },
+    {
+      "path": "r2t2_llama/bin/libggml-base.so.0",
+      "sha": "576c305c22a011b0ce41e7e6a96c855b38ff17f3",
+      "size": 22
+    },
+    {
+      "path": "r2t2_llama/bin/libggml-base.so.0.23.0",
+      "sha": "c5d4325c9d2745c58aa036d9f99a548a9947c990",
+      "size": 904200
+    },
+    {
+      "path": "r2t2_llama/bin/libggml-cpu.so",
+      "sha": "fefc4cfee77154bc0ec020db58d8b463931bd628",
+      "size": 1630152
+    },
+    {
+      "path": "r2t2_llama/bin/libggml-cpu.so.0",
+      "sha": "774e08c42746c463eb7b8677ba646529d536fc42",
+      "size": 21
+    },
+    {
+      "path": "r2t2_llama/bin/libggml-cpu.so.0.23.0",
+      "sha": "fefc4cfee77154bc0ec020db58d8b463931bd628",
+      "size": 1630152
+    },
+    {
+      "path": "r2t2_llama/bin/libggml-cuda.so",
+      "sha": "c719d977d5facb81e009425523e45b9b2e79fda5",
+      "size": 59105592
+    },
+    {
+      "path": "r2t2_llama/bin/libggml-cuda.so.0",
+      "sha": "6214c4107f6d0848e3bc7d157b06d385658b2a6e",
+      "size": 22
+    },
+    {
+      "path": "r2t2_llama/bin/libggml-cuda.so.0.23.0",
+      "sha": "c719d977d5facb81e009425523e45b9b2e79fda5",
+      "size": 59105592
+    },
+    {
+      "path": "r2t2_llama/bin/libggml.so",
+      "sha": "396ef9edab913b2dd8da511abdc3b94c4e3262ff",
+      "size": 56008
+    },
+    {
+      "path": "r2t2_llama/bin/libggml.so.0",
+      "sha": "d0ab07d79918f2d96b643735d7a00d1f3d23923c",
+      "size": 17
+    },
+    {
+      "path": "r2t2_llama/bin/libggml.so.0.23.0",
+      "sha": "396ef9edab913b2dd8da511abdc3b94c4e3262ff",
+      "size": 56008
+    },
+    {
+      "path": "r2t2_llama/bin/libllama.so",
+      "sha": "71d2d95339a9ab0b6b1834eaf3fc085e44708983",
+      "size": 4614408
+    },
+    {
+      "path": "r2t2_llama/bin/libllama.so.0",
+      "sha": "9787270c95755f1618e689e99c819be9afb5f04a",
+      "size": 17
+    },
+    {
+      "path": "r2t2_llama/bin/libllama.so.0.4.0",
+      "sha": "71d2d95339a9ab0b6b1834eaf3fc085e44708983",
+      "size": 4614408
+    },
+    {
+      "path": "r2t2_llama/bin/libmtmd.so",
+      "sha": "3e4e08d46b17e9737adbc32df6fe208d1b808603",
+      "size": 1920320
+    },
+    {
+      "path": "r2t2_llama/bin/libmtmd.so.0",
+      "sha": "247543ba4769945bad5cc36bda7fb0163473d37a",
+      "size": 16
+    },
+    {
+      "path": "r2t2_llama/bin/libmtmd.so.0.4.0",
+      "sha": "3e4e08d46b17e9737adbc32df6fe208d1b808603",
+      "size": 1920320
+    },
+    {
+      "path": "r2t2_llama/debug.py",
+      "sha": "9aa28ba0a57e3da0476b60636d97edcfaa2edb28",
+      "size": 382
+    },
+    {
+      "path": "r2t2_llama/example_llama.py",
+      "sha": "4b6fa8a64fef938d2eb1ff6261a2d26155abaaf3",
+      "size": 6446
+    },
+    {
+      "path": "r2t2_llama/llama_hybrid_backend.py",
+      "sha": "bdc783b464802d88e7f794a4698fc09b183655b9",
+      "size": 8577
+    },
+    {
+      "path": "r2t2_llama/llama_native_backend.py",
+      "sha": "058715a1f1b6e5faf9558c343839e62552eab54f",
+      "size": 16149
+    },
+    {
+      "path": "r2t2_llama/model.py",
+      "sha": "eca4cc2b3d349d81ab544a632c4f94890ee2148f",
+      "size": 11451
+    },
+    {
+      "path": "r2t2_llama/native/__init__.py",
+      "sha": "58e00b012f2c2a663f165c89bc21578552f0d875",
+      "size": 60
+    },
+    {
+      "path": "r2t2_llama/native/qwen3asr_native.cpython-312-x86_64-linux-gnu.so",
+      "sha": "2a7a59636f2444b4ce998c932d9af05e1f67c249",
+      "size": 266976
+    },
+    {
+      "path": "r2t2_llama/native_ext.cpp",
+      "sha": "508e660b881b22dacad09a2ef471e7b9890c6c63",
+      "size": 35337
+    },
+    {
+      "path": "resources/R2T2_framework.png",
+      "sha": "9086aaf43a10f08f0fa7dcb5f705be9f3b93af17",
+      "size": 174759
+    },
+    {
+      "path": "resources/R2T2_logo.png",
+      "sha": "73302b546d02744333dc4a4c9bcb73062128f340",
+      "size": 1185921
+    },
+    {
+      "path": "resources/asr_bilingual_wer_latency.svg",
+      "sha": "2ce7f5f888032062d4a3f4d9c484b931ac221ee8",
+      "size": 772771
+    },
+    {
+      "path": "resources/asr_chunk_size_tradeoff.svg",
+      "sha": "99321d0d278a269275e810e300b4d4aef4b92a91",
+      "size": 709113
+    },
+    {
+      "path": "resources/test.wav",
+      "sha": "31375132fe376c2aaf081509744f44641cef2327",
+      "size": 215724
+    },
+    {
+      "path": "run_example.sh",
+      "sha": "82540f13ec62c861ebd2a11636929053d8847aa5",
+      "size": 6056
+    },
+    {
+      "path": "run_start_server.sh",
+      "sha": "1b255b3f37756c2805405940369e379c0b18be9a",
+      "size": 5114
+    },
+    {
+      "path": "ws_client.py",
+      "sha": "b89087a7be5bd3cb99e0099db2651864e563062d",
+      "size": 6340
+    },
+    {
+      "path": "ws_server.py",
+      "sha": "0845ffcf9c91c2ee5548408723806d388841e245",
+      "size": 57171
+    }
+  ]
+}

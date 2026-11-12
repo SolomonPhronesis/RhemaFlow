@@ -1,0 +1,98 @@
+{
+  "schema": "RF_RESEARCH_AUDIO_V1",
+  "models": {
+    "mock_base": {
+      "target_cases": 1,
+      "reference_words": 2,
+      "S": 0,
+      "D": 0,
+      "I": 0,
+      "no_target_cases": 1,
+      "words_on_no_target": 2,
+      "correct_quotes": null,
+      "wrong_quotes": null,
+      "no_target_emitted_cards": null,
+      "edits": 0,
+      "wer_pct": 0.0,
+      "coverage_pct": 100.0,
+      "cards_status": "NOT_RUN",
+      "latency": {
+        "load_ms": {
+          "p50": null,
+          "p95": null,
+          "measured_cases": 0
+        },
+        "decode_wall_ms": {
+          "p50": null,
+          "p95": null,
+          "measured_cases": 0
+        },
+        "end_to_end_ms": {
+          "p50": null,
+          "p95": null,
+          "measured_cases": 0
+        }
+      },
+      "rtf_measured_cases": 0,
+      "rtf": null,
+      "peak_rss_bytes": null,
+      "energy_joules": null
+    },
+    "mock_candidate": {
+      "target_cases": 1,
+      "reference_words": 2,
+      "S": 0,
+      "D": 0,
+      "I": 0,
+      "no_target_cases": 1,
+      "words_on_no_target": 2,
+      "correct_quotes": null,
+      "wrong_quotes": null,
+      "no_target_emitted_cards": null,
+      "edits": 0,
+      "wer_pct": 0.0,
+      "coverage_pct": 100.0,
+      "cards_status": "NOT_RUN",
+      "latency": {
+        "load_ms": {
+          "p50": null,
+          "p95": null,
+          "measured_cases": 0
+        },
+        "decode_wall_ms": {
+          "p50": null,
+          "p95": null,
+          "measured_cases": 0
+        },
+        "end_to_end_ms": {
+          "p50": null,
+          "p95": null,
+          "measured_cases": 0
+        }
+      },
+      "rtf_measured_cases": 0,
+      "rtf": null,
+      "peak_rss_bytes": null,
+      "energy_joules": null
+    }
+  },
+  "paired_wer_gain_vs_baseline": {
+    "mock_candidate": {
+      "delta_pp": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "resamples": 2000,
+      "seed": 20261112,
+      "clusters": 1
+    }
+  },
+  "correct_card_case_retention_vs_baseline": {
+    "mock_candidate": null
+  },
+  "evidence_classes": [
+    "MODEL_FREE_SYNTHETIC"
+  ],
+  "model_execution": "Scoring supplied records only; no model is run by this scorer.",
+  "production": "PRODUCTION_NO_GO",
+  "card_visible": "NOT_MEASURED"
+}
