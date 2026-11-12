@@ -1,0 +1,189 @@
+test_clean_signal_is_preserved (test_causal_isolation.CausalTests.test_clean_signal_is_preserved) ... ok
+test_converges_toward_room_scale (test_causal_isolation.CausalTests.test_converges_toward_room_scale) ... ok
+test_delay_calibration_recovers_known_delay (test_causal_isolation.CausalTests.test_delay_calibration_recovers_known_delay) ... ok
+test_only_past_samples_are_used (test_causal_isolation.CausalTests.test_only_past_samples_are_used) ... ok
+test_reverb_room_is_harder_than_clean_room (test_causal_isolation.CausalTests.test_reverb_room_is_harder_than_clean_room) ... ok
+test_delay_estimate_is_causal_calibration (test_fir_isolation.FirCausalityTests.test_delay_estimate_is_causal_calibration) ... ok
+test_fir_reduces_residual_on_short_reverb (test_fir_isolation.FirCausalityTests.test_fir_reduces_residual_on_short_reverb) ... ok
+test_fir_stable_under_zero_input (test_fir_isolation.FirCausalityTests.test_fir_stable_under_zero_input) ... ok
+test_future_samples_do_not_change_past_output (test_fir_isolation.FirCausalityTests.test_future_samples_do_not_change_past_output) ... ok
+test_no_oracle_arguments (test_fir_isolation.FirCausalityTests.test_no_oracle_arguments) ... ok
+test_tracking_future_samples_do_not_change_past_output (test_fir_isolation.FirCausalityTests.test_tracking_future_samples_do_not_change_past_output) ... ok
+test_bad_config_is_rejected (test_pbfdaf.PBFDAFTests.test_bad_config_is_rejected) ... ok
+test_bad_inputs_are_rejected_before_state_change (test_pbfdaf.PBFDAFTests.test_bad_inputs_are_rejected_before_state_change) ... ok
+test_closed_stream_cannot_resume (test_pbfdaf.PBFDAFTests.test_closed_stream_cannot_resume) ... ok
+test_controlled_output_is_causal_inside_blocks (test_pbfdaf.PBFDAFTests.test_controlled_output_is_causal_inside_blocks) ... ok
+test_converges_on_known_causal_long_echo (test_pbfdaf.PBFDAFTests.test_converges_on_known_causal_long_echo) ... ok
+test_emission_waits_for_one_block (test_pbfdaf.PBFDAFTests.test_emission_waits_for_one_block) ... ok
+test_every_partial_block_prefix_is_causal (test_pbfdaf.PBFDAFTests.test_every_partial_block_prefix_is_causal) ... ok
+test_flush_is_length_preserving_and_does_not_read_future (test_pbfdaf.PBFDAFTests.test_flush_is_length_preserving_and_does_not_read_future) ... ok
+test_impulsive_input_does_not_diverge (test_pbfdaf.PBFDAFTests.test_impulsive_input_does_not_diverge) ... ok
+test_irregular_chunks_keep_exact_state (test_pbfdaf.PBFDAFTests.test_irregular_chunks_keep_exact_state) ... ok
+test_late_impulse_cannot_appear_early (test_pbfdaf.PBFDAFTests.test_late_impulse_cannot_appear_early) ... ok
+test_no_oracle_or_label_inputs (test_pbfdaf.PBFDAFTests.test_no_oracle_or_label_inputs) ... ok
+test_partitioned_output_matches_independent_linear_convolution (test_pbfdaf.PBFDAFTests.test_partitioned_output_matches_independent_linear_convolution) ... ok
+test_persistent_memory_does_not_grow_with_stream_length (test_pbfdaf.PBFDAFTests.test_persistent_memory_does_not_grow_with_stream_length) ... ok
+test_reference_free_target_is_preserved_after_adaptation (test_pbfdaf.PBFDAFTests.test_reference_free_target_is_preserved_after_adaptation) ... ok
+test_silence_has_finite_exact_zero_output (test_pbfdaf.PBFDAFTests.test_silence_has_finite_exact_zero_output) ... ok
+test_target_only_quiet_room_is_preserved (test_pbfdaf.PBFDAFTests.test_target_only_quiet_room_is_preserved) ... ok
+test_weights_remain_causal_after_updates (test_pbfdaf.PBFDAFTests.test_weights_remain_causal_after_updates) ... ok
+test_duplicate_pair_is_rejected (test_pbfdaf_audit.CoverageAuditTests.test_duplicate_pair_is_rejected) ... ok
+test_missing_pbfdaf_pair_is_rejected (test_pbfdaf_audit.CoverageAuditTests.test_missing_pbfdaf_pair_is_rejected) ... ok
+test_saved_complete_run_has_full_coverage (test_pbfdaf_audit.CoverageAuditTests.test_saved_complete_run_has_full_coverage) ... ok
+test_truncated_samples_and_missing_controls_are_rejected (test_pbfdaf_audit.CoverageAuditTests.test_truncated_samples_and_missing_controls_are_rejected) ... ok
+test_coverage_is_fail_closed (test_pbfdaf_audit.EvidenceAuditTests.test_coverage_is_fail_closed) ... ok
+test_legacy_lookahead_is_detected_without_hiding_it (test_pbfdaf_audit.EvidenceAuditTests.test_legacy_lookahead_is_detected_without_hiding_it) ... ok
+test_missing_target_annotation_is_rejected (test_pbfdaf_audit.EvidenceAuditTests.test_missing_target_annotation_is_rejected) ... ok
+test_target_labels_and_negative_controls_are_both_retained (test_pbfdaf_audit.EvidenceAuditTests.test_target_labels_and_negative_controls_are_both_retained) ... ok
+test_wrong_speaker_remains_wrong_even_when_verse_matches (test_pbfdaf_audit.EvidenceAuditTests.test_wrong_speaker_remains_wrong_even_when_verse_matches) ... ok
+test_chunks_share_state_and_exact_boundary_finishes (test_qwen_base_stream.AdapterTests.test_chunks_share_state_and_exact_boundary_finishes) ... ok
+test_finished_stream_cannot_restart (test_qwen_base_stream.AdapterTests.test_finished_stream_cannot_restart) ... ok
+test_future_samples_never_reach_decoder_early (test_qwen_base_stream.AdapterTests.test_future_samples_never_reach_decoder_early) ... ok
+test_memory_bound_requires_endpoint (test_qwen_base_stream.AdapterTests.test_memory_bound_requires_endpoint) ... ok
+test_no_audio_finish_never_calls_model (test_qwen_base_stream.AdapterTests.test_no_audio_finish_never_calls_model) ... ok
+test_pcm_shape_and_nonfinite_rejected (test_qwen_base_stream.AdapterTests.test_pcm_shape_and_nonfinite_rejected) ... ok
+test_stale_wrong_model_and_malformed_replies_rejected (test_qwen_base_stream.AdapterTests.test_stale_wrong_model_and_malformed_replies_rejected) ... ok
+test_committed_display_never_changes_case_or_punctuation (test_qwen_base_stream.CommitTests.test_committed_display_never_changes_case_or_punctuation) ... ok
+test_final_releases_suffix (test_qwen_base_stream.CommitTests.test_final_releases_suffix) ... ok
+test_holdback_zero_and_one (test_qwen_base_stream.CommitTests.test_holdback_zero_and_one) ... ok
+test_oversized_and_invalid_units_rejected (test_qwen_base_stream.CommitTests.test_oversized_and_invalid_units_rejected) ... ok
+test_repeated_words_remain (test_qwen_base_stream.CommitTests.test_repeated_words_remain) ... ok
+test_revision_before_commit_can_recover (test_qwen_base_stream.CommitTests.test_revision_before_commit_can_recover) ... ok
+test_speaker_handoff_divergence_rejected (test_qwen_base_stream.CommitTests.test_speaker_handoff_divergence_rejected) ... ok
+test_stable_other_voice_still_commits (test_qwen_base_stream.CommitTests.test_stable_other_voice_still_commits) ... ok
+test_stale_request_and_regressing_time (test_qwen_base_stream.CommitTests.test_stale_request_and_regressing_time) ... ok
+test_tokenizer_byte_rewrite_rejected (test_qwen_base_stream.CommitTests.test_tokenizer_byte_rewrite_rejected) ... ok
+test_true_token_id_budget (test_qwen_base_stream.CommitTests.test_true_token_id_budget) ... ok
+test_truncated_final_rejected (test_qwen_base_stream.CommitTests.test_truncated_final_rejected) ... ok
+test_two_observations_required (test_qwen_base_stream.CommitTests.test_two_observations_required) ... ok
+test_augmentation_clusters_and_correct_card_loss_are_paired (test_rf_research_audio.ContractTests.test_augmentation_clusters_and_correct_card_loss_are_paired) ... ok
+test_consumer_deduplicates_identical_cards (test_rf_research_audio.ContractTests.test_consumer_deduplicates_identical_cards) ... ok
+test_consumer_rejects_rewriting_emitted_card (test_rf_research_audio.ContractTests.test_consumer_rejects_rewriting_emitted_card) ... ok
+test_consumer_rejects_uncommitted_or_visible_claim (test_rf_research_audio.ContractTests.test_consumer_rejects_uncommitted_or_visible_claim) ... ok
+test_empty_references_separately_counted (test_rf_research_audio.ContractTests.test_empty_references_separately_counted) ... ok
+test_missing_duplicate_and_wrong_hash_rejected (test_rf_research_audio.ContractTests.test_missing_duplicate_and_wrong_hash_rejected) ... ok
+test_missing_target_label_rejected (test_rf_research_audio.ContractTests.test_missing_target_label_rejected) ... ok
+test_no_target_gold_cannot_be_nonempty (test_rf_research_audio.ContractTests.test_no_target_gold_cannot_be_nonempty) ... ok
+test_other_speaker_quote_is_wrong_even_when_verse_matches (test_rf_research_audio.ContractTests.test_other_speaker_quote_is_wrong_even_when_verse_matches) ... ok
+test_paired_bootstrap_uses_corpus_edit_counts (test_rf_research_audio.ContractTests.test_paired_bootstrap_uses_corpus_edit_counts) ... ok
+test_pending_rights_block_inference (test_rf_research_audio.ContractTests.test_pending_rights_block_inference) ... ok
+test_producer_excludes_gold_speaker_labels_and_expected_refs (test_rf_research_audio.ContractTests.test_producer_excludes_gold_speaker_labels_and_expected_refs) ... ok
+test_r2t2_model_family_rejected (test_rf_research_audio.ContractTests.test_r2t2_model_family_rejected) ... ok
+test_room_hash_must_also_match (test_rf_research_audio.ContractTests.test_room_hash_must_also_match) ... ok
+test_timing_coverage_and_rtf_are_explicit (test_rf_research_audio.ContractTests.test_timing_coverage_and_rtf_are_explicit) ... ok
+test_tune_and_empty_sets_are_not_evaluated_as_holdout (test_rf_research_audio.ContractTests.test_tune_and_empty_sets_are_not_evaluated_as_holdout) ... ok
+test_unsafe_path_rejected (test_rf_research_audio.ContractTests.test_unsafe_path_rejected) ... ok
+test_wrong_clock_rejected (test_rf_research_audio.ContractTests.test_wrong_clock_rejected) ... ok
+test_wrong_precision_family_rejected (test_rf_research_audio.ContractTests.test_wrong_precision_family_rejected) ... ok
+test_duplicate_card_suppressed (test_streaming.CardGateTests.test_duplicate_card_suppressed) ... ok
+test_empty_ref_ignored (test_streaming.CardGateTests.test_empty_ref_ignored) ... ok
+test_pending_duplicate_suppressed (test_streaming.CardGateTests.test_pending_duplicate_suppressed) ... ok
+test_abrupt_cutoff_raises_and_keeps_committed (test_streaming.CommitTests.test_abrupt_cutoff_raises_and_keeps_committed) ... ok
+test_committed_prefix_never_changes (test_streaming.CommitTests.test_committed_prefix_never_changes) ... ok
+test_filler_is_preserved_verbatim (test_streaming.CommitTests.test_filler_is_preserved_verbatim) ... ok
+test_holdback_values (test_streaming.CommitTests.test_holdback_values) ... ok
+test_initial_lookahead_delays_commit (test_streaming.CommitTests.test_initial_lookahead_delays_commit) ... ok
+test_long_utterance_grows_monotonically (test_streaming.CommitTests.test_long_utterance_grows_monotonically) ... ok
+test_partial_word_is_replaced_not_duplicated (test_streaming.CommitTests.test_partial_word_is_replaced_not_duplicated) ... ok
+test_punctuation_and_unicode_apostrophes (test_streaming.CommitTests.test_punctuation_and_unicode_apostrophes) ... ok
+test_repeated_words_are_not_dropped_or_duplicated (test_streaming.CommitTests.test_repeated_words_are_not_dropped_or_duplicated) ... ok
+test_silence_commits_nothing (test_streaming.CommitTests.test_silence_commits_nothing) ... ok
+test_speaker_handoff_is_rejected (test_streaming.CommitTests.test_speaker_handoff_is_rejected) ... ok
+test_module_has_no_audio_or_file_io (test_streaming.NoAudioLeakageTests.test_module_has_no_audio_or_file_io) ... ok
+test_empty_text (test_streaming.ProtocolTests.test_empty_text) ... ok
+test_error_reply (test_streaming.ProtocolTests.test_error_reply) ... ok
+test_malformed_json (test_streaming.ProtocolTests.test_malformed_json) ... ok
+test_stale_id (test_streaming.ProtocolTests.test_stale_id) ... ok
+test_valid_reply (test_streaming.ProtocolTests.test_valid_reply) ... ok
+test_correct (test_target_gate.ClassifyTests.test_correct) ... ok
+test_quote_without_ref_is_review (test_target_gate.ClassifyTests.test_quote_without_ref_is_review) ... ok
+test_review_and_none (test_target_gate.ClassifyTests.test_review_and_none) ... ok
+test_wrong (test_target_gate.ClassifyTests.test_wrong) ... ok
+test_gate_below_all_keeps_everything (test_target_gate.GateTests.test_gate_below_all_keeps_everything) ... ok
+test_gate_removes_wrong_only_when_below_threshold (test_target_gate.GateTests.test_gate_removes_wrong_only_when_below_threshold) ... ok
+test_no_cards_precision_is_none (test_target_gate.GateTests.test_no_cards_precision_is_none) ... ok
+test_sweep_shape (test_target_gate.GateTests.test_sweep_shape) ... ok
+test_ungated (test_target_gate.GateTests.test_ungated) ... ok
+test_disk_floor_blocks_preparation (test_three_clip_pilot.PilotTests.test_disk_floor_blocks_preparation) ... ok
+test_pending_rights_do_not_create_output (test_three_clip_pilot.PilotTests.test_pending_rights_do_not_create_output) ... ok
+test_procedural_roundtrip_preserves_pairing_without_models (test_three_clip_pilot.PilotTests.test_procedural_roundtrip_preserves_pairing_without_models) ... ok
+test_source_hash_mismatch_is_rejected (test_three_clip_pilot.PilotTests.test_source_hash_mismatch_is_rejected) ... ok
+test_cancellation_improves_sir (test_two_channel_sim.CancelTests.test_cancellation_improves_sir) ... ok
+test_target_is_not_erased (test_two_channel_sim.CancelTests.test_target_is_not_erased) ... ok
+test_known_delay_is_recovered (test_two_channel_sim.DelayTests.test_known_delay_is_recovered) ... ok
+test_rejects_wrong_sample_rate (test_two_channel_sim.GuardTests.test_rejects_wrong_sample_rate) ... ok
+test_auc_high_when_interference_dominates (test_two_channel_sim.OverlapTests.test_auc_high_when_interference_dominates) ... ok
+test_frame_vectors_same_length (test_two_channel_sim.OverlapTests.test_frame_vectors_same_length) ... ok
+test_adversarial_future_suffix_cannot_change_past_decoder_input (test_under6_evaluation.UnderSixTests.test_adversarial_future_suffix_cannot_change_past_decoder_input) ... ok
+test_church_speaker_and_augmentation_leakage_rejected (test_under6_evaluation.UnderSixTests.test_church_speaker_and_augmentation_leakage_rejected) ... ok
+test_connected_cluster_interval_and_seed_reproducible (test_under6_evaluation.UnderSixTests.test_connected_cluster_interval_and_seed_reproducible) ... ok
+test_corpus_wer_is_sum_edits_over_sum_words (test_under6_evaluation.UnderSixTests.test_corpus_wer_is_sum_edits_over_sum_words) ... ok
+test_coverage_and_input_hash_mismatch_rejected (test_under6_evaluation.UnderSixTests.test_coverage_and_input_hash_mismatch_rejected) ... ok
+test_empty_real_data_is_blocked_not_zero_wer (test_under6_evaluation.UnderSixTests.test_empty_real_data_is_blocked_not_zero_wer) ... ok
+test_matching_verse_from_other_speaker_is_not_correct (test_under6_evaluation.UnderSixTests.test_matching_verse_from_other_speaker_is_not_correct) ... ok
+test_perfect_authored_text_cannot_pass_real_goal (test_under6_evaluation.UnderSixTests.test_perfect_authored_text_cannot_pass_real_goal) ... ok
+test_request_omits_gold_speaker_and_injected_channel_label (test_under6_evaluation.UnderSixTests.test_request_omits_gold_speaker_and_injected_channel_label) ... ok
+test_restricted_teacher_and_missing_training_rights_rejected (test_under6_evaluation.UnderSixTests.test_restricted_teacher_and_missing_training_rights_rejected) ... ok
+test_suppression_all_cards_fails_retention (test_under6_evaluation.UnderSixTests.test_suppression_all_cards_fails_retention) ... ok
+test_unknown_cards_not_reported_as_zero (test_under6_evaluation.UnderSixTests.test_unknown_cards_not_reported_as_zero) ... ok
+test_wrong_no_target_review_counts_as_card_failure (test_under6_evaluation.UnderSixTests.test_wrong_no_target_review_counts_as_card_failure) ... ok
+test_bf16_analytic_state_is_not_runtime_measurement (test_under6_inventory.InventoryTests.test_bf16_analytic_state_is_not_runtime_measurement) ... ok
+test_gguf_descriptor_stops_before_payload (test_under6_inventory.InventoryTests.test_gguf_descriptor_stops_before_payload) ... ok
+test_packed_tensor_is_not_counted_as_full_bf16_parameters (test_under6_inventory.InventoryTests.test_packed_tensor_is_not_counted_as_full_bf16_parameters) ... ok
+test_truncated_or_wrong_gguf_rejected (test_under6_inventory.InventoryTests.test_truncated_or_wrong_gguf_rejected) ... ok
+test_counts_match_independent_distance (test_wer.EditCountTests.test_counts_match_independent_distance) ... ok
+test_empty_hypothesis (test_wer.EditCountTests.test_empty_hypothesis) ... ok
+test_empty_reference (test_wer.EditCountTests.test_empty_reference) ... ok
+test_identical (test_wer.EditCountTests.test_identical) ... ok
+test_one_deletion (test_wer.EditCountTests.test_one_deletion) ... ok
+test_one_insertion (test_wer.EditCountTests.test_one_insertion) ... ok
+test_one_substitution (test_wer.EditCountTests.test_one_substitution) ... ok
+test_composite_key_allows_same_case_in_two_conditions (test_wer.EndToEndTests.test_composite_key_allows_same_case_in_two_conditions) ... rows 2 used 2 coverage 100.0% ref_words 12 S/D/I 0/0/0 WER 0.0%
+  clean            n=  1 ref=    6 WER=0.0%
+  overlap_0        n=  1 ref=    6 WER=0.0%
+ok
+test_corpus_wer (test_wer.EndToEndTests.test_corpus_wer) ... {
+  "n_rows": 2,
+  "n_used": 2,
+  "n_missing_gold": 0,
+  "n_empty_ref": 0,
+  "hyp_words_on_empty_ref": 0,
+  "n_ref_words": 11,
+  "n_hyp_words": 11,
+  "substitutions": 1,
+  "deletions": 0,
+  "insertions": 0,
+  "edits": 1,
+  "wer_pct": 9.0909,
+  "coverage_pct": 100.0,
+  "per_condition": {
+    "all": {
+      "n": 2,
+      "ref_words": 11,
+      "edits": 1,
+      "wer_pct": 9.0909
+    }
+  }
+}
+ok
+test_duplicate_ids_rejected (test_wer.EndToEndTests.test_duplicate_ids_rejected) ... ok
+test_empty_reference_excluded_from_wer_but_reported (test_wer.EndToEndTests.test_empty_reference_excluded_from_wer_but_reported) ... ok
+test_exclude_conditions (test_wer.EndToEndTests.test_exclude_conditions) ... ok
+test_manifest_mapping (test_wer.EndToEndTests.test_manifest_mapping) ... rows 1 used 1 coverage 100.0% ref_words 6 S/D/I 0/0/0 WER 0.0%
+  all              n=  1 ref=    6 WER=0.0%
+ok
+test_missing_gold_fails_closed (test_wer.EndToEndTests.test_missing_gold_fails_closed) ... ERROR: 1 transcripts have no gold row
+ok
+test_repeated_identical_gold_rows_allowed_conflicting_rejected (test_wer.EndToEndTests.test_repeated_identical_gold_rows_allowed_conflicting_rejected) ... rows 1 used 1 coverage 100.0% ref_words 6 S/D/I 0/0/0 WER 0.0%
+  all              n=  1 ref=    6 WER=0.0%
+ok
+test_truncated_jsonl_rejected (test_wer.EndToEndTests.test_truncated_jsonl_rejected) ... ok
+test_numbers (test_wer.TokenTests.test_numbers) ... ok
+test_splits_phrase (test_wer.TokenTests.test_splits_phrase) ... ok
+test_unicode_punctuation (test_wer.TokenTests.test_unicode_punctuation) ... ok
+test_verbatim_mode_keeps_punctuation (test_wer.TokenTests.test_verbatim_mode_keeps_punctuation) ... ok
+
+----------------------------------------------------------------------
+Ran 153 tests in 1.441s
+
+OK

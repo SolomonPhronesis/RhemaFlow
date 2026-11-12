@@ -1,0 +1,183 @@
+[
+  {
+    "path": "/Users/solomonphronesis/Prosperous Projects/RF-Personal-0936/v2models/parakeet-tdt-0.6b-v2-Q4_K_M.gguf",
+    "bytes": 475491840,
+    "sha256": "4853f9653f641d376e6f7de65d73c7a34a73677704a606727bf51acc83f999f3",
+    "gguf_version": 3,
+    "tensor_count": 697,
+    "metadata": {
+      "general.architecture": "parakeet",
+      "general.name": "Parakeet TDT 0.6B v2",
+      "general.basename": "parakeet-tdt",
+      "general.version": "v2",
+      "general.size_label": "0.6B",
+      "general.author": "NVIDIA",
+      "general.organization": "nvidia",
+      "general.license": "cc-by-4.0",
+      "general.license.name": "Creative Commons Attribution 4.0",
+      "general.license.link": "https://creativecommons.org/licenses/by/4.0/",
+      "general.repo_url": "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v2",
+      "general.languages": {
+        "array_count": 1,
+        "sha256": "fd54eca9846b6583888da968f3a805797198cfc9e6eac87faa1a67dad346e448"
+      },
+      "stt.variant": "tdt-0.6b-v2",
+      "stt.parakeet.head_kind": "tdt",
+      "tokenizer.ggml.model": "bpe",
+      "tokenizer.ggml.unknown_token_id": 0,
+      "tokenizer.ggml.blank_token_id": 1024,
+      "stt.parakeet.encoder.n_layers": 24,
+      "stt.parakeet.encoder.d_model": 1024,
+      "stt.parakeet.encoder.n_heads": 8,
+      "stt.parakeet.encoder.d_ff": 4096,
+      "stt.parakeet.encoder.conv_kernel": 9,
+      "stt.parakeet.encoder.subsampling_factor": 8,
+      "stt.parakeet.encoder.subsampling_channels": 256,
+      "stt.parakeet.encoder.pos_emb_max_len": 5000,
+      "stt.parakeet.encoder.use_bias": false,
+      "stt.parakeet.encoder.xscaling": false,
+      "stt.parakeet.encoder.att_context_left": -1,
+      "stt.parakeet.encoder.att_context_right": -1,
+      "stt.parakeet.encoder.att_context_style": "regular",
+      "stt.parakeet.encoder.conv_context_left": 4,
+      "stt.parakeet.encoder.conv_context_right": 4,
+      "stt.parakeet.encoder.conv_norm_type": "batch_norm",
+      "stt.parakeet.predictor.hidden": 640,
+      "stt.parakeet.predictor.n_layers": 2,
+      "stt.parakeet.predictor.vocab": 1025,
+      "stt.parakeet.joint.hidden": 640,
+      "stt.parakeet.joint.num_extra_outputs": 5,
+      "stt.parakeet.joint.activation": "relu",
+      "stt.parakeet.tdt.durations": {
+        "array_count": 5,
+        "sha256": "7f2c5f390b0c7e30e5a644380decea0554bbb62cfc03eff193d13a8c1a117708"
+      },
+      "stt.parakeet.tdt.max_symbols": 10,
+      "stt.frontend.type": "mel",
+      "stt.frontend.num_mels": 128,
+      "stt.frontend.sample_rate": 16000,
+      "stt.frontend.n_fft": 512,
+      "stt.frontend.win_length": 400,
+      "stt.frontend.hop_length": 160,
+      "stt.frontend.window": "hann",
+      "stt.frontend.normalize": "per_feature",
+      "stt.frontend.dither": 9.999999747378752e-06,
+      "stt.frontend.pre_emphasis": 0.9700000286102295,
+      "stt.frontend.f_min": 0.0,
+      "stt.frontend.f_max": 8000.0,
+      "general.file_type": 15,
+      "tokenizer.ggml.tokens": {
+        "array_count": 1025,
+        "sha256": "4b57b0bc408e9e8d5eadcb9e9bf9e96a04a2daabfe0e8ba6c586a3aa7dfce1eb"
+      },
+      "tokenizer.ggml.scores": {
+        "array_count": 1025,
+        "sha256": "093c9eeba12129a8db765ff0c95f62e64dfc87e632efe8204b386c184ea3ffa4"
+      },
+      "tokenizer.ggml.token_type": {
+        "array_count": 1025,
+        "sha256": "bcbf8c0377716fe26daae8f24e8a0fcc168bdf72a00841387e84017f9c17c366"
+      }
+    },
+    "tensor_type_id_counts": {
+      "0": 424,
+      "12": 194,
+      "8": 31,
+      "1": 48
+    },
+    "tensor_descriptor_sha256": "920f7d3f6b023ccb59f050022f90549836470f76da00ead0f915d8135eda4770",
+    "header_end_bytes": 70418,
+    "weights_loaded": false,
+    "format_note": "general.file_type is a declared mostly-format; mixed tensors remain explicit"
+  },
+  {
+    "path": "/Users/solomonphronesis/Prosperous Projects/RF-Personal-0936/v2models/parakeet-tdt-0.6b-v2-Q8_0.gguf",
+    "bytes": 729574912,
+    "sha256": "f0d0e99cebb6d3b83f1f7069b82b5d3c2e39a54545b0da039cb4bafd9c4e5caa",
+    "gguf_version": 3,
+    "tensor_count": 697,
+    "metadata": {
+      "general.architecture": "parakeet",
+      "general.name": "Parakeet TDT 0.6B v2",
+      "general.basename": "parakeet-tdt",
+      "general.version": "v2",
+      "general.size_label": "0.6B",
+      "general.author": "NVIDIA",
+      "general.organization": "nvidia",
+      "general.license": "cc-by-4.0",
+      "general.license.name": "Creative Commons Attribution 4.0",
+      "general.license.link": "https://creativecommons.org/licenses/by/4.0/",
+      "general.repo_url": "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v2",
+      "general.languages": {
+        "array_count": 1,
+        "sha256": "fd54eca9846b6583888da968f3a805797198cfc9e6eac87faa1a67dad346e448"
+      },
+      "stt.variant": "tdt-0.6b-v2",
+      "stt.parakeet.head_kind": "tdt",
+      "tokenizer.ggml.model": "bpe",
+      "tokenizer.ggml.unknown_token_id": 0,
+      "tokenizer.ggml.blank_token_id": 1024,
+      "stt.parakeet.encoder.n_layers": 24,
+      "stt.parakeet.encoder.d_model": 1024,
+      "stt.parakeet.encoder.n_heads": 8,
+      "stt.parakeet.encoder.d_ff": 4096,
+      "stt.parakeet.encoder.conv_kernel": 9,
+      "stt.parakeet.encoder.subsampling_factor": 8,
+      "stt.parakeet.encoder.subsampling_channels": 256,
+      "stt.parakeet.encoder.pos_emb_max_len": 5000,
+      "stt.parakeet.encoder.use_bias": false,
+      "stt.parakeet.encoder.xscaling": false,
+      "stt.parakeet.encoder.att_context_left": -1,
+      "stt.parakeet.encoder.att_context_right": -1,
+      "stt.parakeet.encoder.att_context_style": "regular",
+      "stt.parakeet.encoder.conv_context_left": 4,
+      "stt.parakeet.encoder.conv_context_right": 4,
+      "stt.parakeet.encoder.conv_norm_type": "batch_norm",
+      "stt.parakeet.predictor.hidden": 640,
+      "stt.parakeet.predictor.n_layers": 2,
+      "stt.parakeet.predictor.vocab": 1025,
+      "stt.parakeet.joint.hidden": 640,
+      "stt.parakeet.joint.num_extra_outputs": 5,
+      "stt.parakeet.joint.activation": "relu",
+      "stt.parakeet.tdt.durations": {
+        "array_count": 5,
+        "sha256": "7f2c5f390b0c7e30e5a644380decea0554bbb62cfc03eff193d13a8c1a117708"
+      },
+      "stt.parakeet.tdt.max_symbols": 10,
+      "stt.frontend.type": "mel",
+      "stt.frontend.num_mels": 128,
+      "stt.frontend.sample_rate": 16000,
+      "stt.frontend.n_fft": 512,
+      "stt.frontend.win_length": 400,
+      "stt.frontend.hop_length": 160,
+      "stt.frontend.window": "hann",
+      "stt.frontend.normalize": "per_feature",
+      "stt.frontend.dither": 9.999999747378752e-06,
+      "stt.frontend.pre_emphasis": 0.9700000286102295,
+      "stt.frontend.f_min": 0.0,
+      "stt.frontend.f_max": 8000.0,
+      "general.file_type": 7,
+      "tokenizer.ggml.tokens": {
+        "array_count": 1025,
+        "sha256": "4b57b0bc408e9e8d5eadcb9e9bf9e96a04a2daabfe0e8ba6c586a3aa7dfce1eb"
+      },
+      "tokenizer.ggml.scores": {
+        "array_count": 1025,
+        "sha256": "093c9eeba12129a8db765ff0c95f62e64dfc87e632efe8204b386c184ea3ffa4"
+      },
+      "tokenizer.ggml.token_type": {
+        "array_count": 1025,
+        "sha256": "bcbf8c0377716fe26daae8f24e8a0fcc168bdf72a00841387e84017f9c17c366"
+      }
+    },
+    "tensor_type_id_counts": {
+      "0": 424,
+      "8": 225,
+      "1": 48
+    },
+    "tensor_descriptor_sha256": "38322ac535bcdcd6ccb57a79aeefd8db14a2de756b3b1b54300c591f2f5734e6",
+    "header_end_bytes": 70418,
+    "weights_loaded": false,
+    "format_note": "general.file_type is a declared mostly-format; mixed tensors remain explicit"
+  }
+]

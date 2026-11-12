@@ -1,0 +1,6 @@
+evidence_class,item,denominator,finding
+HISTORICAL_SYNTHETIC,648-condition matrix,"560 target clips / 15,008 words",24.387% Qwen family; 26.306% Q4; 44.789% Tiny. Exact current checkpoint equivalence unverified.
+HISTORICAL_SYNTHETIC,Saved CTRL03 safety failure,28 no-target controls / 418 ASR words,Wrong Luke 1:17 card at 0.833. Attribution remains unresolved.
+MODEL_FREE,"Protocol, causality and header audit",153 tests,Mechanism checks only. No model inference or church accuracy claim.
+NOT_RUN,Four priority inference arms,0 new real runs,"WER, real latency, peak RSS, power and correct-card retention remain null."
+BLOCKED,Real church qualification,0 consented gold services,"Disk, rights, matching runtime and independent gold gates prevent the pilot."

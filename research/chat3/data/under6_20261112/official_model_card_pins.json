@@ -1,0 +1,74 @@
+[
+  {
+    "model_id": "nvidia/parakeet-unified-en-0.6b",
+    "revision": "fe53cd885760c96b6a5f51a0bfd362cb4584a98b",
+    "license_metadata": "other",
+    "gated": false,
+    "model_card_url": "https://huggingface.co/nvidia/parakeet-unified-en-0.6b/blob/fe53cd885760c96b6a5f51a0bfd362cb4584a98b/README.md",
+    "api_response_sha256": "705592bf2ba87183a8a3ee65ca172bc8caf742743161daf92d344ca38e436a8d"
+  },
+  {
+    "model_id": "nvidia/parakeet-tdt-0.6b-v2",
+    "revision": "ae9ad07059c7c739ffaf932226a8fe64ae2620b0",
+    "license_metadata": "cc-by-4.0",
+    "gated": false,
+    "model_card_url": "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v2/blob/ae9ad07059c7c739ffaf932226a8fe64ae2620b0/README.md",
+    "api_response_sha256": "df0ec86e9b88185e7be9db2382b5fce616852696a80cbd941e281627e1d0dfd1"
+  },
+  {
+    "model_id": "nvidia/parakeet-tdt-0.6b-v3",
+    "revision": "541d1f99c6b0c3cd0b11a95167540bb8edefd82b",
+    "license_metadata": "cc-by-4.0",
+    "gated": false,
+    "model_card_url": "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3/blob/541d1f99c6b0c3cd0b11a95167540bb8edefd82b/README.md",
+    "api_response_sha256": "9987487ce9f5e9abdaa1ed90dc85b80ee1a3b31f029fb8c1586b7b19a767634e"
+  },
+  {
+    "model_id": "nvidia/parakeet-ctc-1.1b",
+    "revision": "20e63a0fed6aedba145b74b826dbd41df0941730",
+    "license_metadata": "cc-by-4.0",
+    "gated": false,
+    "model_card_url": "https://huggingface.co/nvidia/parakeet-ctc-1.1b/blob/20e63a0fed6aedba145b74b826dbd41df0941730/README.md",
+    "api_response_sha256": "cb12a2bef28b32ad4706378442b9e0565f3beece5d4d4afae13abc2a05536042"
+  },
+  {
+    "model_id": "nvidia/nemotron-speech-streaming-en-0.6b",
+    "revision": "ebe59e5a817142986528bbbee5dba8db7b38ed50",
+    "license_metadata": "other",
+    "gated": false,
+    "model_card_url": "https://huggingface.co/nvidia/nemotron-speech-streaming-en-0.6b/blob/ebe59e5a817142986528bbbee5dba8db7b38ed50/README.md",
+    "api_response_sha256": "5241d8eaedbba27646cca93fca31321c99e9f09ad16fd4344af747bec266528f"
+  },
+  {
+    "model_id": "nvidia/multitalker-parakeet-streaming-0.6b-v1",
+    "revision": "8749fc71fd6e2d88ef230159bbf2aea69b524ee1",
+    "license_metadata": "other",
+    "gated": false,
+    "model_card_url": "https://huggingface.co/nvidia/multitalker-parakeet-streaming-0.6b-v1/blob/8749fc71fd6e2d88ef230159bbf2aea69b524ee1/README.md",
+    "api_response_sha256": "1fa92a8651e9153c20fe8e1305361d69aca2af046ca534edc68e4ac1d99a3862"
+  },
+  {
+    "model_id": "nvidia/diar_streaming_sortformer_4spk-v2",
+    "revision": "84edd514b8ef68004c10086918cd62f2148cbd59",
+    "license_metadata": "cc-by-4.0",
+    "gated": false,
+    "model_card_url": "https://huggingface.co/nvidia/diar_streaming_sortformer_4spk-v2/blob/84edd514b8ef68004c10086918cd62f2148cbd59/README.md",
+    "api_response_sha256": "1f9584e062449212c4e01f5395042733f030dc4589c0e42cff3f37e182fd4e6f"
+  },
+  {
+    "model_id": "Qwen/Qwen3-ASR-1.7B",
+    "revision": "7278e1e70fe206f11671096ffdd38061171dd6e5",
+    "license_metadata": "apache-2.0",
+    "gated": false,
+    "model_card_url": "https://huggingface.co/Qwen/Qwen3-ASR-1.7B/blob/7278e1e70fe206f11671096ffdd38061171dd6e5/README.md",
+    "api_response_sha256": "890cf93703bbde991aa964574d6027b44bb9f0aa11b936a82599f9609aed8493"
+  },
+  {
+    "model_id": "netease-youdao/Confucius4-R2T2",
+    "revision": "d07b4a593610c16074cfc941fba052a7a12eeda3",
+    "license_metadata": "other",
+    "gated": false,
+    "model_card_url": "https://huggingface.co/netease-youdao/Confucius4-R2T2/blob/d07b4a593610c16074cfc941fba052a7a12eeda3/README.md",
+    "api_response_sha256": "4a6ee38e5d71006d5fa0ce31abc2b0b79e52659ad2ab984052f418d4e930d0f8"
+  }
+]

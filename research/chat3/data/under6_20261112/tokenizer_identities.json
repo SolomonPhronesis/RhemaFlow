@@ -1,0 +1,109 @@
+[
+  {
+    "model_path": "/Users/solomonphronesis/Prosperous Projects/RF-H/out/RF-EN-REDUCTION-PILOT/models/qwen3-asr-1.7b-en16k-4bit",
+    "method": "SHA256 of sorted-key JSON array of named tokenizer-file hashes",
+    "tokenizer_sha256": "2659afa30ee6d5fe7d24cd86c6d09009d3fd51250b341ae1c3039334f1fb31d7",
+    "files": [
+      {
+        "file": "tokenizer_config.json",
+        "bytes": 12425,
+        "sha256": "aaa17a1a0ae6d5ef91d7131529461b7f7db60b347cb155e51d7a11146fcafd35"
+      },
+      {
+        "file": "vocab.json",
+        "bytes": 270951,
+        "sha256": "81d6fe08569242f6b28050b8c4f7cd481ddf2775d75d6a05c080fcc76e6043ac"
+      },
+      {
+        "file": "merges.txt",
+        "bytes": 132731,
+        "sha256": "33c136208ab68c7ee9afee8d42719632d11d8c7e1627de44e161f2bca9ea388d"
+      },
+      {
+        "file": "chat_template.json",
+        "bytes": 1161,
+        "sha256": "75a8cfca24f00de72d796fbfed6858fc9614ef3dabd8696684cc3bc03a9c58ff"
+      }
+    ]
+  },
+  {
+    "model_path": "/Users/solomonphronesis/Prosperous Projects/RF-H/out/RF-EN-REDUCTION-PILOT/models/qwen3-asr-1.7b-en16k-4bit-embed8",
+    "method": "SHA256 of sorted-key JSON array of named tokenizer-file hashes",
+    "tokenizer_sha256": "2659afa30ee6d5fe7d24cd86c6d09009d3fd51250b341ae1c3039334f1fb31d7",
+    "files": [
+      {
+        "file": "tokenizer_config.json",
+        "bytes": 12425,
+        "sha256": "aaa17a1a0ae6d5ef91d7131529461b7f7db60b347cb155e51d7a11146fcafd35"
+      },
+      {
+        "file": "vocab.json",
+        "bytes": 270951,
+        "sha256": "81d6fe08569242f6b28050b8c4f7cd481ddf2775d75d6a05c080fcc76e6043ac"
+      },
+      {
+        "file": "merges.txt",
+        "bytes": 132731,
+        "sha256": "33c136208ab68c7ee9afee8d42719632d11d8c7e1627de44e161f2bca9ea388d"
+      },
+      {
+        "file": "chat_template.json",
+        "bytes": 1161,
+        "sha256": "75a8cfca24f00de72d796fbfed6858fc9614ef3dabd8696684cc3bc03a9c58ff"
+      }
+    ]
+  },
+  {
+    "model_path": "/Users/solomonphronesis/Prosperous Projects/RF-H/out/RF-EN-REDUCTION-PILOT/models/qwen3-asr-1.7b-en16k-bf16",
+    "method": "SHA256 of sorted-key JSON array of named tokenizer-file hashes",
+    "tokenizer_sha256": "2659afa30ee6d5fe7d24cd86c6d09009d3fd51250b341ae1c3039334f1fb31d7",
+    "files": [
+      {
+        "file": "tokenizer_config.json",
+        "bytes": 12425,
+        "sha256": "aaa17a1a0ae6d5ef91d7131529461b7f7db60b347cb155e51d7a11146fcafd35"
+      },
+      {
+        "file": "vocab.json",
+        "bytes": 270951,
+        "sha256": "81d6fe08569242f6b28050b8c4f7cd481ddf2775d75d6a05c080fcc76e6043ac"
+      },
+      {
+        "file": "merges.txt",
+        "bytes": 132731,
+        "sha256": "33c136208ab68c7ee9afee8d42719632d11d8c7e1627de44e161f2bca9ea388d"
+      },
+      {
+        "file": "chat_template.json",
+        "bytes": 1161,
+        "sha256": "75a8cfca24f00de72d796fbfed6858fc9614ef3dabd8696684cc3bc03a9c58ff"
+      }
+    ]
+  },
+  {
+    "model_path": "/Users/solomonphronesis/Prosperous Projects/RF-Personal-0936/v2models/parakeet-tdt-0.6b-v2-Q4_K_M.gguf",
+    "method": "SHA256 of sorted-key embedded tokenizer metadata with per-array digests",
+    "tokenizer_sha256": "e630be51fc35e5bc4224ca8abd2c1fc68bec11bff809c583a3bfd2b806a7f59f",
+    "tokenizer_fields": [
+      "tokenizer.ggml.model",
+      "tokenizer.ggml.unknown_token_id",
+      "tokenizer.ggml.blank_token_id",
+      "tokenizer.ggml.tokens",
+      "tokenizer.ggml.scores",
+      "tokenizer.ggml.token_type"
+    ]
+  },
+  {
+    "model_path": "/Users/solomonphronesis/Prosperous Projects/RF-Personal-0936/v2models/parakeet-tdt-0.6b-v2-Q8_0.gguf",
+    "method": "SHA256 of sorted-key embedded tokenizer metadata with per-array digests",
+    "tokenizer_sha256": "e630be51fc35e5bc4224ca8abd2c1fc68bec11bff809c583a3bfd2b806a7f59f",
+    "tokenizer_fields": [
+      "tokenizer.ggml.model",
+      "tokenizer.ggml.unknown_token_id",
+      "tokenizer.ggml.blank_token_id",
+      "tokenizer.ggml.tokens",
+      "tokenizer.ggml.scores",
+      "tokenizer.ggml.token_type"
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "status": "BLOCKED_GOLD",
+  "goal_met": false,
+  "corpus_wer_pct": null,
+  "paired_gain_pp": null,
+  "no_target_cards": null,
+  "retention": null,
+  "real_inference_runs": 0,
+  "production": "PRODUCTION_NO_GO",
+  "blockers": [
+    "BLOCKED_DISK",
+    "BLOCKED_RIGHTS",
+    "BLOCKED_RUNTIME",
+    "BLOCKED_GOLD"
+  ],
+  "no_target_card_gate": "FAILED_ON_SAVED_CTRL03_NOT_REVALIDATED",
+  "models_run": []
+}

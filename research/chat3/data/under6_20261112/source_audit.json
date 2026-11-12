@@ -1,0 +1,349 @@
+{
+  "pins": {
+    "r2t2": {
+      "sha": "72b81be7070095410b75ed2e11998e347f655218",
+      "tree": "21b1cfb3957f4d43c1a83dd5e4d1f7c379d176e2",
+      "branch": "master"
+    },
+    "nemo": {
+      "sha": "3d381ffad4a513885c97a48a577013ed805d88da",
+      "tree": "641289f72d7b72e9f0f1f8e960f446dd790051c8",
+      "branch": "main"
+    },
+    "bark": {
+      "sha": "f4f32d4cd480dfec1c245d258174bc9bde3c2148",
+      "tree": "5869f6176fcca1e1663831ada49acd7aaed998ff",
+      "branch": "main"
+    },
+    "qwen": {
+      "sha": "7c6daf77a2421100f5fb066495372c00129d39ff",
+      "tree": "f5492e4f346ffd945969a222c584661825230f49",
+      "branch": "main"
+    },
+    "nemo_cpp": "536b17a41bef62d2a67a40ed3df61df26a4389fe"
+  },
+  "files": [
+    {
+      "key": "upfile:NVIDIA-NeMo/Speech:docs/source/asr/featured_models.rst",
+      "url": "https://github.com/NVIDIA-NeMo/Speech/blob/3d381ffad4a513885c97a48a577013ed805d88da/docs/source/asr/featured_models.rst",
+      "github_blob": "c60c72996260edeafe621c47b0ecec5194140437",
+      "sha256_fetched_text": "acb05fca0d3dba1ecbe3b0f9eae919bd693cabba3f6cfe963ebe6afafd9d5973",
+      "bytes": 6899,
+      "lines": 136,
+      "whole_file_blob_verified": true,
+      "scope": "whole text file"
+    },
+    {
+      "key": "upfile:NVIDIA-NeMo/Speech:examples/asr/speech_to_text_finetune.py",
+      "url": "https://github.com/NVIDIA-NeMo/Speech/blob/3d381ffad4a513885c97a48a577013ed805d88da/examples/asr/speech_to_text_finetune.py",
+      "github_blob": "fda6a9c538f6061a70c9bced1b84286c67c5713f",
+      "sha256_fetched_text": "9104beb3b43d495a1117517590f90ba80e126a22372c0a86871634641c528dd7",
+      "bytes": 9403,
+      "lines": 228,
+      "whole_file_blob_verified": true,
+      "scope": "whole text file"
+    },
+    {
+      "key": "upfile:QwenLM/Qwen3-ASR:finetuning/qwen3_asr_sft.py",
+      "url": "https://github.com/QwenLM/Qwen3-ASR/blob/7c6daf77a2421100f5fb066495372c00129d39ff/finetuning/qwen3_asr_sft.py",
+      "github_blob": "0512f323e0cbd05b969d74fb7243d0889bc4d3e6",
+      "sha256_fetched_text": "6f3e5cc530d9da9ff405144fc94a5c4790018eaf956dbc623634818160418976",
+      "bytes": 10887,
+      "lines": 327,
+      "whole_file_blob_verified": true,
+      "scope": "whole text file"
+    },
+    {
+      "key": "upfile:netease-youdao/Confucius4-R2T2:MODEL_LICENSE",
+      "url": "https://github.com/netease-youdao/Confucius4-R2T2/blob/72b81be7070095410b75ed2e11998e347f655218/MODEL_LICENSE",
+      "github_blob": "7fbd11c16918aef283c559abc67efc5e1d3e5196",
+      "sha256_fetched_text": "4d9321cdad58182faa878b015de7d60069881614ddd7571de70f751a9b8e3811",
+      "bytes": 11071,
+      "lines": 62,
+      "whole_file_blob_verified": true,
+      "scope": "whole text file"
+    },
+    {
+      "key": "cppfile:docs/install.md",
+      "url": "https://github.com/NVIDIA/NeMo-Speech.cpp/blob/536b17a41bef62d2a67a40ed3df61df26a4389fe/docs/install.md",
+      "github_blob": "7d4358d93687144a69fa01b7797e32f28862a7c4",
+      "sha256_fetched_text": "bec102a2ac4f4566db8f9be6d1c5143cd5345c6a199e018b3083ab48594afc64",
+      "bytes": 8249,
+      "lines": 175,
+      "whole_file_blob_verified": true,
+      "scope": "whole text file"
+    },
+    {
+      "key": "cppfile:docs/build.md",
+      "url": "https://github.com/NVIDIA/NeMo-Speech.cpp/blob/536b17a41bef62d2a67a40ed3df61df26a4389fe/docs/build.md",
+      "github_blob": "6b8a02c822fd927de963ae58052d2f801024f253",
+      "sha256_fetched_text": "ba67dc6a79fe6b0af901c9999ad453120abf8b5d7dfaf926affc04214cc7daf1",
+      "bytes": 11522,
+      "lines": 288,
+      "whole_file_blob_verified": true,
+      "scope": "whole text file"
+    },
+    {
+      "key": "cppfile:docs/asr/models.md",
+      "url": "https://github.com/NVIDIA/NeMo-Speech.cpp/blob/536b17a41bef62d2a67a40ed3df61df26a4389fe/docs/asr/models.md",
+      "github_blob": "5b82817216c8afbfd15bcd6a1cf7359a26bdfe17",
+      "sha256_fetched_text": "dd89dde01f1b77a095750f4fadcf4762b971103e7026f52ef88096e19f9fe769",
+      "bytes": 7032,
+      "lines": 187,
+      "whole_file_blob_verified": true,
+      "scope": "whole text file"
+    },
+    {
+      "key": "cppfile:docs/asr/customization.md",
+      "url": "https://github.com/NVIDIA/NeMo-Speech.cpp/blob/536b17a41bef62d2a67a40ed3df61df26a4389fe/docs/asr/customization.md",
+      "github_blob": "f929f0f955f89155d1d27b1ee0de0de4b550fd41",
+      "sha256_fetched_text": "3849d88f25926a1196737b11420027ee1f451abbc9b7307f799190036b4c622d",
+      "bytes": 4494,
+      "lines": 95,
+      "whole_file_blob_verified": true,
+      "scope": "whole text file"
+    },
+    {
+      "key": "cppfile:models/index.json",
+      "url": "https://github.com/NVIDIA/NeMo-Speech.cpp/blob/536b17a41bef62d2a67a40ed3df61df26a4389fe/models/index.json",
+      "github_blob": "a1f7e9dd1c59ef6656eace6101db487b7c43a9f4",
+      "sha256_fetched_text": "4d5d88c93b006b33b2e02e5c214e97e6c28e96f8673b0d744ccfa1e8f4a255b7",
+      "bytes": 7975,
+      "lines": 214,
+      "whole_file_blob_verified": true,
+      "scope": "whole text file"
+    },
+    {
+      "key": "cppfile:README.md",
+      "url": "https://github.com/NVIDIA/NeMo-Speech.cpp/blob/536b17a41bef62d2a67a40ed3df61df26a4389fe/README.md",
+      "github_blob": "fb5be89470deacd512e158c082b10145e2ee1c28",
+      "sha256_fetched_text": "7dbecbd755f40d12dfa60eec72a7dbdd2e8fbf685bf0a5a91e3dfbc083b9debf",
+      "bytes": 9718,
+      "lines": 201,
+      "whole_file_blob_verified": true,
+      "scope": "whole text file"
+    },
+    {
+      "key": "cppfile:CMakeLists.txt",
+      "url": "https://github.com/NVIDIA/NeMo-Speech.cpp/blob/536b17a41bef62d2a67a40ed3df61df26a4389fe/CMakeLists.txt",
+      "github_blob": "dce0d9175ef8157f6ca120f515d1141ddb63be7e",
+      "sha256_fetched_text": "267264647705f6def21a7c81a73c2364a9563c1c67c0f95878f2536e7ed0d51c",
+      "bytes": 24750,
+      "lines": 529,
+      "whole_file_blob_verified": true,
+      "scope": "whole text file"
+    },
+    {
+      "key": "ggml_types",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/bd4f514db14d87fded667787a7a963bfbaa98e89/ggml/include/ggml.h",
+      "github_blob": "224bdef927ac90bfa07ee39db3247b7bac4f14ec",
+      "sha256_fetched_text": "f7a2efe50ab91958d45c53d28d1752e30c121e12d4ec430d56fba576f008459b",
+      "bytes": 3148,
+      "lines": 81,
+      "whole_file_blob_verified": null,
+      "scope": "selected lines"
+    },
+    {
+      "key": "r2t2:LICENSE",
+      "url": "https://github.com/netease-youdao/Confucius4-R2T2/blob/72b81be7070095410b75ed2e11998e347f655218/LICENSE",
+      "github_blob": "6343ce6d9bb36beaf92af8174cc9ccd15ee9f1a4",
+      "sha256_fetched_text": "14e7c118524c62f53bbbaeacd3a1097f080a0a39e941bd00cfaace9a55fa2d24",
+      "bytes": 10963,
+      "lines": 193,
+      "whole_file_blob_verified": true,
+      "scope": "cached source rehashed; revision reverified unchanged"
+    },
+    {
+      "key": "r2t2:MODEL_LICENSE",
+      "url": "https://github.com/netease-youdao/Confucius4-R2T2/blob/72b81be7070095410b75ed2e11998e347f655218/MODEL_LICENSE",
+      "github_blob": "7fbd11c16918aef283c559abc67efc5e1d3e5196",
+      "sha256_fetched_text": "4d9321cdad58182faa878b015de7d60069881614ddd7571de70f751a9b8e3811",
+      "bytes": 11071,
+      "lines": 62,
+      "whole_file_blob_verified": true,
+      "scope": "cached source rehashed; revision reverified unchanged"
+    },
+    {
+      "key": "r2t2:README.md",
+      "url": "https://github.com/netease-youdao/Confucius4-R2T2/blob/72b81be7070095410b75ed2e11998e347f655218/README.md",
+      "github_blob": "cdba2d56f1d75895c0eaa8c4a22b76f25832761d",
+      "sha256_fetched_text": "fb5a74eefaaa13654c8ab0cb67004b161070b9ed7da175d729162cb5f27ace1a",
+      "bytes": 30187,
+      "lines": 579,
+      "whole_file_blob_verified": true,
+      "scope": "cached source rehashed; revision reverified unchanged"
+    },
+    {
+      "key": "r2t2:r2t2/r2t2_asr.py",
+      "url": "https://github.com/netease-youdao/Confucius4-R2T2/blob/72b81be7070095410b75ed2e11998e347f655218/r2t2/r2t2_asr.py",
+      "github_blob": "9967217b26278c27a1ffc825abf55e15b056fb2f",
+      "sha256_fetched_text": "711627d76a3ab610ba3651409e25c8358d0d874aaf07c61c51555ff84d123614",
+      "bytes": 35321,
+      "lines": 880,
+      "whole_file_blob_verified": true,
+      "scope": "cached source rehashed; revision reverified unchanged"
+    },
+    {
+      "key": "r2t2:example.py",
+      "url": "https://github.com/netease-youdao/Confucius4-R2T2/blob/72b81be7070095410b75ed2e11998e347f655218/example.py",
+      "github_blob": "d7568d76090cdf6624594f9bdaa459e5ec1a30bf",
+      "sha256_fetched_text": "02dbcbcf65d4fd0688b74f72a29a7b3912a589766f3b6f946aefb915c8b7bd69",
+      "bytes": 9015,
+      "lines": 245,
+      "whole_file_blob_verified": true,
+      "scope": "cached source rehashed; revision reverified unchanged"
+    },
+    {
+      "key": "r2t2:run_example.sh",
+      "url": "https://github.com/netease-youdao/Confucius4-R2T2/blob/72b81be7070095410b75ed2e11998e347f655218/run_example.sh",
+      "github_blob": "82540f13ec62c861ebd2a11636929053d8847aa5",
+      "sha256_fetched_text": "2ba1650386f031546095e06c43d9608035b351a22038725185ac1e0f7db754a6",
+      "bytes": 6056,
+      "lines": 169,
+      "whole_file_blob_verified": true,
+      "scope": "cached source rehashed; revision reverified unchanged"
+    },
+    {
+      "key": "r2t2:run_start_server.sh",
+      "url": "https://github.com/netease-youdao/Confucius4-R2T2/blob/72b81be7070095410b75ed2e11998e347f655218/run_start_server.sh",
+      "github_blob": "1b255b3f37756c2805405940369e379c0b18be9a",
+      "sha256_fetched_text": "0c87229293edb3415e599825b799a541e505b3efd3b59cef59d8cfc7d3daa6da",
+      "bytes": 5114,
+      "lines": 185,
+      "whole_file_blob_verified": true,
+      "scope": "cached source rehashed; revision reverified unchanged"
+    },
+    {
+      "key": "r2t2:ws_server.py",
+      "url": "https://github.com/netease-youdao/Confucius4-R2T2/blob/72b81be7070095410b75ed2e11998e347f655218/ws_server.py",
+      "github_blob": "0845ffcf9c91c2ee5548408723806d388841e245",
+      "sha256_fetched_text": "8e67c1c6aafee68d67861cb37b3f8e0716700d8b803cbc34502a5c55203d0e3c",
+      "bytes": 57171,
+      "lines": 1281,
+      "whole_file_blob_verified": true,
+      "scope": "cached source rehashed; revision reverified unchanged"
+    },
+    {
+      "key": "r2t2:ws_client.py",
+      "url": "https://github.com/netease-youdao/Confucius4-R2T2/blob/72b81be7070095410b75ed2e11998e347f655218/ws_client.py",
+      "github_blob": "b89087a7be5bd3cb99e0099db2651864e563062d",
+      "sha256_fetched_text": "babbad276a46c60d7979a5ad2be80682baa31eaed494969029555bb039151eef",
+      "bytes": 6340,
+      "lines": 182,
+      "whole_file_blob_verified": true,
+      "scope": "cached source rehashed; revision reverified unchanged"
+    },
+    {
+      "key": "r2t2:pyproject.toml",
+      "url": "https://github.com/netease-youdao/Confucius4-R2T2/blob/72b81be7070095410b75ed2e11998e347f655218/pyproject.toml",
+      "github_blob": "1901c92dee307c4b1b127e9faad09ca6bb9021ac",
+      "sha256_fetched_text": "99a02d0bbe188ca2716d27cfb70942851de8e41ce01c6b15c46c309a9b3638aa",
+      "bytes": 4205,
+      "lines": 120,
+      "whole_file_blob_verified": true,
+      "scope": "cached source rehashed; revision reverified unchanged"
+    },
+    {
+      "key": "r2t2:r2t2_llama/README.md",
+      "url": "https://github.com/netease-youdao/Confucius4-R2T2/blob/72b81be7070095410b75ed2e11998e347f655218/r2t2_llama/README.md",
+      "github_blob": "4fe4920d6a5f8b68f4ba9fe6c46943f96c89240c",
+      "sha256_fetched_text": "70e0861114a220e831dbc60a64ccadf83467181dadf98c6ee9d604388b67d5b0",
+      "bytes": 5018,
+      "lines": 137,
+      "whole_file_blob_verified": true,
+      "scope": "cached source rehashed; revision reverified unchanged"
+    },
+    {
+      "key": "r2t2:r2t2_llama/model.py",
+      "url": "https://github.com/netease-youdao/Confucius4-R2T2/blob/72b81be7070095410b75ed2e11998e347f655218/r2t2_llama/model.py",
+      "github_blob": "eca4cc2b3d349d81ab544a632c4f94890ee2148f",
+      "sha256_fetched_text": "07a9e1f9481ba45822048d55e1f98cf6c4c733386f0d42fa91964e45ff53eb4f",
+      "bytes": 11451,
+      "lines": 300,
+      "whole_file_blob_verified": true,
+      "scope": "cached source rehashed; revision reverified unchanged"
+    },
+    {
+      "key": "r2t2:r2t2_llama/llama_native_backend.py",
+      "url": "https://github.com/netease-youdao/Confucius4-R2T2/blob/72b81be7070095410b75ed2e11998e347f655218/r2t2_llama/llama_native_backend.py",
+      "github_blob": "058715a1f1b6e5faf9558c343839e62552eab54f",
+      "sha256_fetched_text": "1286a6d045c878b3454fb146d7c900de6b3bf19349699d1dfd9b750d93850ab0",
+      "bytes": 16149,
+      "lines": 472,
+      "whole_file_blob_verified": true,
+      "scope": "cached source rehashed; revision reverified unchanged"
+    },
+    {
+      "key": "r2t2:r2t2_llama/native_ext.cpp",
+      "url": "https://github.com/netease-youdao/Confucius4-R2T2/blob/72b81be7070095410b75ed2e11998e347f655218/r2t2_llama/native_ext.cpp",
+      "github_blob": "508e660b881b22dacad09a2ef471e7b9890c6c63",
+      "sha256_fetched_text": "672a07ff840893256a2b254ce773ba3467a3677d8b7818f2bb535ff852f90bee",
+      "bytes": 35337,
+      "lines": 842,
+      "whole_file_blob_verified": true,
+      "scope": "cached source rehashed; revision reverified unchanged"
+    },
+    {
+      "key": "qwen:LICENSE",
+      "url": "https://github.com/QwenLM/Qwen3-ASR/blob/7c6daf77a2421100f5fb066495372c00129d39ff/LICENSE",
+      "github_blob": "c347eb5ec781d2702623e8e2b5923fa1a766a64d",
+      "sha256_fetched_text": "a44a6081c73ad75f0255bb2bb5cab74ef1829565a895a24e53a4f11290ab7655",
+      "bytes": 11343,
+      "lines": 201,
+      "whole_file_blob_verified": true,
+      "scope": "cached source rehashed; revision reverified unchanged"
+    },
+    {
+      "key": "qwen:README.md",
+      "url": "https://github.com/QwenLM/Qwen3-ASR/blob/7c6daf77a2421100f5fb066495372c00129d39ff/README.md",
+      "github_blob": "11cb7f061dd669e8a1024a030a7e668bd389bef3",
+      "sha256_fetched_text": "27b5d6e31c3dc10c9b4b86e226f215baacca57bede504994779ad334a67275a0",
+      "bytes": 60537,
+      "lines": 1445,
+      "whole_file_blob_verified": true,
+      "scope": "cached source rehashed; revision reverified unchanged"
+    },
+    {
+      "key": "qwen:qwen_asr/inference/qwen3_asr.py",
+      "url": "https://github.com/QwenLM/Qwen3-ASR/blob/7c6daf77a2421100f5fb066495372c00129d39ff/qwen_asr/inference/qwen3_asr.py",
+      "github_blob": "d99b91512a5bbc1c15897d97752cfd86ea68d46e",
+      "sha256_fetched_text": "0b1770f8e907b6c5a0a1e9ebce037cb63f48555f3cd15eaf6ea2078e9df41a7b",
+      "bytes": 31163,
+      "lines": 830,
+      "whole_file_blob_verified": true,
+      "scope": "cached source rehashed; revision reverified unchanged"
+    },
+    {
+      "key": "qwen:examples/example_qwen3_asr_vllm_streaming.py",
+      "url": "https://github.com/QwenLM/Qwen3-ASR/blob/7c6daf77a2421100f5fb066495372c00129d39ff/examples/example_qwen3_asr_vllm_streaming.py",
+      "github_blob": "b137244504fddcd9e5d9a8faa6bc33d286c70498",
+      "sha256_fetched_text": "836c6960e350727fe19238e2f2e3e90a0b985fd5d671eb8b567f66735a41ac3d",
+      "bytes": 3342,
+      "lines": 105,
+      "whole_file_blob_verified": true,
+      "scope": "cached source rehashed; revision reverified unchanged"
+    },
+    {
+      "key": "qwen:qwen_asr/cli/demo_streaming.py",
+      "url": "https://github.com/QwenLM/Qwen3-ASR/blob/7c6daf77a2421100f5fb066495372c00129d39ff/qwen_asr/cli/demo_streaming.py",
+      "github_blob": "ca6da63782199b9f63346b85e16c2bbdc41af2b4",
+      "sha256_fetched_text": "5c92e769c8b4b5dd5b2a95ab2c218c1cf476ecff86ac48863d28d0a4c9f02fa3",
+      "bytes": 13945,
+      "lines": 507,
+      "whole_file_blob_verified": true,
+      "scope": "cached source rehashed; revision reverified unchanged"
+    },
+    {
+      "key": "qwen:pyproject.toml",
+      "url": "https://github.com/QwenLM/Qwen3-ASR/blob/7c6daf77a2421100f5fb066495372c00129d39ff/pyproject.toml",
+      "github_blob": "97a4ae1fd8ad475e78a1c1bd89460f0aabf02338",
+      "sha256_fetched_text": "073b776779667e112aa809df94f0dcc5b1caa3cdd031f0f9f01af29749b5df14",
+      "bytes": 1304,
+      "lines": 55,
+      "whole_file_blob_verified": true,
+      "scope": "cached source rehashed; revision reverified unchanged"
+    }
+  ],
+  "source_only": true,
+  "r2t2_weights_outputs_or_logits_used": false
+}

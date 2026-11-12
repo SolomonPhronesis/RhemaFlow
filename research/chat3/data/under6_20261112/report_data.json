@@ -1,0 +1,137 @@
+{
+  "models": [
+    {
+      "owner_priority": 1,
+      "model": "qwen3-asr-1.7b-en16k-4bit-embed8",
+      "family": "qwen3-asr-1.7b-base",
+      "precision": "4bit-embed8",
+      "weight_bytes": 1463702698,
+      "weight_sha256": "05b7fbea3adf326c59c5d5bbdd02a0eb001308e336c880fda170108c1e450e86",
+      "tokenizer_sha256": "2659afa30ee6d5fe7d24cd86c6d09009d3fd51250b341ae1c3039334f1fb31d7",
+      "status": "NOT_RUN",
+      "evidence_class": "NOT_RUN",
+      "real_corpus_wer_pct": null,
+      "new_reference_words": 0,
+      "inference_runtime": "BLOCKED_RUNTIME",
+      "license": "Base Apache-2.0; local derivative notices/provenance review pending"
+    },
+    {
+      "owner_priority": 2,
+      "model": "parakeet-tdt-0.6b-v2-Q4_K_M.gguf",
+      "family": "parakeet-v2-q4",
+      "precision": "q4_k_m",
+      "weight_bytes": 475491840,
+      "weight_sha256": "4853f9653f641d376e6f7de65d73c7a34a73677704a606727bf51acc83f999f3",
+      "tokenizer_sha256": "e630be51fc35e5bc4224ca8abd2c1fc68bec11bff809c583a3bfd2b806a7f59f",
+      "status": "NOT_RUN",
+      "evidence_class": "NOT_RUN",
+      "real_corpus_wer_pct": null,
+      "new_reference_words": 0,
+      "inference_runtime": "Existing app inference not exercised; no research CLI verified",
+      "license": "CC-BY-4.0 in GGUF and official card; conversion/distribution notices require review"
+    },
+    {
+      "owner_priority": 3,
+      "model": "parakeet-tdt-0.6b-v2-Q8_0.gguf",
+      "family": "parakeet-v2-q8",
+      "precision": "q8_0",
+      "weight_bytes": 729574912,
+      "weight_sha256": "f0d0e99cebb6d3b83f1f7069b82b5d3c2e39a54545b0da039cb4bafd9c4e5caa",
+      "tokenizer_sha256": "e630be51fc35e5bc4224ca8abd2c1fc68bec11bff809c583a3bfd2b806a7f59f",
+      "status": "NOT_RUN",
+      "evidence_class": "NOT_RUN",
+      "real_corpus_wer_pct": null,
+      "new_reference_words": 0,
+      "inference_runtime": "Existing app inference not exercised; no research CLI verified",
+      "license": "CC-BY-4.0 in GGUF and official card; conversion/distribution notices require review"
+    },
+    {
+      "owner_priority": 4,
+      "model": "qwen3-asr-1.7b-en16k-bf16",
+      "family": "qwen3-asr-1.7b-base",
+      "precision": "bf16",
+      "weight_bytes": 3520970548,
+      "weight_sha256": "2336d2bc828e74d6c38c0b31f91582d8518c73ac3cab496b784819d16e7b72e7",
+      "tokenizer_sha256": "2659afa30ee6d5fe7d24cd86c6d09009d3fd51250b341ae1c3039334f1fb31d7",
+      "status": "NOT_RUN",
+      "evidence_class": "NOT_RUN",
+      "real_corpus_wer_pct": null,
+      "new_reference_words": 0,
+      "inference_runtime": "BLOCKED_RUNTIME",
+      "license": "Base Apache-2.0; local derivative notices/provenance review pending"
+    }
+  ],
+  "historical": [
+    {
+      "arm": "QWEN17B_MLX",
+      "label": "Historical Qwen 1.7B (precision/hash unresolved)",
+      "evidence_class": "HISTORICAL_SYNTHETIC",
+      "edits": 3660,
+      "reference_words": 15008,
+      "target_clips": 560,
+      "matrix_clips": 648,
+      "wer_pct": 24.386993603411515,
+      "ci_95_pct": null,
+      "current_variant_equivalence_verified": false
+    },
+    {
+      "arm": "B0_Q4",
+      "label": "Historical Parakeet Q4 arm",
+      "evidence_class": "HISTORICAL_SYNTHETIC",
+      "edits": 3948,
+      "reference_words": 15008,
+      "target_clips": 560,
+      "matrix_clips": 648,
+      "wer_pct": 26.30597014925373,
+      "ci_95_pct": null,
+      "current_variant_equivalence_verified": false
+    },
+    {
+      "arm": "TINY_EN",
+      "label": "Historical Tiny.en arm",
+      "evidence_class": "HISTORICAL_SYNTHETIC",
+      "edits": 6722,
+      "reference_words": 15008,
+      "target_clips": 560,
+      "matrix_clips": 648,
+      "wer_pct": 44.78944562899787,
+      "ci_95_pct": null,
+      "current_variant_equivalence_verified": false
+    }
+  ],
+  "current": {
+    "status": "BLOCKED_GOLD",
+    "goal_met": false,
+    "corpus_wer_pct": null,
+    "paired_gain_pp": null,
+    "no_target_cards": null,
+    "retention": null,
+    "real_inference_runs": 0,
+    "production": "PRODUCTION_NO_GO",
+    "blockers": [
+      "BLOCKED_DISK",
+      "BLOCKED_RIGHTS",
+      "BLOCKED_RUNTIME",
+      "BLOCKED_GOLD"
+    ],
+    "no_target_card_gate": "FAILED_ON_SAVED_CTRL03_NOT_REVALIDATED",
+    "models_run": []
+  },
+  "free_bytes_at_inventory": 4060581888,
+  "nvidia_native_revision": "536b17a41bef62d2a67a40ed3df61df26a4389fe",
+  "new_real_inference_count": 0,
+  "owner_goal_wer_pct": 6,
+  "gold_real_services": 0,
+  "alternate_qwen_q4": {
+    "path": "/Users/solomonphronesis/Prosperous Projects/RF-H/out/RF-EN-REDUCTION-PILOT/models/qwen3-asr-1.7b-en16k-4bit/model.safetensors",
+    "status": "FOUND_AND_READABLE",
+    "is_symlink": false,
+    "resolved_path": "/Users/solomonphronesis/Prosperous Projects/RF-H/out/RF-EN-REDUCTION-PILOT/models/qwen3-asr-1.7b-en16k-4bit/model.safetensors",
+    "bytes": 1446925458,
+    "sha256": "9b02d98834cccb88622502cbbaeb9c66d2ee35c1a47911b137448a3377f927c0",
+    "tensor_dtypes": {
+      "BF16": 904,
+      "U32": 197
+    }
+  }
+}

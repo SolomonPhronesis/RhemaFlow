@@ -1,0 +1,11 @@
+{
+  "tests_run": 153,
+  "seconds": 2.5,
+  "passed": true,
+  "failures": 0,
+  "errors": 0,
+  "baseline_tests": 136,
+  "new_tests": 17,
+  "evidence_class": "MODEL_FREE",
+  "real_inference_count": 0
+}

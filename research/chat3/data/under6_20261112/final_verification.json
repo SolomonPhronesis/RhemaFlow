@@ -1,0 +1,25 @@
+{
+  "source_base": "fd48afb76abb8f11a37b6a28ae9145c810d8b7a2",
+  "prior_research_files_byte_identical": 136,
+  "original_audio_interface_unchanged": true,
+  "new_real_inference": 0,
+  "models_loaded": 0,
+  "training_runs": 0,
+  "model_audio_transfers": 0,
+  "installs": 0,
+  "free_bytes": 1597456384,
+  "measured_at_unix": 1794477286.7524512,
+  "cpu": "Apple M1 Pro",
+  "physical_ram_bytes": 17179869184,
+  "report_qa": {
+    "browser": "Codex in-app browser",
+    "observed_viewport_width": 1280,
+    "observed_page_width": 1280,
+    "svg_charts": 3,
+    "evidence_filter_model_free_visible_rows": 1,
+    "filter_restored_to_all": true,
+    "visual_review": "PASS",
+    "mobile_viewport_tested": false,
+    "local_server_stopped": true
+  }
+}

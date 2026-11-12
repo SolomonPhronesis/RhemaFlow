@@ -1,0 +1,18 @@
+{
+  "python": "/Library/Frameworks/Python.framework/Versions/3.14/bin/python3",
+  "modules": {
+    "numpy": "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/numpy/__init__.py",
+    "mlx": null,
+    "mlx_audio": null,
+    "qwen_asr": null,
+    "torch": "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/torch/__init__.py",
+    "transformers": "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/transformers/__init__.py",
+    "nemo": null,
+    "playwright": "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/playwright/__init__.py"
+  },
+  "free_bytes": 4197588992,
+  "asr_min_free_bytes": 8589934592,
+  "heavy_target_bytes": 16106127360,
+  "timestamp": 1794475521.9366882,
+  "models_loaded": 0
+}

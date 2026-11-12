@@ -1,0 +1,30 @@
+{
+  "tensor_count": 707,
+  "dtype_counts": {
+    "BF16": 707
+  },
+  "header_bytes": 86572,
+  "weights_loaded": false,
+  "stored_parameter_elements": 1760441984,
+  "parameter_groups": {
+    "audio_encoder": 317477504,
+    "language_decoder": 1442964480
+  },
+  "full_mixed_adam_state_bytes_estimate": 28167071744,
+  "decoder_attention_lora": {
+    "8": {
+      "target_matrices": 112,
+      "trainable_parameters": 3211264,
+      "mixed_adam_state_bytes_estimate": 51380224,
+      "activation_workspace_memory": null,
+      "feasibility": "NOT_MEASURED_NOT_A_TRAINING_RUN"
+    },
+    "16": {
+      "target_matrices": 112,
+      "trainable_parameters": 6422528,
+      "mixed_adam_state_bytes_estimate": 102760448,
+      "activation_workspace_memory": null,
+      "feasibility": "NOT_MEASURED_NOT_A_TRAINING_RUN"
+    }
+  }
+}
