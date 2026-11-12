@@ -6,6 +6,7 @@ import unittest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]/'scripts'))
 from audit_pbfdaf_evidence import card_audit, legacy_causality
+from summarize_pbfdaf import summarize
 
 
 class EvidenceAuditTests(unittest.TestCase):
@@ -40,6 +41,33 @@ class EvidenceAuditTests(unittest.TestCase):
         for name in ('legacy_scalar', 'legacy_fir32', 'legacy_fir32_dt', 'legacy_tracking'):
             self.assertFalse(result[name]['strict_source_time_prefix_pass'])
         self.assertGreater(result['legacy_initial_calibration']['max_output_difference_before_mutation'], 1e-6)
+
+
+class CoverageAuditTests(unittest.TestCase):
+    def setUp(self):
+        path = Path(__file__).resolve().parents[1]/'data/pbfdaf_20261112/results.json'
+        self.result = json.loads(path.read_text())
+
+    def test_saved_complete_run_has_full_coverage(self):
+        result = summarize(self.result)
+        self.assertEqual(result['coverage']['pbfdaf']['observed_unique'], 40)
+        self.assertIsNone(result['coverage']['pbfdaf']['transcript_coverage_pct'])
+
+    def test_missing_pbfdaf_pair_is_rejected(self):
+        self.result['rows'].pop()
+        with self.assertRaises(ValueError): summarize(self.result)
+
+    def test_duplicate_pair_is_rejected(self):
+        self.result['rows'].append(dict(self.result['rows'][0]))
+        with self.assertRaises(ValueError): summarize(self.result)
+
+    def test_truncated_samples_and_missing_controls_are_rejected(self):
+        row = self.result['rows'][0]
+        row['samples_out'] -= 1
+        with self.assertRaises(ValueError): summarize(self.result)
+        row['samples_out'] += 1
+        self.result['controls'].pop()
+        with self.assertRaises(ValueError): summarize(self.result)
 
 
 if __name__ == '__main__':

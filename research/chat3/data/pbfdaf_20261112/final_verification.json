@@ -1,0 +1,10 @@
+{
+  "original_research_files_unchanged": 92,
+  "source_hash_manifest_entries_matched": 90,
+  "frozen_algorithm_and_study_hashes_match": true,
+  "frozen_configuration_hash_matches": true,
+  "derived_statistics_reproduce_exactly": true,
+  "formal_tests_passed": 93,
+  "formal_test_failures": 0,
+  "all_changes_within_research_chat3": true
+}

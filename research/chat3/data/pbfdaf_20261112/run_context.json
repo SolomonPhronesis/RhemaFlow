@@ -1,0 +1,32 @@
+{
+  "date_local": "2026-11-12",
+  "timezone": "Europe/London",
+  "source_handoff_head": "ec025bcbe1f7272a0c67025056148a95f5e30308",
+  "prior_handoff_head": "2b35d064ac343411a2e37db1d072ba11d9c7bf4d",
+  "frozen_implementation_commit": "d73ca9978ce1e81a581d34a8107f1b91acef3c26",
+  "ancestry_prior_is_ancestor": true,
+  "remote": "git@github.com:SolomonPhronesis/RhemaFlow.git",
+  "branch": "rhemaflow/research-chat3/codex-pbfdaf-20261112",
+  "handoff_remote_verification": "ec025bcbe1f7272a0c67025056148a95f5e30308\trefs/heads/rhemaflow/research-chat3/codex-handoff-20261111",
+  "initial_free_gib_rounded": 9.7,
+  "free_bytes_now": 8893997056,
+  "physical_ram_bytes": 17179869184,
+  "swap": "vm.swapusage: total = 2048.00M  used = 816.88M  free = 1231.12M  (encrypted)",
+  "hardware_model": "MacBookPro18,1",
+  "cpu": "Apple M1 Pro",
+  "runtime_python": "3.14.5",
+  "no_model_downloads_or_installs": true,
+  "source_zip": "NOT_PRESENT_AT_REFERENCED_OR_DOWNLOADS_LOCATION",
+  "fixture_read_attempts": {
+    "kjv40_gold_manifest": "PermissionError: macOS Operation not permitted",
+    "owner_chatter_source": "PermissionError: macOS Operation not permitted"
+  },
+  "original_corpus_run": "BLOCKED_FIXTURE",
+  "actual_asr_and_matcher": "NOT_RUN_UNAVAILABLE_PUBLIC_CHECKOUT",
+  "model_assets_in_private_product_paths": "NOT_ACCESSED",
+  "real_consent_documents": "NOT_AVAILABLE",
+  "real_church_gold": "BLOCKED_GOLD",
+  "card_visible": "NOT_MEASURED",
+  "restricted_r2t2_weights_and_outputs": "NOT_ACCESSED",
+  "source_licenses": "Prior provenance assertions retained; no new third-party recordings or model terms verified or used."
+}

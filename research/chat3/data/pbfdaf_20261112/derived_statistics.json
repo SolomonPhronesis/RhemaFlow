@@ -1,0 +1,155 @@
+{
+  "coverage": {
+    "close": {
+      "expected": 40,
+      "observed_unique": 40,
+      "coverage_pct": 100.0,
+      "sample_coverage_pct": 100.0,
+      "transcript_coverage_pct": null
+    },
+    "fir32_causal_no_alignment": {
+      "expected": 40,
+      "observed_unique": 40,
+      "coverage_pct": 100.0,
+      "sample_coverage_pct": 100.0,
+      "transcript_coverage_pct": null
+    },
+    "fir32_dt_causal_no_alignment": {
+      "expected": 40,
+      "observed_unique": 40,
+      "coverage_pct": 100.0,
+      "sample_coverage_pct": 100.0,
+      "transcript_coverage_pct": null
+    },
+    "pbfdaf": {
+      "expected": 40,
+      "observed_unique": 40,
+      "coverage_pct": 100.0,
+      "sample_coverage_pct": 100.0,
+      "transcript_coverage_pct": null
+    },
+    "scalar_causal_no_alignment": {
+      "expected": 40,
+      "observed_unique": 40,
+      "coverage_pct": 100.0,
+      "sample_coverage_pct": 100.0,
+      "transcript_coverage_pct": null
+    }
+  },
+  "paired_pbfdaf_minus_baseline": {
+    "close": {
+      "si_sdr_db": {
+        "mean": -1.0080931410731082,
+        "ci_low": -1.0683586940805554,
+        "ci_high": -0.9291111240354402,
+        "resamples": 2000,
+        "cluster_unit": "procedural case_id",
+        "clusters": 10
+      },
+      "target_retention_db": {
+        "mean": -0.7044950336365114,
+        "ci_low": -0.7429397788030195,
+        "ci_high": -0.6663043494211367,
+        "resamples": 2000,
+        "cluster_unit": "procedural case_id",
+        "clusters": 10
+      },
+      "delta_sir_db": {
+        "mean": 0.788580020352079,
+        "ci_low": 0.7044842937966288,
+        "ci_high": 0.8689613581455058,
+        "resamples": 2000,
+        "cluster_unit": "procedural case_id",
+        "clusters": 10
+      }
+    },
+    "fir32_causal_no_alignment": {
+      "si_sdr_db": {
+        "mean": -1.3280318003437976,
+        "ci_low": -1.412078473301628,
+        "ci_high": -1.227615323393895,
+        "resamples": 2000,
+        "cluster_unit": "procedural case_id",
+        "clusters": 10
+      },
+      "target_retention_db": {
+        "mean": -0.6696095511881105,
+        "ci_low": -0.7215366904514215,
+        "ci_high": -0.6225727518092972,
+        "resamples": 2000,
+        "cluster_unit": "procedural case_id",
+        "clusters": 10
+      },
+      "delta_sir_db": {
+        "mean": 0.07346630686637831,
+        "ci_low": -0.022899205014588597,
+        "ci_high": 0.1812744169613945,
+        "resamples": 2000,
+        "cluster_unit": "procedural case_id",
+        "clusters": 10
+      }
+    },
+    "fir32_dt_causal_no_alignment": {
+      "si_sdr_db": {
+        "mean": -1.2971436554889124,
+        "ci_low": -1.3738047007731997,
+        "ci_high": -1.2055329521103628,
+        "resamples": 2000,
+        "cluster_unit": "procedural case_id",
+        "clusters": 10
+      },
+      "target_retention_db": {
+        "mean": -0.6701774749011931,
+        "ci_low": -0.7142813557300147,
+        "ci_high": -0.628899607035417,
+        "resamples": 2000,
+        "cluster_unit": "procedural case_id",
+        "clusters": 10
+      },
+      "delta_sir_db": {
+        "mean": 0.20110635680829905,
+        "ci_low": 0.11715179178276738,
+        "ci_high": 0.2950674023397576,
+        "resamples": 2000,
+        "cluster_unit": "procedural case_id",
+        "clusters": 10
+      }
+    },
+    "scalar_causal_no_alignment": {
+      "si_sdr_db": {
+        "mean": -1.0037426249026113,
+        "ci_low": -1.0626987879768592,
+        "ci_high": -0.9326540868544994,
+        "resamples": 2000,
+        "cluster_unit": "procedural case_id",
+        "clusters": 10
+      },
+      "target_retention_db": {
+        "mean": -0.7308550863222685,
+        "ci_low": -0.7682646758826014,
+        "ci_high": -0.6946939480570073,
+        "resamples": 2000,
+        "cluster_unit": "procedural case_id",
+        "clusters": 10
+      },
+      "delta_sir_db": {
+        "mean": 0.7565571476126627,
+        "ci_low": 0.675235176319398,
+        "ci_high": 0.837018696524586,
+        "resamples": 2000,
+        "cluster_unit": "procedural case_id",
+        "clusters": 10
+      }
+    }
+  },
+  "control_audio_coverage": {
+    "other_signal_only": 20,
+    "silence": 8,
+    "asr_and_cards": null
+  },
+  "empty_reference_wer": "Excluded; procedural no-target signals have no reference words; no fabricated WER.",
+  "no_target_residuals": {
+    "other_signal_only_mean_rms": 0.06940243943213947,
+    "silence_max_rms": 0.0
+  }
+}
